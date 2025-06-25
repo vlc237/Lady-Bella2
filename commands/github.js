@@ -2,7 +2,7 @@ async function githubCommand(sock, chatId) {
     const repoInfo = `*⚙️𝗕𝗘𝗡 10 𝗠𝗗*
 
 *🌍 𝙂𝙄𝙏𝙃𝙐𝘽 𝙍𝙀𝙋𝙊:*
-https://github.com/SNOWBIRD0074/SNOWBIRD-XMD-
+https://github.com/SNOWBIRD0074/BEN-10-MD
 
 *🚘 𝙊𝙐𝙍 𝙈𝘼𝙄𝙉 𝘾𝙃𝘼𝙉𝙉𝙀𝙇:*
 https://whatsapp.com/channel/0029Vb5nSebFy722d2NEeU3C
