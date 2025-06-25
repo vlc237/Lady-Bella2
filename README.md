@@ -17,10 +17,10 @@
   <a href="https://heroku.com/deploy?template=https://github.com/SNOWBIRD0074/BEN-10-MD">
     <img src="https://img.shields.io/badge/Deploy%20to%20Heroku-430098?logo=heroku&logoColor=white&style=for-the-badge" alt="Deploy to Heroku">
   </a>
-  <a href="WHATSAPP_CHANNEL_LINK">
+  <a href="https://whatsapp.com/channel/0029Vb5nSebFy722d2NEeU3C">
     <img src="https://img.shields.io/badge/Follow%20WhatsApp%20Channel-25D366?logo=whatsapp&logoColor=white&style=for-the-badge" alt="Follow WhatsApp Channel">
   </a>
-  <a href="https://wa.me/OWNER_NUMBER?text=Hello%20I%20am%20interested%20in%20your%20WhatsApp%20bot">
+  <a href="https://wa.me/263780145644?text=Hello%20I%20am%20interested%20in%20your%20WhatsApp%20bot">
     <img src="https://img.shields.io/badge/Message%20Owner-075E54?logo=whatsapp&logoColor=white&style=for-the-badge" alt="Message Owner">
   </a>
 </p>
