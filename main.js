@@ -1,1 +1,1167 @@
-const _0x2a741d=_0x4eb2;(function(_0x5d6136,_0x41e95d){const _0x524735=_0x4eb2,_0x160c31=_0x5d6136();while(!![]){try{const _0x29b305=-parseInt(_0x524735(0x218))/0x1*(-parseInt(_0x524735(0x176))/0x2)+-parseInt(_0x524735(0x1bf))/0x3*(parseInt(_0x524735(0x1d7))/0x4)+-parseInt(_0x524735(0x222))/0x5+-parseInt(_0x524735(0x1c7))/0x6*(parseInt(_0x524735(0x110))/0x7)+-parseInt(_0x524735(0x1e8))/0x8*(parseInt(_0x524735(0x144))/0x9)+-parseInt(_0x524735(0x212))/0xa*(parseInt(_0x524735(0x181))/0xb)+-parseInt(_0x524735(0x126))/0xc*(-parseInt(_0x524735(0x1a4))/0xd);if(_0x29b305===_0x41e95d)break;else _0x160c31['push'](_0x160c31['shift']());}catch(_0x212f16){_0x160c31['push'](_0x160c31['shift']());}}}(_0xfcee,0x9ec1d));const settings=require(_0x2a741d(0x18c));function _0x4eb2(_0x5c57a2,_0xa3a7cf){const _0xfcee8=_0xfcee();return _0x4eb2=function(_0x4eb207,_0x4a03d3){_0x4eb207=_0x4eb207-0xf1;let _0x117de5=_0xfcee8[_0x4eb207];return _0x117de5;},_0x4eb2(_0x5c57a2,_0xa3a7cf);}require(_0x2a741d(0x1b9));const {isBanned}=require(_0x2a741d(0x112)),yts=require(_0x2a741d(0x1cf)),{fetchBuffer}=require(_0x2a741d(0xf3)),fs=require('fs'),fetch=require('node-fetch'),ytdl=require(_0x2a741d(0x12e)),path=require(_0x2a741d(0x10b)),axios=require(_0x2a741d(0x207)),ffmpeg=require(_0x2a741d(0x15d)),{addWelcome,delWelcome,isWelcomeOn,addGoodbye,delGoodBye,isGoodByeOn}=require(_0x2a741d(0x116)),tagAllCommand=require(_0x2a741d(0xf8)),helpCommand=require(_0x2a741d(0x1af)),banCommand=require(_0x2a741d(0x14e)),{promoteCommand}=require(_0x2a741d(0x138)),{demoteCommand}=require(_0x2a741d(0x123)),muteCommand=require(_0x2a741d(0x118)),unmuteCommand=require(_0x2a741d(0x1a2)),stickerCommand=require(_0x2a741d(0x16a)),isAdmin=require(_0x2a741d(0x1ba)),warnCommand=require(_0x2a741d(0x1ee)),warningsCommand=require(_0x2a741d(0x129)),ttsCommand=require(_0x2a741d(0x1ab)),{tictactoeCommand,handleTicTacToeMove}=require('./commands/tictactoe'),{incrementMessageCount,topMembers}=require('./commands/topmembers'),ownerCommand=require(_0x2a741d(0x139)),deleteCommand=require(_0x2a741d(0x13c)),{handleAntilinkCommand,handleLinkDetection}=require('./commands/antilink'),{Antilink}=require(_0x2a741d(0x1f9)),memeCommand=require(_0x2a741d(0x173)),tagCommand=require(_0x2a741d(0x1f0)),jokeCommand=require(_0x2a741d(0x17d)),quoteCommand=require(_0x2a741d(0xf2)),factCommand=require(_0x2a741d(0x21c)),weatherCommand=require(_0x2a741d(0x22f)),newsCommand=require(_0x2a741d(0x168)),kickCommand=require('./commands/kick'),simageCommand=require('./commands/simage'),attpCommand=require(_0x2a741d(0x11a)),{startHangman,guessLetter}=require(_0x2a741d(0x1cc)),{startTrivia,answerTrivia}=require('./commands/trivia'),{complimentCommand}=require('./commands/compliment'),{insultCommand}=require(_0x2a741d(0x1bd)),{eightBallCommand}=require(_0x2a741d(0x14c)),{lyricsCommand}=require(_0x2a741d(0x16e)),{dareCommand}=require(_0x2a741d(0x196)),{truthCommand}=require(_0x2a741d(0xf4)),{clearCommand}=require(_0x2a741d(0x232)),pingCommand=require(_0x2a741d(0x19b)),aliveCommand=require(_0x2a741d(0x186)),blurCommand=require(_0x2a741d(0x15e)),welcomeCommand=require(_0x2a741d(0x180)),goodbyeCommand=require(_0x2a741d(0x125)),githubCommand=require(_0x2a741d(0x11e)),{handleAntiBadwordCommand,handleBadwordDetection}=require('./lib/antibadword'),antibadwordCommand=require(_0x2a741d(0x182)),{handleChatbotCommand,handleChatbotResponse}=require(_0x2a741d(0x220)),takeCommand=require('./commands/take'),{flirtCommand}=require(_0x2a741d(0x211)),characterCommand=require(_0x2a741d(0x228)),wastedCommand=require(_0x2a741d(0x1e5)),shipCommand=require(_0x2a741d(0x172)),groupInfoCommand=require(_0x2a741d(0x206)),resetlinkCommand=require(_0x2a741d(0x187)),staffCommand=require(_0x2a741d(0x229)),unbanCommand=require(_0x2a741d(0x134)),emojimixCommand=require(_0x2a741d(0x153)),{handlePromotionEvent}=require(_0x2a741d(0x138)),{handleDemotionEvent}=require(_0x2a741d(0x123)),viewOnceCommand=require(_0x2a741d(0x231)),clearSessionCommand=require(_0x2a741d(0x12f)),{autoStatusCommand,handleStatusUpdate}=require(_0x2a741d(0x17c)),{simpCommand}=require(_0x2a741d(0x1c1)),{stupidCommand}=require('./commands/stupid'),stickerTelegramCommand=require(_0x2a741d(0x104)),textmakerCommand=require(_0x2a741d(0x155)),{handleAntideleteCommand,handleMessageRevocation,storeMessage}=require(_0x2a741d(0x17f)),clearTmpCommand=require(_0x2a741d(0x109)),setProfilePicture=require('./commands/setpp'),instagramCommand=require(_0x2a741d(0x19a)),facebookCommand=require(_0x2a741d(0x1a7)),playCommand=require('./commands/play'),tiktokCommand=require(_0x2a741d(0x1b8)),songCommand=require(_0x2a741d(0xfb)),aiCommand=require(_0x2a741d(0x22c)),{handleTranslateCommand}=require(_0x2a741d(0x195)),{handleSsCommand}=require(_0x2a741d(0x1b6)),{addCommandReaction,handleAreactCommand}=require(_0x2a741d(0x20c)),{goodnightCommand}=require(_0x2a741d(0x175)),{shayariCommand}=require(_0x2a741d(0x151)),{rosedayCommand}=require(_0x2a741d(0x15c)),imagineCommand=require(_0x2a741d(0x1da)),videoCommand=require(_0x2a741d(0x14b));global[_0x2a741d(0x1ea)]=settings[_0x2a741d(0x1ea)],global['author']=settings[_0x2a741d(0x10f)],global['channelLink']='',global[_0x2a741d(0x135)]=_0x2a741d(0x1ca);const channelInfo={'contextInfo':{'forwardingScore':0x1,'isForwarded':!![],'forwardedNewsletterMessageInfo':{'newsletterJid':_0x2a741d(0x1b1),'newsletterName':_0x2a741d(0x215),'serverMessageId':-0x1}}};async function handleMessages(_0x410fcb,_0x37d431,_0xa91818){const _0x53c0ee=_0x2a741d;try{const {messages:_0x4575d1,type:_0x1d7d1a}=_0x37d431;if(_0x1d7d1a!=='notify')return;const _0x8375ba=_0x4575d1[0x0];if(!_0x8375ba?.[_0x53c0ee(0x22b)])return;_0x8375ba[_0x53c0ee(0x22b)]&&storeMessage(_0x8375ba);if(_0x8375ba['message']?.[_0x53c0ee(0xff)]?.['type']===0x0){await handleMessageRevocation(_0x410fcb,_0x8375ba);return;}const _0x5e56e0=_0x8375ba['key'][_0x53c0ee(0x13e)],_0x54706a=_0x8375ba['key']['participant']||_0x8375ba['key']['remoteJid'],_0x1a3c40=_0x5e56e0['endsWith'](_0x53c0ee(0x103)),_0x1c1ca8=(_0x8375ba[_0x53c0ee(0x22b)]?.[_0x53c0ee(0x146)]?.[_0x53c0ee(0x20d)]()||_0x8375ba[_0x53c0ee(0x22b)]?.[_0x53c0ee(0x1c3)]?.[_0x53c0ee(0x1c9)]?.[_0x53c0ee(0x20d)]()||_0x8375ba[_0x53c0ee(0x22b)]?.[_0x53c0ee(0x189)]?.[_0x53c0ee(0x128)]?.['trim']()||_0x8375ba[_0x53c0ee(0x22b)]?.[_0x53c0ee(0x124)]?.[_0x53c0ee(0x128)]?.[_0x53c0ee(0x20d)]()||'')['toLowerCase']()[_0x53c0ee(0x114)](/\.\\s+/g,'.')['trim'](),_0x42da71=_0x8375ba[_0x53c0ee(0x22b)]?.[_0x53c0ee(0x146)]?.[_0x53c0ee(0x20d)]()||_0x8375ba[_0x53c0ee(0x22b)]?.[_0x53c0ee(0x1c3)]?.['text']?.[_0x53c0ee(0x20d)]()||_0x8375ba[_0x53c0ee(0x22b)]?.['imageMessage']?.['caption']?.[_0x53c0ee(0x20d)]()||_0x8375ba[_0x53c0ee(0x22b)]?.[_0x53c0ee(0x124)]?.[_0x53c0ee(0x128)]?.[_0x53c0ee(0x20d)]()||'';_0x1c1ca8[_0x53c0ee(0x202)]('.')&&console[_0x53c0ee(0x1a9)](_0x53c0ee(0x1a5)+(_0x1a3c40?_0x53c0ee(0x1bc):_0x53c0ee(0x1f4))+':\x20'+_0x1c1ca8);if(isBanned(_0x54706a)&&!_0x1c1ca8[_0x53c0ee(0x202)](_0x53c0ee(0x1b0))){Math['random']()<0.1&&await _0x410fcb[_0x53c0ee(0x1c4)](_0x5e56e0,{'text':_0x53c0ee(0x1d8),...channelInfo});return;}if(/^[1-9]$/['test'](_0x1c1ca8)||_0x1c1ca8['toLowerCase']()===_0x53c0ee(0x191)){await handleTicTacToeMove(_0x410fcb,_0x5e56e0,_0x54706a,_0x1c1ca8);return;}if(!_0x8375ba[_0x53c0ee(0x1ae)][_0x53c0ee(0x226)])incrementMessageCount(_0x5e56e0,_0x54706a);_0x1a3c40&&_0x1c1ca8&&await handleBadwordDetection(_0x410fcb,_0x5e56e0,_0x8375ba,_0x1c1ca8,_0x54706a);if(!_0x1c1ca8[_0x53c0ee(0x202)]('.')){_0x1a3c40&&(await handleChatbotResponse(_0x410fcb,_0x5e56e0,_0x8375ba,_0x1c1ca8,_0x54706a),await Antilink(_0x8375ba,_0x410fcb),await handleBadwordDetection(_0x410fcb,_0x5e56e0,_0x8375ba,_0x1c1ca8,_0x54706a));return;}const _0x1dc402=[_0x53c0ee(0x127),_0x53c0ee(0x1d5),'.ban','.unban',_0x53c0ee(0x1b7),_0x53c0ee(0x183),_0x53c0ee(0x1b4),_0x53c0ee(0x21a),_0x53c0ee(0x162)],_0x2cd64c=_0x1dc402[_0x53c0ee(0xf9)](_0x42b3d8=>_0x1c1ca8[_0x53c0ee(0x202)](_0x42b3d8)),_0x239af0=[_0x53c0ee(0x1d2),_0x53c0ee(0x1d1),_0x53c0ee(0x21f),_0x53c0ee(0x13a),'.setpp',_0x53c0ee(0x167),'.areact','.autoreact'],_0xd5a553=_0x239af0[_0x53c0ee(0xf9)](_0x577c54=>_0x1c1ca8['startsWith'](_0x577c54));let _0x4d3c06=![],_0x5cf227=![];if(_0x1a3c40&&_0x2cd64c){const _0x1b8f4d=await isAdmin(_0x410fcb,_0x5e56e0,_0x54706a,_0x8375ba);_0x4d3c06=_0x1b8f4d[_0x53c0ee(0x10d)],_0x5cf227=_0x1b8f4d[_0x53c0ee(0x107)];if(!_0x5cf227){await _0x410fcb[_0x53c0ee(0x1c4)](_0x5e56e0,{'text':_0x53c0ee(0x150),...channelInfo},{'quoted':_0x8375ba});return;}if(_0x1c1ca8[_0x53c0ee(0x202)](_0x53c0ee(0x127))||_0x1c1ca8===_0x53c0ee(0x1d5)||_0x1c1ca8[_0x53c0ee(0x202)](_0x53c0ee(0x169))||_0x1c1ca8[_0x53c0ee(0x202)](_0x53c0ee(0x1b0))||_0x1c1ca8['startsWith']('.promote')||_0x1c1ca8[_0x53c0ee(0x202)]('.demote')){if(!_0x4d3c06&&!_0x8375ba[_0x53c0ee(0x1ae)][_0x53c0ee(0x226)]){await _0x410fcb[_0x53c0ee(0x1c4)](_0x5e56e0,{'text':'Sorry,\x20only\x20group\x20admins\x20can\x20use\x20this\x20command.',...channelInfo});return;}}}if(_0xd5a553){if(!_0x8375ba[_0x53c0ee(0x1ae)][_0x53c0ee(0x226)]){await _0x410fcb[_0x53c0ee(0x1c4)](_0x5e56e0,{'text':_0x53c0ee(0x185),...channelInfo});return;}}try{const _0x2b0f3a=JSON['parse'](fs[_0x53c0ee(0x190)]('./data/messageCount.json'));if(!_0x2b0f3a[_0x53c0ee(0x20b)]&&!_0x8375ba['key'][_0x53c0ee(0x226)])return;}catch(_0x591923){console[_0x53c0ee(0x132)](_0x53c0ee(0x12b),_0x591923);}switch(!![]){case _0x1c1ca8===_0x53c0ee(0x11b):{const _0x32daf4=_0x8375ba[_0x53c0ee(0x22b)]?.[_0x53c0ee(0x1c3)]?.['contextInfo']?.[_0x53c0ee(0x1e6)];_0x32daf4?.['stickerMessage']?await simageCommand(_0x410fcb,_0x32daf4,_0x5e56e0):await _0x410fcb['sendMessage'](_0x5e56e0,{'text':_0x53c0ee(0x117),...channelInfo});break;}case _0x1c1ca8[_0x53c0ee(0x202)](_0x53c0ee(0x1b4)):const _0x4c31bc=_0x8375ba[_0x53c0ee(0x22b)][_0x53c0ee(0x1c3)]?.[_0x53c0ee(0x1db)]?.[_0x53c0ee(0x1d9)]||[];await kickCommand(_0x410fcb,_0x5e56e0,_0x54706a,_0x4c31bc,_0x8375ba);break;case _0x1c1ca8['startsWith'](_0x53c0ee(0x127)):const _0x5a9d7c=parseInt(_0x1c1ca8[_0x53c0ee(0x1fa)]('\x20')[0x1]);isNaN(_0x5a9d7c)?await _0x410fcb[_0x53c0ee(0x1c4)](_0x5e56e0,{'text':'Please\x20provide\x20a\x20valid\x20number\x20of\x20minutes.\x0aeg\x20to\x20mute\x2010\x20minutes\x0a.mute\x2010',...channelInfo}):await muteCommand(_0x410fcb,_0x5e56e0,_0x54706a,_0x5a9d7c);break;case _0x1c1ca8==='.unmute':await unmuteCommand(_0x410fcb,_0x5e56e0,_0x54706a);break;case _0x1c1ca8[_0x53c0ee(0x202)](_0x53c0ee(0x169)):await banCommand(_0x410fcb,_0x5e56e0,_0x8375ba);break;case _0x1c1ca8[_0x53c0ee(0x202)](_0x53c0ee(0x1b0)):await unbanCommand(_0x410fcb,_0x5e56e0,_0x8375ba);break;case _0x1c1ca8===_0x53c0ee(0x1e2)||_0x1c1ca8===_0x53c0ee(0x1b3)||_0x1c1ca8===_0x53c0ee(0x1ef)||_0x1c1ca8===_0x53c0ee(0x1eb):await helpCommand(_0x410fcb,_0x5e56e0,_0x8375ba,global[_0x53c0ee(0x179)]);break;case _0x1c1ca8==='.general'||_0x1c1ca8==='.1':const _0x2545a9=_0x53c0ee(0x193),_0x6410a2=_0x53c0ee(0x105);await _0x410fcb['sendMessage'](_0x5e56e0,{'text':_0x2545a9,'image':{'url':_0x6410a2},'caption':_0x53c0ee(0x156)});break;case _0x1c1ca8===_0x53c0ee(0x1fe)||_0x1c1ca8==='.2':const _0xb1652c=_0x53c0ee(0x1fb),_0x565f8a=_0x53c0ee(0x105);await _0x410fcb[_0x53c0ee(0x1c4)](_0x5e56e0,{'text':_0xb1652c,'image':{'url':_0x565f8a},'caption':_0x53c0ee(0x15b)});break;case _0x1c1ca8===_0x53c0ee(0x198)||_0x1c1ca8==='.3':const _0x354475=_0x53c0ee(0x10a),_0x259474='https://files.catbox.moe/v5u497.jpg';await _0x410fcb['sendMessage'](_0x5e56e0,{'text':_0x354475,'image':{'url':_0x259474},'caption':'Owner\x20Commands'});break;case _0x1c1ca8===_0x53c0ee(0x1f8)||_0x1c1ca8==='.4':const _0x39fb68='\x0a\x0a☠️\x20*Image/Sticker\x20Menu*:\x0a*├▢\x20.blur\x20<image>\x0a*├▢\x20.simage\x20<reply\x20to\x20sticker>\x0a*├▢\x20.sticker\x20<reply\x20to\x20image>\x0a*├▢\x20.tgsticker\x20<Link>\x0a*├▢\x20.meme\x0a*├▢\x20.take\x20<packname>\x20\x0a*├▢\x20.emojimix\x20<emj1>+<emj2>\x0a\x0a',_0x3f152e=_0x53c0ee(0x105);await _0x410fcb[_0x53c0ee(0x1c4)](_0x5e56e0,{'text':_0x39fb68,'image':{'url':_0x3f152e},'caption':_0x53c0ee(0x165)});break;case _0x1c1ca8===_0x53c0ee(0x140)||_0x1c1ca8==='.5':const _0x3b7ff3=_0x53c0ee(0x188),_0x9cca0f=_0x53c0ee(0x11d);await _0x410fcb['sendMessage'](_0x5e56e0,{'text':_0x3b7ff3,'audio':{'url':_0x9cca0f},'mimetype':_0x53c0ee(0x1a8)});break;case _0x1c1ca8===_0x53c0ee(0x16b)||_0x1c1ca8==='.6':const _0x35ee34='\x0a\x0a🤖\x20*AI\x20Menu*:\x0a*├▢\x20.gpt\x20<question>\x0a*├▢\x20.gemini\x20<question>\x0a*├▢\x20.imagine\x20<prompt>\x0a*├▢\x20.flux\x20<prompt>\x0a\x0a',_0x5b2e0e=_0x53c0ee(0x105);await _0x410fcb[_0x53c0ee(0x1c4)](_0x5e56e0,{'text':_0x35ee34,'image':{'url':_0x5b2e0e},'caption':_0x53c0ee(0x10e)});break;case _0x1c1ca8===_0x53c0ee(0x184)||_0x1c1ca8==='.7':const _0x2a77c9=_0x53c0ee(0x1ad),_0x2e29ec=_0x53c0ee(0x11d);await _0x410fcb[_0x53c0ee(0x1c4)](_0x5e56e0,{'text':_0x2a77c9,'audio':{'url':_0x2e29ec},'mimetype':_0x53c0ee(0x1a8)});break;case _0x1c1ca8===_0x53c0ee(0x19c)||_0x1c1ca8==='.8':const _0x43125e=_0x53c0ee(0x214),_0x322757=_0x53c0ee(0x105);await _0x410fcb['sendMessage'](_0x5e56e0,{'text':_0x43125e,'image':{'url':_0x322757},'caption':_0x53c0ee(0x1f7)});break;case _0x1c1ca8===_0x53c0ee(0x17a)||_0x1c1ca8==='.9':const _0x401240='\x0a\x0a📥\x20*Downloader\x20Menu*:\x0a*├▢\x20.play\x20<song_name>\x0a*├▢\x20.song\x20<song_name>\x0a*├▢\x20.instagram\x20<link>\x0a*├▢\x20.facebook\x20<link>\x0a*├▢\x20.tiktok\x20<link>\x0a*├▢\x20.video\x20<song\x20name>\x0a*├▢\x20.ytmp4\x20<Link>\x0a\x0a',_0x31524a=_0x53c0ee(0x11d);await _0x410fcb[_0x53c0ee(0x1c4)](_0x5e56e0,{'text':_0x401240,'audio':{'url':_0x31524a},'mimetype':_0x53c0ee(0x1a8)});break;case _0x1c1ca8===_0x53c0ee(0x1f6)||_0x1c1ca8===_0x53c0ee(0x159):const _0xa390cb=_0x53c0ee(0x137),_0xa0986b=_0x53c0ee(0x105);await _0x410fcb['sendMessage'](_0x5e56e0,{'text':_0xa390cb,'image':{'url':_0xa0986b},'caption':_0x53c0ee(0x100)});break;case _0x1c1ca8==='.sticker'||_0x1c1ca8==='.s':await stickerCommand(_0x410fcb,_0x5e56e0,_0x8375ba);break;case _0x1c1ca8[_0x53c0ee(0x202)]('.warnings'):const _0x385bb3=_0x8375ba['message'][_0x53c0ee(0x1c3)]?.[_0x53c0ee(0x1db)]?.[_0x53c0ee(0x1d9)]||[];await warningsCommand(_0x410fcb,_0x5e56e0,_0x385bb3);break;case _0x1c1ca8['startsWith'](_0x53c0ee(0x157)):const _0x4a5840=_0x8375ba[_0x53c0ee(0x22b)][_0x53c0ee(0x1c3)]?.['contextInfo']?.[_0x53c0ee(0x1d9)]||[];await warnCommand(_0x410fcb,_0x5e56e0,_0x54706a,_0x4a5840,_0x8375ba);break;case _0x1c1ca8[_0x53c0ee(0x202)](_0x53c0ee(0x1a0)):const _0x2139b3=_0x1c1ca8[_0x53c0ee(0x1ce)](0x4)[_0x53c0ee(0x20d)]();await ttsCommand(_0x410fcb,_0x5e56e0,_0x2139b3,_0x8375ba);break;case _0x1c1ca8===_0x53c0ee(0x216)||_0x1c1ca8===_0x53c0ee(0x1f1):await deleteCommand(_0x410fcb,_0x5e56e0,_0x8375ba,_0x54706a);break;case _0x1c1ca8['startsWith'](_0x53c0ee(0x111)):await attpCommand(_0x410fcb,_0x5e56e0,_0x8375ba);break;case _0x1c1ca8[_0x53c0ee(0x202)](_0x53c0ee(0x1d2)):if(!_0x8375ba[_0x53c0ee(0x1ae)]['fromMe']){await _0x410fcb['sendMessage'](_0x5e56e0,{'text':_0x53c0ee(0x1e7),...channelInfo});return;}let _0x58f5a0;try{_0x58f5a0=JSON[_0x53c0ee(0x19f)](fs[_0x53c0ee(0x190)](_0x53c0ee(0x101)));}catch(_0x286d2c){console[_0x53c0ee(0x132)](_0x53c0ee(0x18d),_0x286d2c),await _0x410fcb[_0x53c0ee(0x1c4)](_0x5e56e0,{'text':_0x53c0ee(0x143),...channelInfo});return;}const _0x5c236f=_0x1c1ca8[_0x53c0ee(0x1fa)]('\x20')[0x1]?.[_0x53c0ee(0x234)]();if(!_0x5c236f){const _0x525f74=_0x58f5a0[_0x53c0ee(0x20b)]?'public':_0x53c0ee(0x1f4);await _0x410fcb['sendMessage'](_0x5e56e0,{'text':_0x53c0ee(0x154)+_0x525f74+'*\x0a\x0aUsage:\x20.mode\x20public/private\x0a\x0aExample:\x0a.mode\x20public\x20-\x20Allow\x20everyone\x20to\x20use\x20bot\x0a.mode\x20private\x20-\x20Restrict\x20to\x20owner\x20only',...channelInfo});return;}if(_0x5c236f!=='public'&&_0x5c236f!==_0x53c0ee(0x1f4)){await _0x410fcb[_0x53c0ee(0x1c4)](_0x5e56e0,{'text':_0x53c0ee(0x224),...channelInfo});return;}try{_0x58f5a0[_0x53c0ee(0x20b)]=_0x5c236f===_0x53c0ee(0x17e),fs[_0x53c0ee(0x1ec)]('./data/messageCount.json',JSON[_0x53c0ee(0x200)](_0x58f5a0,null,0x2)),await _0x410fcb[_0x53c0ee(0x1c4)](_0x5e56e0,{'text':_0x53c0ee(0x147)+_0x5c236f+_0x53c0ee(0xf1),...channelInfo});}catch(_0x2e62fd){console[_0x53c0ee(0x132)](_0x53c0ee(0x1c2),_0x2e62fd),await _0x410fcb[_0x53c0ee(0x1c4)](_0x5e56e0,{'text':_0x53c0ee(0x22a),...channelInfo});}break;case _0x1c1ca8===_0x53c0ee(0x198):await ownerCommand(_0x410fcb,_0x5e56e0);break;case _0x1c1ca8===_0x53c0ee(0x21a):_0x4d3c06||_0x8375ba['key'][_0x53c0ee(0x226)]?await tagAllCommand(_0x410fcb,_0x5e56e0,_0x54706a,_0x8375ba):await _0x410fcb['sendMessage'](_0x5e56e0,{'text':_0x53c0ee(0x223),...channelInfo},{'quoted':_0x8375ba});break;case _0x1c1ca8[_0x53c0ee(0x202)]('.tag'):const _0x3b6486=_0x42da71[_0x53c0ee(0x1ce)](0x4)[_0x53c0ee(0x20d)](),_0x3941db=_0x8375ba[_0x53c0ee(0x22b)]?.['extendedTextMessage']?.[_0x53c0ee(0x1db)]?.[_0x53c0ee(0x1e6)]||null;await tagCommand(_0x410fcb,_0x5e56e0,_0x54706a,_0x3b6486,_0x3941db);break;case _0x1c1ca8['startsWith'](_0x53c0ee(0x162)):if(!_0x1a3c40){await _0x410fcb['sendMessage'](_0x5e56e0,{'text':_0x53c0ee(0x1d3),...channelInfo});return;}if(!_0x5cf227){await _0x410fcb['sendMessage'](_0x5e56e0,{'text':_0x53c0ee(0xf5),...channelInfo});return;}await handleAntilinkCommand(_0x410fcb,_0x5e56e0,_0x1c1ca8,_0x54706a,_0x4d3c06);break;case _0x1c1ca8===_0x53c0ee(0x201):await memeCommand(_0x410fcb,_0x5e56e0,_0x8375ba);break;case _0x1c1ca8===_0x53c0ee(0x18b):await jokeCommand(_0x410fcb,_0x5e56e0,_0x8375ba);break;case _0x1c1ca8===_0x53c0ee(0x171):await quoteCommand(_0x410fcb,_0x5e56e0,_0x8375ba);break;case _0x1c1ca8===_0x53c0ee(0x115):await factCommand(_0x410fcb,_0x5e56e0,_0x8375ba,_0x8375ba);break;case _0x1c1ca8['startsWith'](_0x53c0ee(0x1d0)):const _0x31a7f=_0x1c1ca8[_0x53c0ee(0x1ce)](0x9)['trim']();_0x31a7f?await weatherCommand(_0x410fcb,_0x5e56e0,_0x31a7f):await _0x410fcb[_0x53c0ee(0x1c4)](_0x5e56e0,{'text':'Please\x20specify\x20a\x20city,\x20e.g.,\x20.weather\x20London',...channelInfo});break;case _0x1c1ca8==='.news':await newsCommand(_0x410fcb,_0x5e56e0);break;case _0x1c1ca8['startsWith'](_0x53c0ee(0x14f))||_0x1c1ca8[_0x53c0ee(0x202)](_0x53c0ee(0x217)):const _0x566e6a=_0x1c1ca8[_0x53c0ee(0x1fa)]('\x20')[_0x53c0ee(0x1ce)](0x1)[_0x53c0ee(0x1a3)]('\x20');await tictactoeCommand(_0x410fcb,_0x5e56e0,_0x54706a,_0x566e6a);break;case _0x1c1ca8[_0x53c0ee(0x202)](_0x53c0ee(0x194)):const _0x517aa2=parseInt(_0x1c1ca8[_0x53c0ee(0x1fa)]('\x20')[0x1]);isNaN(_0x517aa2)?await _0x410fcb[_0x53c0ee(0x1c4)](_0x5e56e0,{'text':_0x53c0ee(0x12a),...channelInfo}):tictactoeMove(_0x410fcb,_0x5e56e0,_0x54706a,_0x517aa2);break;case _0x1c1ca8==='.topmembers':topMembers(_0x410fcb,_0x5e56e0,_0x1a3c40);break;case _0x1c1ca8[_0x53c0ee(0x202)]('.hangman'):startHangman(_0x410fcb,_0x5e56e0);break;case _0x1c1ca8[_0x53c0ee(0x202)]('.guess'):const _0xcb7bf3=_0x1c1ca8[_0x53c0ee(0x1fa)]('\x20')[0x1];_0xcb7bf3?guessLetter(_0x410fcb,_0x5e56e0,_0xcb7bf3):_0x410fcb[_0x53c0ee(0x1c4)](_0x5e56e0,{'text':_0x53c0ee(0x230),...channelInfo});break;case _0x1c1ca8[_0x53c0ee(0x202)](_0x53c0ee(0x20a)):startTrivia(_0x410fcb,_0x5e56e0);break;case _0x1c1ca8[_0x53c0ee(0x202)](_0x53c0ee(0x161)):const _0x134a5a=_0x1c1ca8[_0x53c0ee(0x1fa)]('\x20')['slice'](0x1)[_0x53c0ee(0x1a3)]('\x20');_0x134a5a?answerTrivia(_0x410fcb,_0x5e56e0,_0x134a5a):_0x410fcb['sendMessage'](_0x5e56e0,{'text':_0x53c0ee(0xfd),...channelInfo});break;case _0x1c1ca8[_0x53c0ee(0x202)](_0x53c0ee(0x12d)):await complimentCommand(_0x410fcb,_0x5e56e0,_0x8375ba);break;case _0x1c1ca8[_0x53c0ee(0x202)](_0x53c0ee(0x205)):await insultCommand(_0x410fcb,_0x5e56e0,_0x8375ba);break;case _0x1c1ca8[_0x53c0ee(0x202)](_0x53c0ee(0x122)):const _0x58f4e8=_0x1c1ca8[_0x53c0ee(0x1fa)]('\x20')[_0x53c0ee(0x1ce)](0x1)[_0x53c0ee(0x1a3)]('\x20');await eightBallCommand(_0x410fcb,_0x5e56e0,_0x58f4e8);break;case _0x1c1ca8['startsWith'](_0x53c0ee(0x18f)):const _0x397983=_0x1c1ca8['split']('\x20')[_0x53c0ee(0x1ce)](0x1)[_0x53c0ee(0x1a3)]('\x20');await lyricsCommand(_0x410fcb,_0x5e56e0,_0x397983);break;case _0x1c1ca8[_0x53c0ee(0x202)](_0x53c0ee(0x149)):const _0x178ecb=_0x8375ba[_0x53c0ee(0x22b)]?.[_0x53c0ee(0x1c3)]?.[_0x53c0ee(0x1db)]?.['quotedMessage'],_0x37c09b=_0x8375ba[_0x53c0ee(0x22b)]?.[_0x53c0ee(0x1c3)]?.[_0x53c0ee(0x1db)]?.[_0x53c0ee(0x1d9)]||[];await simpCommand(_0x410fcb,_0x5e56e0,_0x178ecb,_0x37c09b,_0x54706a);break;case _0x1c1ca8['startsWith']('.stupid')||_0x1c1ca8[_0x53c0ee(0x202)](_0x53c0ee(0xf6))||_0x1c1ca8[_0x53c0ee(0x202)](_0x53c0ee(0x1cb)):const _0x1f37a9=_0x8375ba['message']?.[_0x53c0ee(0x1c3)]?.[_0x53c0ee(0x1db)]?.[_0x53c0ee(0x1e6)],_0x3e3356=_0x8375ba[_0x53c0ee(0x22b)]?.[_0x53c0ee(0x1c3)]?.[_0x53c0ee(0x1db)]?.[_0x53c0ee(0x1d9)]||[],_0x43cd89=_0x1c1ca8[_0x53c0ee(0x1fa)]('\x20')[_0x53c0ee(0x1ce)](0x1);await stupidCommand(_0x410fcb,_0x5e56e0,_0x1f37a9,_0x3e3356,_0x54706a,_0x43cd89);break;case _0x1c1ca8===_0x53c0ee(0x22e):await dareCommand(_0x410fcb,_0x5e56e0,_0x8375ba);break;case _0x1c1ca8==='.truth':await truthCommand(_0x410fcb,_0x5e56e0,_0x8375ba);break;case _0x1c1ca8===_0x53c0ee(0x166):if(_0x1a3c40)await clearCommand(_0x410fcb,_0x5e56e0);break;case _0x1c1ca8[_0x53c0ee(0x202)]('.promote'):const _0x358e08=_0x8375ba[_0x53c0ee(0x22b)][_0x53c0ee(0x1c3)]?.[_0x53c0ee(0x1db)]?.[_0x53c0ee(0x1d9)]||[];await promoteCommand(_0x410fcb,_0x5e56e0,_0x358e08,_0x8375ba);break;case _0x1c1ca8['startsWith'](_0x53c0ee(0x183)):const _0x491d03=_0x8375ba[_0x53c0ee(0x22b)]['extendedTextMessage']?.[_0x53c0ee(0x1db)]?.[_0x53c0ee(0x1d9)]||[];await demoteCommand(_0x410fcb,_0x5e56e0,_0x491d03,_0x8375ba);break;case _0x1c1ca8===_0x53c0ee(0x102):await pingCommand(_0x410fcb,_0x5e56e0,_0x8375ba);break;case _0x1c1ca8==='.alive':await aliveCommand(_0x410fcb,_0x5e56e0,_0x8375ba);break;case _0x1c1ca8[_0x53c0ee(0x202)](_0x53c0ee(0x213)):const _0x3bd618=_0x8375ba[_0x53c0ee(0x22b)]?.['extendedTextMessage']?.['contextInfo']?.[_0x53c0ee(0x1e6)];await blurCommand(_0x410fcb,_0x5e56e0,_0x8375ba,_0x3bd618);break;case _0x1c1ca8['startsWith'](_0x53c0ee(0x1ac)):if(_0x1a3c40){if(!_0x4d3c06){const _0x96bd83=await isAdmin(_0x410fcb,_0x5e56e0,_0x54706a);_0x4d3c06=_0x96bd83[_0x53c0ee(0x10d)];}_0x4d3c06||_0x8375ba['key'][_0x53c0ee(0x226)]?await welcomeCommand(_0x410fcb,_0x5e56e0,_0x8375ba):await _0x410fcb[_0x53c0ee(0x1c4)](_0x5e56e0,{'text':'Sorry,\x20only\x20group\x20admins\x20can\x20use\x20this\x20command.',...channelInfo});}else await _0x410fcb[_0x53c0ee(0x1c4)](_0x5e56e0,{'text':_0x53c0ee(0x1d3),...channelInfo});break;case _0x1c1ca8[_0x53c0ee(0x202)](_0x53c0ee(0x192)):if(_0x1a3c40){if(!_0x4d3c06){const _0x1af66b=await isAdmin(_0x410fcb,_0x5e56e0,_0x54706a);_0x4d3c06=_0x1af66b[_0x53c0ee(0x10d)];}_0x4d3c06||_0x8375ba[_0x53c0ee(0x1ae)][_0x53c0ee(0x226)]?await goodbyeCommand(_0x410fcb,_0x5e56e0,_0x8375ba):await _0x410fcb['sendMessage'](_0x5e56e0,{'text':_0x53c0ee(0x208),...channelInfo});}else await _0x410fcb[_0x53c0ee(0x1c4)](_0x5e56e0,{'text':_0x53c0ee(0x1d3),...channelInfo});break;case _0x1c1ca8===_0x53c0ee(0x163):case _0x1c1ca8===_0x53c0ee(0x1f6):case _0x1c1ca8===_0x53c0ee(0x204):case _0x1c1ca8===_0x53c0ee(0x1dd):case _0x1c1ca8===_0x53c0ee(0x203):await githubCommand(_0x410fcb,_0x5e56e0);break;case _0x1c1ca8[_0x53c0ee(0x202)](_0x53c0ee(0x136)):if(!_0x1a3c40){await _0x410fcb['sendMessage'](_0x5e56e0,{'text':_0x53c0ee(0x1d3),...channelInfo});return;}const _0xec643d=await isAdmin(_0x410fcb,_0x5e56e0,_0x54706a);_0x4d3c06=_0xec643d[_0x53c0ee(0x10d)],_0x5cf227=_0xec643d['isBotAdmin'];if(!_0x5cf227){await _0x410fcb[_0x53c0ee(0x1c4)](_0x5e56e0,{'text':_0x53c0ee(0xfa),...channelInfo});return;}await antibadwordCommand(_0x410fcb,_0x5e56e0,_0x8375ba,_0x54706a,_0x4d3c06);break;case _0x1c1ca8[_0x53c0ee(0x202)](_0x53c0ee(0x142)):if(!_0x1a3c40){await _0x410fcb[_0x53c0ee(0x1c4)](_0x5e56e0,{'text':_0x53c0ee(0x1d3),...channelInfo});return;}const _0x1103ae=await isAdmin(_0x410fcb,_0x5e56e0,_0x54706a);if(!_0x1103ae[_0x53c0ee(0x10d)]&&!_0x8375ba['key'][_0x53c0ee(0x226)]){await _0x410fcb[_0x53c0ee(0x1c4)](_0x5e56e0,{'text':'*Only\x20admins\x20or\x20bot\x20owner\x20can\x20use\x20this\x20command*',...channelInfo});return;}const _0x5eafd3=_0x1c1ca8['slice'](0x8)['trim']();await handleChatbotCommand(_0x410fcb,_0x5e56e0,_0x8375ba,_0x5eafd3);break;case _0x1c1ca8[_0x53c0ee(0x202)]('.take'):const _0x4dd83d=_0x1c1ca8[_0x53c0ee(0x1ce)](0x5)[_0x53c0ee(0x20d)]()['split']('\x20');await takeCommand(_0x410fcb,_0x5e56e0,_0x8375ba,_0x4dd83d);break;case _0x1c1ca8===_0x53c0ee(0x178):await flirtCommand(_0x410fcb,_0x5e56e0,_0x8375ba);break;case _0x1c1ca8[_0x53c0ee(0x202)](_0x53c0ee(0x12c)):await characterCommand(_0x410fcb,_0x5e56e0,_0x8375ba);break;case _0x1c1ca8['startsWith'](_0x53c0ee(0x1ed)):await wastedCommand(_0x410fcb,_0x5e56e0,_0x8375ba);break;case _0x1c1ca8===_0x53c0ee(0x141):if(!_0x1a3c40){await _0x410fcb['sendMessage'](_0x5e56e0,{'text':_0x53c0ee(0x133),...channelInfo});return;}await shipCommand(_0x410fcb,_0x5e56e0,_0x8375ba);break;case _0x1c1ca8===_0x53c0ee(0x1ff)||_0x1c1ca8===_0x53c0ee(0x19d)||_0x1c1ca8===_0x53c0ee(0x16d):if(!_0x1a3c40){await _0x410fcb['sendMessage'](_0x5e56e0,{'text':_0x53c0ee(0x133),...channelInfo});return;}await groupInfoCommand(_0x410fcb,_0x5e56e0,_0x8375ba);break;case _0x1c1ca8==='.resetlink'||_0x1c1ca8==='.revoke'||_0x1c1ca8===_0x53c0ee(0x18e):if(!_0x1a3c40){await _0x410fcb[_0x53c0ee(0x1c4)](_0x5e56e0,{'text':_0x53c0ee(0x133),...channelInfo});return;}await resetlinkCommand(_0x410fcb,_0x5e56e0,_0x54706a);break;case _0x1c1ca8===_0x53c0ee(0x1c5)||_0x1c1ca8===_0x53c0ee(0x113)||_0x1c1ca8===_0x53c0ee(0x108):if(!_0x1a3c40){await _0x410fcb[_0x53c0ee(0x1c4)](_0x5e56e0,{'text':_0x53c0ee(0x133),...channelInfo});return;}await staffCommand(_0x410fcb,_0x5e56e0,_0x8375ba);break;case _0x1c1ca8[_0x53c0ee(0x202)](_0x53c0ee(0x1c0))||_0x1c1ca8[_0x53c0ee(0x202)](_0x53c0ee(0x1b2)):await emojimixCommand(_0x410fcb,_0x5e56e0,_0x8375ba);break;case _0x1c1ca8['startsWith'](_0x53c0ee(0x120))||_0x1c1ca8[_0x53c0ee(0x202)]('.stickertelegram')||_0x1c1ca8[_0x53c0ee(0x202)](_0x53c0ee(0x1f3))||_0x1c1ca8[_0x53c0ee(0x202)]('.telesticker'):await stickerTelegramCommand(_0x410fcb,_0x5e56e0,_0x8375ba);break;case _0x1c1ca8==='.vv':await viewOnceCommand(_0x410fcb,_0x5e56e0,_0x8375ba);break;case _0x1c1ca8===_0x53c0ee(0x167)||_0x1c1ca8===_0x53c0ee(0x1de):await clearSessionCommand(_0x410fcb,_0x5e56e0,_0x8375ba);break;case _0x1c1ca8[_0x53c0ee(0x202)](_0x53c0ee(0x1d1)):const _0x5cce6b=_0x1c1ca8['split']('\x20')[_0x53c0ee(0x1ce)](0x1);await autoStatusCommand(_0x410fcb,_0x5e56e0,_0x8375ba,_0x5cce6b);break;case _0x1c1ca8[_0x53c0ee(0x202)]('.simp'):await simpCommand(_0x410fcb,_0x5e56e0,_0x8375ba);break;case _0x1c1ca8[_0x53c0ee(0x202)]('.metallic'):await textmakerCommand(_0x410fcb,_0x5e56e0,_0x8375ba,_0x1c1ca8,_0x53c0ee(0x20e));break;case _0x1c1ca8[_0x53c0ee(0x202)]('.ice'):await textmakerCommand(_0x410fcb,_0x5e56e0,_0x8375ba,_0x1c1ca8,'ice');break;case _0x1c1ca8[_0x53c0ee(0x202)](_0x53c0ee(0x121)):await textmakerCommand(_0x410fcb,_0x5e56e0,_0x8375ba,_0x1c1ca8,_0x53c0ee(0x10c));break;case _0x1c1ca8[_0x53c0ee(0x202)]('.impressive'):await textmakerCommand(_0x410fcb,_0x5e56e0,_0x8375ba,_0x1c1ca8,_0x53c0ee(0x145));break;case _0x1c1ca8[_0x53c0ee(0x202)](_0x53c0ee(0x14a)):await textmakerCommand(_0x410fcb,_0x5e56e0,_0x8375ba,_0x1c1ca8,_0x53c0ee(0x1bb));break;case _0x1c1ca8[_0x53c0ee(0x202)]('.light'):await textmakerCommand(_0x410fcb,_0x5e56e0,_0x8375ba,_0x1c1ca8,_0x53c0ee(0x11f));break;case _0x1c1ca8[_0x53c0ee(0x202)](_0x53c0ee(0x148)):await textmakerCommand(_0x410fcb,_0x5e56e0,_0x8375ba,_0x1c1ca8,_0x53c0ee(0xf7));break;case _0x1c1ca8['startsWith']('.devil'):await textmakerCommand(_0x410fcb,_0x5e56e0,_0x8375ba,_0x1c1ca8,'devil');break;case _0x1c1ca8[_0x53c0ee(0x202)]('.purple'):await textmakerCommand(_0x410fcb,_0x5e56e0,_0x8375ba,_0x1c1ca8,_0x53c0ee(0x21d));break;case _0x1c1ca8[_0x53c0ee(0x202)](_0x53c0ee(0x1aa)):await textmakerCommand(_0x410fcb,_0x5e56e0,_0x8375ba,_0x1c1ca8,_0x53c0ee(0x11c));break;case _0x1c1ca8[_0x53c0ee(0x202)](_0x53c0ee(0x119)):await textmakerCommand(_0x410fcb,_0x5e56e0,_0x8375ba,_0x1c1ca8,_0x53c0ee(0x209));break;case _0x1c1ca8[_0x53c0ee(0x202)](_0x53c0ee(0x1e0)):await textmakerCommand(_0x410fcb,_0x5e56e0,_0x8375ba,_0x1c1ca8,_0x53c0ee(0x225));break;case _0x1c1ca8[_0x53c0ee(0x202)](_0x53c0ee(0x1e1)):await textmakerCommand(_0x410fcb,_0x5e56e0,_0x8375ba,_0x1c1ca8,_0x53c0ee(0x15f));break;case _0x1c1ca8[_0x53c0ee(0x202)]('.hacker'):await textmakerCommand(_0x410fcb,_0x5e56e0,_0x8375ba,_0x1c1ca8,'hacker');break;case _0x1c1ca8[_0x53c0ee(0x202)](_0x53c0ee(0x221)):await textmakerCommand(_0x410fcb,_0x5e56e0,_0x8375ba,_0x1c1ca8,_0x53c0ee(0x174));break;case _0x1c1ca8[_0x53c0ee(0x202)](_0x53c0ee(0x1cd)):await textmakerCommand(_0x410fcb,_0x5e56e0,_0x8375ba,_0x1c1ca8,_0x53c0ee(0x158));break;case _0x1c1ca8[_0x53c0ee(0x202)](_0x53c0ee(0x16f)):await textmakerCommand(_0x410fcb,_0x5e56e0,_0x8375ba,_0x1c1ca8,_0x53c0ee(0x1f2));break;case _0x1c1ca8['startsWith'](_0x53c0ee(0x210)):await textmakerCommand(_0x410fcb,_0x5e56e0,_0x8375ba,_0x1c1ca8,'fire');break;case _0x1c1ca8[_0x53c0ee(0x202)]('.antidelete'):const _0x35aa90=_0x1c1ca8[_0x53c0ee(0x1ce)](0xb)[_0x53c0ee(0x20d)]();await handleAntideleteCommand(_0x410fcb,_0x5e56e0,_0x8375ba,_0x35aa90);break;case _0x1c1ca8===_0x53c0ee(0x18a):await handleTicTacToeMove(_0x410fcb,_0x5e56e0,_0x54706a,_0x53c0ee(0x191));break;case _0x1c1ca8===_0x53c0ee(0x13a):await clearTmpCommand(_0x410fcb,_0x5e56e0,_0x8375ba);break;case _0x1c1ca8===_0x53c0ee(0x13b):await setProfilePicture(_0x410fcb,_0x5e56e0,_0x8375ba);break;case _0x1c1ca8[_0x53c0ee(0x202)](_0x53c0ee(0x16c))||_0x1c1ca8[_0x53c0ee(0x202)](_0x53c0ee(0x1a6))||_0x1c1ca8[_0x53c0ee(0x202)](_0x53c0ee(0xfe)):await instagramCommand(_0x410fcb,_0x5e56e0,_0x8375ba);break;case _0x1c1ca8[_0x53c0ee(0x202)]('.fb')||_0x1c1ca8[_0x53c0ee(0x202)](_0x53c0ee(0x1fd)):await facebookCommand(_0x410fcb,_0x5e56e0,_0x8375ba);break;case _0x1c1ca8[_0x53c0ee(0x202)](_0x53c0ee(0x21b))||_0x1c1ca8['startsWith'](_0x53c0ee(0x170)):await playCommand(_0x410fcb,_0x5e56e0,_0x8375ba);break;case _0x1c1ca8[_0x53c0ee(0x202)](_0x53c0ee(0x1d4))||_0x1c1ca8[_0x53c0ee(0x202)]('.mp3')||_0x1c1ca8[_0x53c0ee(0x202)](_0x53c0ee(0xfc))||_0x1c1ca8['startsWith'](_0x53c0ee(0x17b)):await songCommand(_0x410fcb,_0x5e56e0,_0x8375ba);break;case _0x1c1ca8['startsWith'](_0x53c0ee(0x1df))||_0x1c1ca8[_0x53c0ee(0x202)]('.ytmp4'):await videoCommand(_0x410fcb,_0x5e56e0,_0x8375ba);break;case _0x1c1ca8[_0x53c0ee(0x202)]('.tiktok')||_0x1c1ca8[_0x53c0ee(0x202)](_0x53c0ee(0x130)):await tiktokCommand(_0x410fcb,_0x5e56e0,_0x8375ba);break;case _0x1c1ca8[_0x53c0ee(0x202)](_0x53c0ee(0x1f5))||_0x1c1ca8[_0x53c0ee(0x202)](_0x53c0ee(0x199)):await aiCommand(_0x410fcb,_0x5e56e0,_0x8375ba);break;case _0x1c1ca8['startsWith']('.translate')||_0x1c1ca8[_0x53c0ee(0x202)]('.trt'):const _0x3184c5=_0x1c1ca8[_0x53c0ee(0x202)](_0x53c0ee(0x1c8))?0xa:0x4;await handleTranslateCommand(_0x410fcb,_0x5e56e0,_0x8375ba,_0x1c1ca8['slice'](_0x3184c5));return;case _0x1c1ca8['startsWith'](_0x53c0ee(0x152))||_0x1c1ca8[_0x53c0ee(0x202)]('.ssweb')||_0x1c1ca8['startsWith'](_0x53c0ee(0x1e4)):const _0x419f9a=_0x1c1ca8[_0x53c0ee(0x202)](_0x53c0ee(0x1e4))?0xb:_0x1c1ca8[_0x53c0ee(0x202)]('.ssweb')?0x6:0x3;await handleSsCommand(_0x410fcb,_0x5e56e0,_0x8375ba,_0x1c1ca8[_0x53c0ee(0x1ce)](_0x419f9a)['trim']());break;case _0x1c1ca8[_0x53c0ee(0x202)]('.areact')||_0x1c1ca8[_0x53c0ee(0x202)](_0x53c0ee(0x20f))||_0x1c1ca8[_0x53c0ee(0x202)]('.autoreaction'):const _0x213388=_0x8375ba[_0x53c0ee(0x1ae)][_0x53c0ee(0x226)];await handleAreactCommand(_0x410fcb,_0x5e56e0,_0x8375ba,_0x213388);break;case _0x1c1ca8===_0x53c0ee(0x1b5)||_0x1c1ca8===_0x53c0ee(0x197)||_0x1c1ca8===_0x53c0ee(0x164):await goodnightCommand(_0x410fcb,_0x5e56e0,_0x8375ba);break;case _0x1c1ca8==='.shayari'||_0x1c1ca8==='.shayri':await shayariCommand(_0x410fcb,_0x5e56e0,_0x8375ba);break;case _0x1c1ca8===_0x53c0ee(0x227):await rosedayCommand(_0x410fcb,_0x5e56e0,_0x8375ba);break;case _0x1c1ca8[_0x53c0ee(0x202)](_0x53c0ee(0x1fc))||_0x1c1ca8[_0x53c0ee(0x202)]('.flux')||_0x1c1ca8[_0x53c0ee(0x202)](_0x53c0ee(0x1e3)):await imagineCommand(_0x410fcb,_0x5e56e0,_0x8375ba);break;case _0x1c1ca8==='.jid':await _0x466dbd(_0x410fcb,_0x5e56e0,_0x8375ba);break;async function _0x466dbd(_0x1b4b4e,_0x4ce252,_0x42205b){const _0x550688=_0x53c0ee,_0x6379fe=_0x42205b[_0x550688(0x1ae)][_0x550688(0x13e)];if(!_0x6379fe[_0x550688(0x1c6)](_0x550688(0x103)))return await _0x1b4b4e[_0x550688(0x1c4)](_0x4ce252,{'text':_0x550688(0x177)});await _0x1b4b4e[_0x550688(0x1c4)](_0x4ce252,{'text':_0x550688(0x1e9)+_0x6379fe},{'quoted':_0x42205b});}default:_0x1a3c40&&(_0x1c1ca8&&await handleChatbotResponse(_0x410fcb,_0x5e56e0,_0x8375ba,_0x1c1ca8,_0x54706a),await Antilink(_0x8375ba,_0x410fcb),await handleBadwordDetection(_0x410fcb,_0x5e56e0,_0x8375ba,_0x1c1ca8,_0x54706a));break;}_0x1c1ca8[_0x53c0ee(0x202)]('.')&&await addCommandReaction(_0x410fcb,_0x8375ba);}catch(_0x1fc9c8){console['error']('❌\x20Error\x20in\x20message\x20handler:',_0x1fc9c8[_0x53c0ee(0x22b)]),chatId&&await _0x410fcb[_0x53c0ee(0x1c4)](chatId,{'text':_0x53c0ee(0x1d6),...channelInfo});}}function _0xfcee(){const _0x343792=['./commands/delete','welcome','remoteJid','BEN\x2010\x20MD','.game','.ship','.chatbot','Failed\x20to\x20read\x20bot\x20mode\x20status','9djGkoV','impressive','conversation','Bot\x20is\x20now\x20in\x20*','.neon','.simp','.matrix','./commands/video','./commands/eightball','goodbye','./commands/ban','.ttt','Please\x20make\x20the\x20bot\x20an\x20admin\x20to\x20use\x20admin\x20commands.','./commands/shayari','.ss','./commands/emojimix','Current\x20bot\x20mode:\x20*','./commands/textmaker','General\x20Commands','.warn','blackpink','.10','./data/userGroupData.json','Admin\x20Commands','./commands/roseday','fluent-ffmpeg','./commands/img-blur','arena','channelId','.answer','.antilink','.git','.gn','Image\x20Commands','.clear','.clearsession','./commands/news','.ban','./commands/sticker','.ai','.instagram','.infogrupo','./commands/lyrics','.glitch','.music','.quote','./commands/ship','./commands/meme','sand','./commands/goodnight','2YBksop','❌\x20This\x20command\x20can\x20only\x20be\x20used\x20in\x20a\x20group.','.flirt','channelLink','.downloader','.yts','./commands/autostatus','./commands/joke','public','./commands/antidelete','./commands/welcome','11qyGgIy','./commands/antibadword','.demote','.fun','❌\x20This\x20command\x20is\x20only\x20available\x20for\x20the\x20owner!','./commands/alive','./commands/resetlink','\x0a\x0a🎮\x20*Game\x20Menu*:\x0a*├▢\x20.tictactoe\x20@user\x0a*├▢\x20.hangman\x0a*├▢\x20.guess\x20<letter>\x0a*├▢\x20.trivia\x0a*├▢\x20.answer\x20<answer>\x0a*├▢\x20.truth\x0a*├▢\x20.dare\x0a\x0a','imageMessage','.surrender','.joke','./settings','Error\x20reading\x20access\x20mode:','.anularlink','.lyrics','readFileSync','surrender','.goodbye','\x0a\x0a🏆\x20*General\x20Commands*:\x0a*├▢\x20.help\x20or\x20.menu\x0a*├▢\x20.ping\x0a*├▢\x20.alive\x0a*├▢\x20.tts\x20<text>\x0a*├▢\x20.owner\x0a*├▢\x20.joke\x0a*├▢\x20.quote\x0a*├▢\x20.fact\x0a*├▢\x20.weather\x20<city>\x0a*├▢\x20.news\x0a*├▢\x20.attp\x20<text>\x0a*├▢\x20.lyrics\x20<song_title>\x0a*├▢\x20.8ball\x20<question>\x0a*├▢\x20.groupinfo\x0a*├▢\x20.staff\x20or\x20.admins\x20\x0a*├▢\x20.vv\x0a*├▢\x20.trt\x20<text>\x20<lang>\x0a*├▢\x20.ss\x20<link>\x0a*├▢\x20.jid\x0a\x0a','.move','./commands/translate','./commands/dare','.lovenight','.owner','.gemini','./commands/instagram','./commands/ping','.textmaker','.infogp','promote','parse','.tts','Goodbye\x20{user}\x20👋','./commands/unmute','join','62018333pAQHYg','📝\x20Command\x20used\x20in\x20','.insta','./commands/facebook','audio/mp4','log','.thunder','./commands/tts','.welcome','\x0a\x0a🎯\x20*Fun\x20Menu*:\x0a*├▢\x20.compliment\x20@user\x0a*├▢\x20.insult\x20@user\x0a*├▢\x20.flirt\x20\x0a*├▢\x20.shayari\x0a*├▢\x20.goodnight\x0a*├▢\x20.roseday\x0a*├▢\x20.character\x20@user\x0a*├▢\x20.wasted\x20@user\x0a*├▢\x20.ship\x20@user\x0a*├▢\x20.simp\x20@user\x0a*├▢\x20.stupid\x20@user\x20[text]\x0a\x0a','key','./commands/help','.unban','120363399707841760@newsletter','.emix','.menu','.kick','.goodnight','./commands/ss','.promote','./commands/tiktok','./config.js','./lib/isAdmin','matrix','group','./commands/insult','subject','51YFALAv','.emojimix','./commands/simp','Error\x20updating\x20access\x20mode:','extendedTextMessage','sendMessage','.staff','endsWith','6641340bWTLUN','.translate','text','𝗦𝗡𝗢𝗪𝗕𝗜𝗥𝗗','.iss','./commands/hangman','.blackpink','slice','yt-search','.weather','.autostatus','.mode','This\x20command\x20can\x20only\x20be\x20used\x20in\x20groups.','.play','.unmute','❌\x20Failed\x20to\x20process\x20command!','305336HjHCvA','❌\x20You\x20are\x20banned\x20from\x20using\x20the\x20bot.\x20Contact\x20an\x20admin\x20to\x20get\x20unbanned.','mentionedJid','./commands/imagine','contextInfo','No\x20description\x20available','.script','.clearsesi','.video','.1917','.arena','.help','.dalle','.screenshot','./commands/wasted','quotedMessage','Only\x20bot\x20owner\x20can\x20use\x20this\x20command!','8621072yxjILi','✅\x20Group\x20JID:\x20','packname','.list','writeFileSync','.waste','./commands/warn','.bot','./commands/tag','.del','glitch','.tgsticker','private','.gpt','.github','Textmaker\x20Commands','.image','./lib/antilink','split','\x0a\x0a👮‍♂️\x20*Admin\x20Menu*:\x0a*├▢\x20.ban\x20@user\x0a*├▢\x20.promote\x20@user\x0a*├▢\x20.demote\x20@user\x0a*├▢\x20.mute\x20<minutes>\x0a*├▢\x20.unmute\x0a*├▢\x20\x20.delete\x20or\x20.del\x0a*├▢\x20.kick\x20@user\x0a*├▢\x20.warnings\x20@user\x0a*├▢\x20.warn\x20@user\x0a*├▢\x20.antilink\x0a*├▢\x20.antibadword\x0a*├▢\x20.clear\x0a*├▢\x20.tag\x20<message>\x0a*├▢\x20.tagall\x0a*├▢\x20.chatbot\x0a*├▢\x20.resetlink\x0a*├▢\x20.welcome\x20<on/off>\x0a*├▢\x20.goodbye\x20<on/off>\x0a\x0a','.imagine','.facebook','.admin','.groupinfo','stringify','.meme','startsWith','.repo','.sc','.insult','./commands/groupinfo','axios','Sorry,\x20only\x20group\x20admins\x20can\x20use\x20this\x20command.','leaves','.trivia','isPublic','./lib/reactions','trim','metallic','.autoreact','.fire','./commands/flirt','12138510PmQAGR','.blur','\x0a\x0a🔤\x20*Textmaker*:\x0a*├▢\x20.metallic\x20<text>\x0a*├▢\x20.ice\x20<text>\x0a*├▢\x20.snow\x20<text>\x0a*├▢\x20.impressive\x20<text>\x0a*├▢\x20.matrix\x20<text>\x0a*├▢\x20.light\x20<text>\x0a*├▢\x20.neon\x20<text>\x0a*├▢\x20.devil\x20<text>\x0a*├▢\x20.purple\x20<text>\x0a*├▢\x20.thunder\x20<text>\x0a*├▢\x20.leaves\x20<text>\x0a*├▢\x20.1917\x20<text>\x0a*├▢\x20.arena\x20<text>\x0a*├▢\x20.hacker\x20<text>\x0a*├▢\x20.sand\x20<text>\x0a*├▢\x20.blackpink\x20<text>\x0a*├▢\x20.glitch\x20<text>\x0a*├▢\x20.fire\x20<text>\x0a\x0a','BEN\x20MD','.delete','.tictactoe','973312XZIDyD','{group}','.tagall','.song','./commands/fact','purple','groupMetadata','.antidelete','./commands/chatbot','.sand','1988155vSFqwQ','Sorry,\x20only\x20group\x20admins\x20can\x20use\x20the\x20.tagall\x20command.','Usage:\x20.mode\x20public/private\x0a\x0aExample:\x0a.mode\x20public\x20-\x20Allow\x20everyone\x20to\x20use\x20bot\x0a.mode\x20private\x20-\x20Restrict\x20to\x20owner\x20only','1917','fromMe','.roseday','./commands/character','./commands/staff','Failed\x20to\x20update\x20bot\x20access\x20mode','message','./commands/ai','Error\x20in\x20handleGroupParticipantUpdate:','.dare','./commands/weather','Please\x20guess\x20a\x20letter\x20using\x20.guess\x20<letter>','./commands/viewonce','./commands/clear','exports','toLowerCase','*\x20mode','./commands/quote','./lib/myfunc','./commands/truth','Please\x20make\x20the\x20bot\x20an\x20admin\x20first.','.itssostupid','neon','./commands/tagall','some','*Bot\x20must\x20be\x20admin\x20to\x20use\x20this\x20feature*','./commands/song','.ytmp3','Please\x20provide\x20an\x20answer\x20using\x20.answer\x20<answer>','.ig','protocolMessage','Github\x20Commands','./data/messageCount.json','.ping','@g.us','./commands/stickertelegram','https://files.catbox.moe/v5u497.jpg','Welcome\x20{user}\x20to\x20the\x20group!\x20🎉','isBotAdmin','.listadmin','./commands/cleartmp','\x0a\x0a👤\x20*Owner\x20Menu*:\x0a*├▢\x20.mode\x0a*├▢\x20.autostatus\x0a*├▢\x20.clearsession\x0a*├▢\x20.antidelete\x0a*├▢\x20.cleartmp\x0a*├▢\x20.setpp\x20<reply\x20to\x20image>\x0a*├▢\x20.autoreact\x0a\x0a','path','snow','isSenderAdmin','AI\x20Commands','author','7XDeULU','.attp','./lib/isBanned','.admins','replace','.fact','./lib/index','Please\x20reply\x20to\x20a\x20sticker\x20with\x20the\x20.simage\x20command\x20to\x20convert\x20it.','./commands/mute','.leaves','./commands/attp','.simage','thunder','https://files.catbox.moe/5psc6g.mp3','./commands/github','light','.tg','.snow','.8ball','./commands/demote','videoMessage','./commands/goodbye','12LdaYcc','.mute','caption','./commands/warnings','Please\x20provide\x20a\x20valid\x20position\x20number\x20for\x20Tic-Tac-Toe\x20move.','Error\x20checking\x20access\x20mode:','.character','.compliment','ytdl-core','./commands/clearsession','.tt','demote','error','This\x20command\x20can\x20only\x20be\x20used\x20in\x20groups!','./commands/unban','ytch','.antibadword','\x0a\x0a\x20💻\x20*Github\x20Menu:*\x0a*├▢\x20.git\x0a*├▢\x20.github\x0a*├▢\x20.sc\x0a*├▢\x20.script\x0a*├▢\x20.repo\x0a\x0a','./commands/promote','./commands/owner','.cleartmp','.setpp'];_0xfcee=function(){return _0x343792;};return _0xfcee();}async function handleGroupParticipantUpdate(_0x220b42,_0x5ad559){const _0x2091df=_0x2a741d;try{const {id:_0x22f9d0,participants:_0x1e7c4a,action:_0x56f3c1,author:_0x455c2f}=_0x5ad559;if(!_0x22f9d0[_0x2091df(0x1c6)](_0x2091df(0x103)))return;if(_0x56f3c1===_0x2091df(0x19e)){await handlePromotionEvent(_0x220b42,_0x22f9d0,_0x1e7c4a,_0x455c2f);return;}if(_0x56f3c1===_0x2091df(0x131)){await handleDemotionEvent(_0x220b42,_0x22f9d0,_0x1e7c4a,_0x455c2f);return;}if(_0x56f3c1==='add'){const _0xa85d7b=await isWelcomeOn(_0x22f9d0);if(!_0xa85d7b)return;const _0x579b6d=await _0x220b42[_0x2091df(0x21e)](_0x22f9d0),_0x50ab8a=_0x579b6d[_0x2091df(0x1be)],_0x5d8489=_0x579b6d['desc']||_0x2091df(0x1dc),_0x4a0d60=JSON[_0x2091df(0x19f)](fs['readFileSync'](_0x2091df(0x15a))),_0x4d3e7a=_0x4a0d60[_0x2091df(0x13d)][_0x22f9d0],_0x21be08=_0x4d3e7a?.[_0x2091df(0x22b)]||_0x2091df(0x106),_0x3d660e=_0x4d3e7a?.[_0x2091df(0x160)]||_0x2091df(0x1b1);for(const _0x4470ac of _0x1e7c4a){const _0x46c41a=_0x4470ac[_0x2091df(0x1fa)]('@')[0x0],_0x24bc34=_0x21be08[_0x2091df(0x114)]('{user}','@'+_0x46c41a)['replace'](_0x2091df(0x219),_0x50ab8a)[_0x2091df(0x114)]('{description}',_0x5d8489);await _0x220b42['sendMessage'](_0x22f9d0,{'text':_0x24bc34,'mentions':[_0x4470ac],'contextInfo':{'forwardingScore':0x1,'isForwarded':!![],'forwardedNewsletterMessageInfo':{'newsletterJid':_0x3d660e,'newsletterName':'KnightBot\x20MD','serverMessageId':-0x1}}});}}if(_0x56f3c1==='remove'){const _0x5bd2f9=await isGoodByeOn(_0x22f9d0);if(!_0x5bd2f9)return;const _0xe08ea7=await _0x220b42['groupMetadata'](_0x22f9d0),_0x184c62=_0xe08ea7[_0x2091df(0x1be)],_0x1e9f42=JSON[_0x2091df(0x19f)](fs['readFileSync'](_0x2091df(0x15a))),_0x471da1=_0x1e9f42[_0x2091df(0x14d)][_0x22f9d0],_0x401d7c=_0x471da1?.[_0x2091df(0x22b)]||_0x2091df(0x1a1),_0x24173c=_0x471da1?.[_0x2091df(0x160)]||_0x2091df(0x1b1);for(const _0x275d83 of _0x1e7c4a){const _0x81dc5e=_0x275d83['split']('@')[0x0],_0x2ea7af=_0x401d7c[_0x2091df(0x114)]('{user}','@'+_0x81dc5e)[_0x2091df(0x114)](_0x2091df(0x219),_0x184c62);await _0x220b42[_0x2091df(0x1c4)](_0x22f9d0,{'text':_0x2ea7af,'mentions':[_0x275d83],'contextInfo':{'forwardingScore':0x1,'isForwarded':!![],'forwardedNewsletterMessageInfo':{'newsletterJid':_0x24173c,'newsletterName':_0x2091df(0x13f),'serverMessageId':-0x1}}});}}}catch(_0x2ebd86){console[_0x2091df(0x132)](_0x2091df(0x22d),_0x2ebd86);}}module[_0x2a741d(0x233)]={'handleMessages':handleMessages,'handleGroupParticipantUpdate':handleGroupParticipantUpdate,'handleStatus':async(_0x52071e,_0x267469)=>{await handleStatusUpdate(_0x52071e,_0x267469);}};
+const settings = require('./settings');
+require('./config.js');
+const { isBanned } = require('./lib/isBanned');
+const yts = require('yt-search');
+const { fetchBuffer } = require('./lib/myfunc');
+const fs = require('fs');
+const fetch = require('node-fetch');
+const ytdl = require('ytdl-core');
+const path = require('path');
+const axios = require('axios');
+const ffmpeg = require('fluent-ffmpeg');
+const { addWelcome, delWelcome, isWelcomeOn, addGoodbye, delGoodBye, isGoodByeOn } = require('./lib/index');
+
+// Command imports
+const tagAllCommand = require('./commands/tagall');
+const helpCommand = require('./commands/help');
+const banCommand = require('./commands/ban');
+const { promoteCommand } = require('./commands/promote');
+const { demoteCommand } = require('./commands/demote');
+const muteCommand = require('./commands/mute');
+const unmuteCommand = require('./commands/unmute');
+const stickerCommand = require('./commands/sticker');
+const isAdmin = require('./lib/isAdmin');
+const warnCommand = require('./commands/warn');
+const warningsCommand = require('./commands/warnings');
+const ttsCommand = require('./commands/tts');
+const { tictactoeCommand, handleTicTacToeMove } = require('./commands/tictactoe');
+const { incrementMessageCount, topMembers } = require('./commands/topmembers');
+const ownerCommand = require('./commands/owner');
+const deleteCommand = require('./commands/delete');
+const { handleAntilinkCommand, handleLinkDetection } = require('./commands/antilink');
+const { Antilink } = require('./lib/antilink');
+const memeCommand = require('./commands/meme');
+const tagCommand = require('./commands/tag');
+const jokeCommand = require('./commands/joke');
+const quoteCommand = require('./commands/quote');
+const factCommand = require('./commands/fact');
+const weatherCommand = require('./commands/weather');
+const newsCommand = require('./commands/news');
+const kickCommand = require('./commands/kick');
+const simageCommand = require('./commands/simage');
+const attpCommand = require('./commands/attp');
+const { startHangman, guessLetter } = require('./commands/hangman');
+const { startTrivia, answerTrivia } = require('./commands/trivia');
+const { complimentCommand } = require('./commands/compliment');
+const { insultCommand } = require('./commands/insult');
+const { eightBallCommand } = require('./commands/eightball');
+const { lyricsCommand } = require('./commands/lyrics');
+const { dareCommand } = require('./commands/dare');
+const { truthCommand } = require('./commands/truth');
+const { clearCommand } = require('./commands/clear');
+const pingCommand = require('./commands/ping');
+const aliveCommand = require('./commands/alive');
+const blurCommand = require('./commands/img-blur');
+const welcomeCommand = require('./commands/welcome');
+const goodbyeCommand = require('./commands/goodbye');
+const githubCommand = require('./commands/github');
+const { handleAntiBadwordCommand, handleBadwordDetection } = require('./lib/antibadword');
+const antibadwordCommand = require('./commands/antibadword');
+const { handleChatbotCommand, handleChatbotResponse } = require('./commands/chatbot');
+const takeCommand = require('./commands/take');
+const { flirtCommand } = require('./commands/flirt');
+const characterCommand = require('./commands/character');
+const wastedCommand = require('./commands/wasted');
+const shipCommand = require('./commands/ship');
+const groupInfoCommand = require('./commands/groupinfo');
+const resetlinkCommand = require('./commands/resetlink');
+const staffCommand = require('./commands/staff');
+const unbanCommand = require('./commands/unban');
+const emojimixCommand = require('./commands/emojimix');
+const { handlePromotionEvent } = require('./commands/promote');
+const { handleDemotionEvent } = require('./commands/demote');
+const viewOnceCommand = require('./commands/viewonce');
+const clearSessionCommand = require('./commands/clearsession');
+const { autoStatusCommand, handleStatusUpdate } = require('./commands/autostatus');
+const { simpCommand } = require('./commands/simp');
+const { stupidCommand } = require('./commands/stupid');
+const stickerTelegramCommand = require('./commands/stickertelegram');
+const textmakerCommand = require('./commands/textmaker');
+const { handleAntideleteCommand, handleMessageRevocation, storeMessage } = require('./commands/antidelete');
+const clearTmpCommand = require('./commands/cleartmp');
+const setProfilePicture = require('./commands/setpp');
+const instagramCommand = require('./commands/instagram');
+const facebookCommand = require('./commands/facebook');
+const playCommand = require('./commands/play');
+const tiktokCommand = require('./commands/tiktok');
+const songCommand = require('./commands/song');
+const aiCommand = require('./commands/ai');
+const { handleTranslateCommand } = require('./commands/translate');
+const { handleSsCommand } = require('./commands/ss');
+const { addCommandReaction, handleAreactCommand } = require('./lib/reactions');
+const { goodnightCommand } = require('./commands/goodnight');
+const { shayariCommand } = require('./commands/shayari');
+const { rosedayCommand } = require('./commands/roseday');
+const imagineCommand = require('./commands/imagine');
+const videoCommand = require('./commands/video');
+
+
+// Global settings
+global.packname = settings.packname;
+global.author = settings.author;
+global.channelLink = "";
+global.ytch = "𝗦𝗡𝗢𝗪𝗕𝗜𝗥𝗗";
+
+// Add this near the top of main.js with other global configurations
+const channelInfo = {
+    contextInfo: {
+        forwardingScore: 1,
+        isForwarded: true,
+        forwardedNewsletterMessageInfo: {
+            newsletterJid: '120363399707841760@newsletter',
+            newsletterName: 'BEN MD',
+            serverMessageId: -1
+        }
+    }
+};
+
+async function handleMessages(sock, messageUpdate, printLog) {
+    try {
+        const { messages, type } = messageUpdate;
+        if (type !== 'notify') return;
+
+        const message = messages[0];
+        if (!message?.message) return;
+
+        // Store message for antidelete feature
+        if (message.message) {
+            storeMessage(message);
+        }
+
+        // Handle message revocation
+        if (message.message?.protocolMessage?.type === 0) {
+            await handleMessageRevocation(sock, message);
+            return;
+        }
+
+        const chatId = message.key.remoteJid;
+        const senderId = message.key.participant || message.key.remoteJid;
+        const isGroup = chatId.endsWith('@g.us');
+
+        const userMessage = (
+            message.message?.conversation?.trim() ||
+            message.message?.extendedTextMessage?.text?.trim() ||
+            message.message?.imageMessage?.caption?.trim() ||
+            message.message?.videoMessage?.caption?.trim() ||
+            ''
+        ).toLowerCase().replace(/\.\\s+/g, '.').trim();
+
+        // Preserve raw message for commands like .tag that need original casing
+        const rawText = message.message?.conversation?.trim() ||
+            message.message?.extendedTextMessage?.text?.trim() ||
+            message.message?.imageMessage?.caption?.trim() ||
+            message.message?.videoMessage?.caption?.trim() ||
+            '';
+
+        // Only log command usage
+        if (userMessage.startsWith('.')) {
+            console.log(`📝 Command used in ${isGroup ? 'group' : 'private'}: ${userMessage}`);
+        }
+
+        // Check if user is banned (skip ban check for unban command)
+        if (isBanned(senderId) && !userMessage.startsWith('.unban')) {
+            // Only respond occasionally to avoid spam
+            if (Math.random() < 0.1) {
+                await sock.sendMessage(chatId, {
+                    text: '❌ You are banned from using the bot. Contact an admin to get unbanned.',
+                    ...channelInfo
+                });
+            }
+            return;
+        }
+
+        // First check if it's a game move
+        if (/^[1-9]$/.test(userMessage) || userMessage.toLowerCase() === 'surrender') {
+            await handleTicTacToeMove(sock, chatId, senderId, userMessage);
+            return;
+        }
+
+        /*  // Basic message response in private chat
+          if (!isGroup && (userMessage === 'hi' || userMessage === 'hello' || userMessage === 'bot' || userMessage === 'hlo' || userMessage === 'hey' || userMessage === 'bro')) {
+              await sock.sendMessage(chatId, {
+                  text: 'Hi, How can I help you?\nYou can use .menu for more info and commands.',
+                  ...channelInfo
+              });
+              return;
+          } */
+
+        if (!message.key.fromMe) incrementMessageCount(chatId, senderId);
+
+        // Check for bad words FIRST, before ANY other processing
+        if (isGroup && userMessage) {
+            await handleBadwordDetection(sock, chatId, message, userMessage, senderId);
+        }
+
+        // Then check for command prefix
+        if (!userMessage.startsWith('.')) {
+            if (isGroup) {
+                // Process non-command messages first
+                await handleChatbotResponse(sock, chatId, message, userMessage, senderId);
+                await Antilink(message, sock);
+                await handleBadwordDetection(sock, chatId, message, userMessage, senderId);
+            }
+            return;
+        }
+
+        // List of admin commands
+        const adminCommands = ['.mute', '.unmute', '.ban', '.unban', '.promote', '.demote', '.kick', '.tagall', '.antilink'];
+        const isAdminCommand = adminCommands.some(cmd => userMessage.startsWith(cmd));
+
+        // List of owner commands
+        const ownerCommands = ['.mode', '.autostatus', '.antidelete', '.cleartmp', '.setpp', '.clearsession', '.areact', '.autoreact'];
+        const isOwnerCommand = ownerCommands.some(cmd => userMessage.startsWith(cmd));
+
+        let isSenderAdmin = false;
+        let isBotAdmin = false;
+
+        // Check admin status only for admin commands in groups
+        if (isGroup && isAdminCommand) {
+            const adminStatus = await isAdmin(sock, chatId, senderId, message);
+            isSenderAdmin = adminStatus.isSenderAdmin;
+            isBotAdmin = adminStatus.isBotAdmin;
+
+            if (!isBotAdmin) {
+                await sock.sendMessage(chatId, { text: 'Please make the bot an admin to use admin commands.', ...channelInfo }, {quoted: message});
+                return;
+            }
+
+            if (
+                userMessage.startsWith('.mute') ||
+                userMessage === '.unmute' ||
+                userMessage.startsWith('.ban') ||
+                userMessage.startsWith('.unban') ||
+                userMessage.startsWith('.promote') ||
+                userMessage.startsWith('.demote')
+            ) {
+                if (!isSenderAdmin && !message.key.fromMe) {
+                    await sock.sendMessage(chatId, {
+                        text: 'Sorry, only group admins can use this command.',
+                        ...channelInfo
+                    });
+                    return;
+                }
+            }
+        }
+
+        // Check owner status for owner commands
+        if (isOwnerCommand) {
+            // Check if message is from owner (fromMe) or bot itself
+            if (!message.key.fromMe) {
+                await sock.sendMessage(chatId, {
+                    text: '❌ This command is only available for the owner!',
+                    ...channelInfo
+                });
+                return;
+            }
+        }
+
+        // Add this near the start of your message handling logic, before processing commands
+        try {
+            const data = JSON.parse(fs.readFileSync('./data/messageCount.json'));
+            // Allow owner to use bot even in private mode
+            if (!data.isPublic && !message.key.fromMe) {
+                return; // Silently ignore messages from non-owners when in private mode
+            }
+        } catch (error) {
+            console.error('Error checking access mode:', error);
+            // Default to public mode if there's an error reading the file
+        }
+
+        // Command handlers
+        switch (true) {
+            case userMessage === '.simage': {
+                const quotedMessage = message.message?.extendedTextMessage?.contextInfo?.quotedMessage;
+                if (quotedMessage?.stickerMessage) {
+                    await simageCommand(sock, quotedMessage, chatId);
+                } else {
+                    await sock.sendMessage(chatId, { text: 'Please reply to a sticker with the .simage command to convert it.', ...channelInfo });
+                }
+                break;
+            }
+            case userMessage.startsWith('.kick'):
+                const mentionedJidListKick = message.message.extendedTextMessage?.contextInfo?.mentionedJid || [];
+                await kickCommand(sock, chatId, senderId, mentionedJidListKick, message);
+                break;
+            case userMessage.startsWith('.mute'):
+                const muteDuration = parseInt(userMessage.split(' ')[1]);
+                if (isNaN(muteDuration)) {
+                    await sock.sendMessage(chatId, { text: 'Please provide a valid number of minutes.\neg to mute 10 minutes\n.mute 10', ...channelInfo });
+                } else {
+                    await muteCommand(sock, chatId, senderId, muteDuration);
+                }
+                break;
+            case userMessage === '.unmute':
+                await unmuteCommand(sock, chatId, senderId);
+                break;
+            case userMessage.startsWith('.ban'):
+                await banCommand(sock, chatId, message);
+                break;
+            case userMessage.startsWith('.unban'):
+                await unbanCommand(sock, chatId, message);
+                break;
+            case userMessage === '.help' || userMessage === '.menu' || userMessage === '.bot' || userMessage === '.list':
+                await helpCommand(sock, chatId, message, global.channelLink);
+                break;
+           case userMessage === '.general' || userMessage === '.1':
+ const generalCommands = `
+
+🏆 *General Commands*:
+*├▢ .help or .menu
+*├▢ .ping
+*├▢ .alive
+*├▢ .tts <text>
+*├▢ .owner
+*├▢ .joke
+*├▢ .quote
+*├▢ .fact
+*├▢ .weather <city>
+*├▢ .news
+*├▢ .attp <text>
+*├▢ .lyrics <song_title>
+*├▢ .8ball <question>
+*├▢ .groupinfo
+*├▢ .staff or .admins 
+*├▢ .vv
+*├▢ .trt <text> <lang>
+*├▢ .ss <link>
+*├▢ .jid
+
+`;
+ const generalImage = 'https://files.catbox.moe/v5u497.jpg'; // add image URL here
+ await sock.sendMessage(chatId, { 
+   text: generalCommands, 
+   image: { url: generalImage }, 
+   caption: 'General Commands' 
+ });
+ break;
+
+case userMessage === '.admin' || userMessage === '.2':
+ const adminCommands = `
+
+👮‍♂️ *Admin Menu*:
+*├▢ .ban @user
+*├▢ .promote @user
+*├▢ .demote @user
+*├▢ .mute <minutes>
+*├▢ .unmute
+*├▢  .delete or .del
+*├▢ .kick @user
+*├▢ .warnings @user
+*├▢ .warn @user
+*├▢ .antilink
+*├▢ .antibadword
+*├▢ .clear
+*├▢ .tag <message>
+*├▢ .tagall
+*├▢ .chatbot
+*├▢ .resetlink
+*├▢ .welcome <on/off>
+*├▢ .goodbye <on/off>
+
+`;
+ const adminImage = 'https://files.catbox.moe/v5u497.jpg'; // add image URL here
+ await sock.sendMessage(chatId, { 
+   text: adminCommands, 
+   image: { url: adminImage }, 
+   caption: 'Admin Commands' 
+ });
+ break;
+
+case userMessage === '.owner' || userMessage === '.3':
+ const ownerCommands = `
+
+👤 *Owner Menu*:
+*├▢ .mode
+*├▢ .autostatus
+*├▢ .clearsession
+*├▢ .antidelete
+*├▢ .cleartmp
+*├▢ .setpp <reply to image>
+*├▢ .autoreact
+
+`;
+ const ownerImage = 'https://files.catbox.moe/v5u497.jpg'; // add image URL here
+ await sock.sendMessage(chatId, { 
+   text: ownerCommands, 
+   image: { url: ownerImage }, 
+   caption: 'Owner Commands' 
+ });
+ break;
+
+case userMessage === '.image' || userMessage === '.4':
+ const imageCommands = `
+
+☠️ *Image/Sticker Menu*:
+*├▢ .blur <image>
+*├▢ .simage <reply to sticker>
+*├▢ .sticker <reply to image>
+*├▢ .tgsticker <Link>
+*├▢ .meme
+*├▢ .take <packname> 
+*├▢ .emojimix <emj1>+<emj2>
+
+`;
+ const imageExample = 'https://files.catbox.moe/v5u497.jpg'; // add image URL here
+ await sock.sendMessage(chatId, { 
+   text: imageCommands, 
+   image: { url: imageExample }, 
+   caption: 'Image Commands' 
+ });
+ break;
+
+case userMessage === '.game' || userMessage === '.5':
+ const gameCommands = `
+
+🎮 *Game Menu*:
+*├▢ .tictactoe @user
+*├▢ .hangman
+*├▢ .guess <letter>
+*├▢ .trivia
+*├▢ .answer <answer>
+*├▢ .truth
+*├▢ .dare
+
+`;
+ const gameAudio = 'https://files.catbox.moe/5psc6g.mp3'; // add audio URL here
+ await sock.sendMessage(chatId, { 
+   text: gameCommands, 
+   audio: { url: gameAudio }, 
+   mimetype: 'audio/mp4' 
+ });
+ break;
+
+case userMessage === '.ai'|| userMessage === '.6':
+ const aiCommands = `
+
+🤖 *AI Menu*:
+*├▢ .gpt <question>
+*├▢ .gemini <question>
+*├▢ .imagine <prompt>
+*├▢ .flux <prompt>
+
+`;
+ const aiImage = 'https://files.catbox.moe/v5u497.jpg'; // add image URL here
+ await sock.sendMessage(chatId, { 
+   text: aiCommands, 
+   image: { url: aiImage }, 
+   caption: 'AI Commands' 
+ });
+ break;
+
+case userMessage === '.fun' || userMessage === '.7':
+ const funCommands = `
+
+🎯 *Fun Menu*:
+*├▢ .compliment @user
+*├▢ .insult @user
+*├▢ .flirt 
+*├▢ .shayari
+*├▢ .goodnight
+*├▢ .roseday
+*├▢ .character @user
+*├▢ .wasted @user
+*├▢ .ship @user
+*├▢ .simp @user
+*├▢ .stupid @user [text]
+
+`;
+ const funAudio = 'https://files.catbox.moe/5psc6g.mp3'; // add audio URL here
+ await sock.sendMessage(chatId, { 
+   text: funCommands, 
+   audio: { url: funAudio }, 
+   mimetype: 'audio/mp4' 
+ });
+ break;
+
+case userMessage === '.textmaker' || userMessage === '.8':
+ const textmakerCommands = `
+
+🔤 *Textmaker*:
+*├▢ .metallic <text>
+*├▢ .ice <text>
+*├▢ .snow <text>
+*├▢ .impressive <text>
+*├▢ .matrix <text>
+*├▢ .light <text>
+*├▢ .neon <text>
+*├▢ .devil <text>
+*├▢ .purple <text>
+*├▢ .thunder <text>
+*├▢ .leaves <text>
+*├▢ .1917 <text>
+*├▢ .arena <text>
+*├▢ .hacker <text>
+*├▢ .sand <text>
+*├▢ .blackpink <text>
+*├▢ .glitch <text>
+*├▢ .fire <text>
+
+`;
+ const textmakerImage = 'https://files.catbox.moe/v5u497.jpg'; // add image URL here
+ await sock.sendMessage(chatId, { 
+   text: textmakerCommands, 
+   image: { url: textmakerImage }, 
+   caption: 'Textmaker Commands' 
+ });
+ break;
+
+case userMessage === '.downloader' || userMessage === '.9':
+ const downloaderCommands = `
+
+📥 *Downloader Menu*:
+*├▢ .play <song_name>
+*├▢ .song <song_name>
+*├▢ .instagram <link>
+*├▢ .facebook <link>
+*├▢ .tiktok <link>
+*├▢ .video <song name>
+*├▢ .ytmp4 <Link>
+
+`;
+ const downloaderAudio = 'https://files.catbox.moe/5psc6g.mp3'; // add audio URL here
+ await sock.sendMessage(chatId, { 
+   text: downloaderCommands, 
+   audio: { url: downloaderAudio }, 
+   mimetype: 'audio/mp4' 
+ });
+ break;
+
+case userMessage === '.github' || userMessage === '.10':
+ const githubCommands = `
+
+ 💻 *Github Menu:*
+*├▢ .git
+*├▢ .github
+*├▢ .sc
+*├▢ .script
+*├▢ .repo
+
+`;
+ const githubImage = 'https://files.catbox.moe/v5u497.jpg'; // add image URL here
+ await sock.sendMessage(chatId, { 
+   text: githubCommands, 
+   image: { url: githubImage }, 
+   caption: 'Github Commands' 
+ });
+ break;
+            case userMessage === '.sticker' || userMessage === '.s':
+                await stickerCommand(sock, chatId, message);
+                break;
+            case userMessage.startsWith('.warnings'):
+                const mentionedJidListWarnings = message.message.extendedTextMessage?.contextInfo?.mentionedJid || [];
+                await warningsCommand(sock, chatId, mentionedJidListWarnings);
+                break;
+            case userMessage.startsWith('.warn'):
+                const mentionedJidListWarn = message.message.extendedTextMessage?.contextInfo?.mentionedJid || [];
+                await warnCommand(sock, chatId, senderId, mentionedJidListWarn, message);
+                break;
+            case userMessage.startsWith('.tts'):
+                const text = userMessage.slice(4).trim();
+                await ttsCommand(sock, chatId, text, message);
+                break;
+            case userMessage === '.delete' || userMessage === '.del':
+                await deleteCommand(sock, chatId, message, senderId);
+                break;
+            case userMessage.startsWith('.attp'):
+                await attpCommand(sock, chatId, message);
+                break;
+            case userMessage.startsWith('.mode'):
+                // Check if sender is the owner
+                if (!message.key.fromMe) {
+                    await sock.sendMessage(chatId, { text: 'Only bot owner can use this command!', ...channelInfo });
+                    return;
+                }
+                // Read current data first
+                let data;
+                try {
+                    data = JSON.parse(fs.readFileSync('./data/messageCount.json'));
+                } catch (error) {
+                    console.error('Error reading access mode:', error);
+                    await sock.sendMessage(chatId, { text: 'Failed to read bot mode status', ...channelInfo });
+                    return;
+                }
+
+                const action = userMessage.split(' ')[1]?.toLowerCase();
+                // If no argument provided, show current status
+                if (!action) {
+                    const currentMode = data.isPublic ? 'public' : 'private';
+                    await sock.sendMessage(chatId, {
+                        text: `Current bot mode: *${currentMode}*\n\nUsage: .mode public/private\n\nExample:\n.mode public - Allow everyone to use bot\n.mode private - Restrict to owner only`,
+                        ...channelInfo
+                    });
+                    return;
+                }
+
+                if (action !== 'public' && action !== 'private') {
+                    await sock.sendMessage(chatId, {
+                        text: 'Usage: .mode public/private\n\nExample:\n.mode public - Allow everyone to use bot\n.mode private - Restrict to owner only',
+                        ...channelInfo
+                    });
+                    return;
+                }
+
+                try {
+                    // Update access mode
+                    data.isPublic = action === 'public';
+
+                    // Save updated data
+                    fs.writeFileSync('./data/messageCount.json', JSON.stringify(data, null, 2));
+
+                    await sock.sendMessage(chatId, { text: `Bot is now in *${action}* mode`, ...channelInfo });
+                } catch (error) {
+                    console.error('Error updating access mode:', error);
+                    await sock.sendMessage(chatId, { text: 'Failed to update bot access mode', ...channelInfo });
+                }
+                break;
+            case userMessage === '.owner':
+                await ownerCommand(sock, chatId);
+                break;
+            case userMessage === '.tagall':
+                if (isSenderAdmin || message.key.fromMe) {
+                    await tagAllCommand(sock, chatId, senderId, message);
+                } else {
+                    await sock.sendMessage(chatId, { text: 'Sorry, only group admins can use the .tagall command.', ...channelInfo }, {quoted: message});
+                }
+                break;
+            case userMessage.startsWith('.tag'):
+                const messageText = rawText.slice(4).trim();  // use rawText here, not userMessage
+                const replyMessage = message.message?.extendedTextMessage?.contextInfo?.quotedMessage || null;
+                await tagCommand(sock, chatId, senderId, messageText, replyMessage);
+                break;
+            case userMessage.startsWith('.antilink'):
+                if (!isGroup) {
+                    await sock.sendMessage(chatId, {
+                        text: 'This command can only be used in groups.',
+                        ...channelInfo
+                    });
+                    return;
+                }
+                if (!isBotAdmin) {
+                    await sock.sendMessage(chatId, {
+                        text: 'Please make the bot an admin first.',
+                        ...channelInfo
+                    });
+                    return;
+                }
+                await handleAntilinkCommand(sock, chatId, userMessage, senderId, isSenderAdmin);
+                break;
+            case userMessage === '.meme':
+                await memeCommand(sock, chatId, message);
+                break;
+            case userMessage === '.joke':
+                await jokeCommand(sock, chatId, message);
+                break;
+            case userMessage === '.quote':
+                await quoteCommand(sock, chatId, message);
+                break;
+            case userMessage === '.fact':
+                await factCommand(sock, chatId, message, message);
+                break;
+            case userMessage.startsWith('.weather'):
+                const city = userMessage.slice(9).trim();
+                if (city) {
+                    await weatherCommand(sock, chatId, city);
+                } else {
+                    await sock.sendMessage(chatId, { text: 'Please specify a city, e.g., .weather London', ...channelInfo });
+                }
+                break;
+            case userMessage === '.news':
+                await newsCommand(sock, chatId);
+                break;
+            case userMessage.startsWith('.ttt') || userMessage.startsWith('.tictactoe'):
+                const tttText = userMessage.split(' ').slice(1).join(' ');
+                await tictactoeCommand(sock, chatId, senderId, tttText);
+                break;
+            case userMessage.startsWith('.move'):
+                const position = parseInt(userMessage.split(' ')[1]);
+                if (isNaN(position)) {
+                    await sock.sendMessage(chatId, { text: 'Please provide a valid position number for Tic-Tac-Toe move.', ...channelInfo });
+                } else {
+                    tictactoeMove(sock, chatId, senderId, position);
+                }
+                break;
+            case userMessage === '.topmembers':
+                topMembers(sock, chatId, isGroup);
+                break;
+            case userMessage.startsWith('.hangman'):
+                startHangman(sock, chatId);
+                break;
+            case userMessage.startsWith('.guess'):
+                const guessedLetter = userMessage.split(' ')[1];
+                if (guessedLetter) {
+                    guessLetter(sock, chatId, guessedLetter);
+                } else {
+                    sock.sendMessage(chatId, { text: 'Please guess a letter using .guess <letter>', ...channelInfo });
+                }
+                break;
+            case userMessage.startsWith('.trivia'):
+                startTrivia(sock, chatId);
+                break;
+            case userMessage.startsWith('.answer'):
+                const answer = userMessage.split(' ').slice(1).join(' ');
+                if (answer) {
+                    answerTrivia(sock, chatId, answer);
+                } else {
+                    sock.sendMessage(chatId, { text: 'Please provide an answer using .answer <answer>', ...channelInfo });
+                }
+                break;
+            case userMessage.startsWith('.compliment'):
+                await complimentCommand(sock, chatId, message);
+                break;
+            case userMessage.startsWith('.insult'):
+                await insultCommand(sock, chatId, message);
+                break;
+            case userMessage.startsWith('.8ball'):
+                const question = userMessage.split(' ').slice(1).join(' ');
+                await eightBallCommand(sock, chatId, question);
+                break;
+            case userMessage.startsWith('.lyrics'):
+                const songTitle = userMessage.split(' ').slice(1).join(' ');
+                await lyricsCommand(sock, chatId, songTitle);
+                break;
+            case userMessage.startsWith('.simp'):
+                const quotedMsg = message.message?.extendedTextMessage?.contextInfo?.quotedMessage;
+                const mentionedJid = message.message?.extendedTextMessage?.contextInfo?.mentionedJid || [];
+                await simpCommand(sock, chatId, quotedMsg, mentionedJid, senderId);
+                break;
+            case userMessage.startsWith('.stupid') || userMessage.startsWith('.itssostupid') || userMessage.startsWith('.iss'):
+                const stupidQuotedMsg = message.message?.extendedTextMessage?.contextInfo?.quotedMessage;
+                const stupidMentionedJid = message.message?.extendedTextMessage?.contextInfo?.mentionedJid || [];
+                const stupidArgs = userMessage.split(' ').slice(1);
+                await stupidCommand(sock, chatId, stupidQuotedMsg, stupidMentionedJid, senderId, stupidArgs);
+                break;
+            case userMessage === '.dare':
+                await dareCommand(sock, chatId, message);
+                break;
+            case userMessage === '.truth':
+                await truthCommand(sock, chatId, message);
+                break;
+            case userMessage === '.clear':
+                if (isGroup) await clearCommand(sock, chatId);
+                break;
+            case userMessage.startsWith('.promote'):
+                const mentionedJidListPromote = message.message.extendedTextMessage?.contextInfo?.mentionedJid || [];
+                await promoteCommand(sock, chatId, mentionedJidListPromote, message);
+                break;
+            case userMessage.startsWith('.demote'):
+                const mentionedJidListDemote = message.message.extendedTextMessage?.contextInfo?.mentionedJid || [];
+                await demoteCommand(sock, chatId, mentionedJidListDemote, message);
+                break;
+            case userMessage === '.ping':
+                await pingCommand(sock, chatId, message);
+                break;
+            case userMessage === '.alive':
+                await aliveCommand(sock, chatId, message);
+                break;
+            case userMessage.startsWith('.blur'):
+                const quotedMessage = message.message?.extendedTextMessage?.contextInfo?.quotedMessage;
+                await blurCommand(sock, chatId, message, quotedMessage);
+                break;
+            case userMessage.startsWith('.welcome'):
+                if (isGroup) {
+                    // Check admin status if not already checked
+                    if (!isSenderAdmin) {
+                        const adminStatus = await isAdmin(sock, chatId, senderId);
+                        isSenderAdmin = adminStatus.isSenderAdmin;
+                    }
+
+                    if (isSenderAdmin || message.key.fromMe) {
+                        await welcomeCommand(sock, chatId, message);
+                    } else {
+                        await sock.sendMessage(chatId, { text: 'Sorry, only group admins can use this command.', ...channelInfo });
+                    }
+                } else {
+                    await sock.sendMessage(chatId, { text: 'This command can only be used in groups.', ...channelInfo });
+                }
+                break;
+            case userMessage.startsWith('.goodbye'):
+                if (isGroup) {
+                    // Check admin status if not already checked
+                    if (!isSenderAdmin) {
+                        const adminStatus = await isAdmin(sock, chatId, senderId);
+                        isSenderAdmin = adminStatus.isSenderAdmin;
+                    }
+
+                    if (isSenderAdmin || message.key.fromMe) {
+                        await goodbyeCommand(sock, chatId, message);
+                    } else {
+                        await sock.sendMessage(chatId, { text: 'Sorry, only group admins can use this command.', ...channelInfo });
+                    }
+                } else {
+                    await sock.sendMessage(chatId, { text: 'This command can only be used in groups.', ...channelInfo });
+                }
+                break;
+            case userMessage === '.git':
+            case userMessage === '.github':
+            case userMessage === '.sc':
+            case userMessage === '.script':
+            case userMessage === '.repo':
+                await githubCommand(sock, chatId);
+                break;
+            case userMessage.startsWith('.antibadword'):
+                if (!isGroup) {
+                    await sock.sendMessage(chatId, { text: 'This command can only be used in groups.', ...channelInfo });
+                    return;
+                }
+
+                const adminStatus = await isAdmin(sock, chatId, senderId);
+                isSenderAdmin = adminStatus.isSenderAdmin;
+                isBotAdmin = adminStatus.isBotAdmin;
+
+                if (!isBotAdmin) {
+                    await sock.sendMessage(chatId, { text: '*Bot must be admin to use this feature*', ...channelInfo });
+                    return;
+                }
+
+                await antibadwordCommand(sock, chatId, message, senderId, isSenderAdmin);
+                break;
+            case userMessage.startsWith('.chatbot'):
+                if (!isGroup) {
+                    await sock.sendMessage(chatId, { text: 'This command can only be used in groups.', ...channelInfo });
+                    return;
+                }
+
+                // Check if sender is admin or bot owner
+                const chatbotAdminStatus = await isAdmin(sock, chatId, senderId);
+                if (!chatbotAdminStatus.isSenderAdmin && !message.key.fromMe) {
+                    await sock.sendMessage(chatId, { text: '*Only admins or bot owner can use this command*', ...channelInfo });
+                    return;
+                }
+
+                const match = userMessage.slice(8).trim();
+                await handleChatbotCommand(sock, chatId, message, match);
+                break;
+            case userMessage.startsWith('.take'):
+                const takeArgs = userMessage.slice(5).trim().split(' ');
+                await takeCommand(sock, chatId, message, takeArgs);
+                break;
+            case userMessage === '.flirt':
+                await flirtCommand(sock, chatId, message);
+                break;
+            case userMessage.startsWith('.character'):
+                await characterCommand(sock, chatId, message);
+                break;
+            case userMessage.startsWith('.waste'):
+                await wastedCommand(sock, chatId, message);
+                break;
+            case userMessage === '.ship':
+                if (!isGroup) {
+                    await sock.sendMessage(chatId, { text: 'This command can only be used in groups!', ...channelInfo });
+                    return;
+                }
+                await shipCommand(sock, chatId, message);
+                break;
+            case userMessage === '.groupinfo' || userMessage === '.infogp' || userMessage === '.infogrupo':
+                if (!isGroup) {
+                    await sock.sendMessage(chatId, { text: 'This command can only be used in groups!', ...channelInfo });
+                    return;
+                }
+                await groupInfoCommand(sock, chatId, message);
+                break;
+            case userMessage === '.resetlink' || userMessage === '.revoke' || userMessage === '.anularlink':
+                if (!isGroup) {
+                    await sock.sendMessage(chatId, { text: 'This command can only be used in groups!', ...channelInfo });
+                    return;
+                }
+                await resetlinkCommand(sock, chatId, senderId);
+                break;
+            case userMessage === '.staff' || userMessage === '.admins' || userMessage === '.listadmin':
+                if (!isGroup) {
+                    await sock.sendMessage(chatId, { text: 'This command can only be used in groups!', ...channelInfo });
+                    return;
+                }
+                await staffCommand(sock, chatId, message);
+                break;
+            case userMessage.startsWith('.emojimix') || userMessage.startsWith('.emix'):
+                await emojimixCommand(sock, chatId, message);
+                break;
+            case userMessage.startsWith('.tg') || userMessage.startsWith('.stickertelegram') || userMessage.startsWith('.tgsticker') || userMessage.startsWith('.telesticker'):
+                await stickerTelegramCommand(sock, chatId, message);
+                break;
+
+            case userMessage === '.vv':
+                await viewOnceCommand(sock, chatId, message);
+                break;
+            case userMessage === '.clearsession' || userMessage === '.clearsesi':
+                await clearSessionCommand(sock, chatId, message);
+                break;
+            case userMessage.startsWith('.autostatus'):
+                const autoStatusArgs = userMessage.split(' ').slice(1);
+                await autoStatusCommand(sock, chatId, message, autoStatusArgs);
+                break;
+            case userMessage.startsWith('.simp'):
+                await simpCommand(sock, chatId, message);
+                break;
+            case userMessage.startsWith('.metallic'):
+                await textmakerCommand(sock, chatId, message, userMessage, 'metallic');
+                break;
+            case userMessage.startsWith('.ice'):
+                await textmakerCommand(sock, chatId, message, userMessage, 'ice');
+                break;
+            case userMessage.startsWith('.snow'):
+                await textmakerCommand(sock, chatId, message, userMessage, 'snow');
+                break;
+            case userMessage.startsWith('.impressive'):
+                await textmakerCommand(sock, chatId, message, userMessage, 'impressive');
+                break;
+            case userMessage.startsWith('.matrix'):
+                await textmakerCommand(sock, chatId, message, userMessage, 'matrix');
+                break;
+            case userMessage.startsWith('.light'):
+                await textmakerCommand(sock, chatId, message, userMessage, 'light');
+                break;
+            case userMessage.startsWith('.neon'):
+                await textmakerCommand(sock, chatId, message, userMessage, 'neon');
+                break;
+            case userMessage.startsWith('.devil'):
+                await textmakerCommand(sock, chatId, message, userMessage, 'devil');
+                break;
+            case userMessage.startsWith('.purple'):
+                await textmakerCommand(sock, chatId, message, userMessage, 'purple');
+                break;
+            case userMessage.startsWith('.thunder'):
+                await textmakerCommand(sock, chatId, message, userMessage, 'thunder');
+                break;
+            case userMessage.startsWith('.leaves'):
+                await textmakerCommand(sock, chatId, message, userMessage, 'leaves');
+                break;
+            case userMessage.startsWith('.1917'):
+                await textmakerCommand(sock, chatId, message, userMessage, '1917');
+                break;
+            case userMessage.startsWith('.arena'):
+                await textmakerCommand(sock, chatId, message, userMessage, 'arena');
+                break;
+            case userMessage.startsWith('.hacker'):
+                await textmakerCommand(sock, chatId, message, userMessage, 'hacker');
+                break;
+            case userMessage.startsWith('.sand'):
+                await textmakerCommand(sock, chatId, message, userMessage, 'sand');
+                break;
+            case userMessage.startsWith('.blackpink'):
+                await textmakerCommand(sock, chatId, message, userMessage, 'blackpink');
+                break;
+            case userMessage.startsWith('.glitch'):
+                await textmakerCommand(sock, chatId, message, userMessage, 'glitch');
+                break;
+            case userMessage.startsWith('.fire'):
+                await textmakerCommand(sock, chatId, message, userMessage, 'fire');
+                break;
+            case userMessage.startsWith('.antidelete'):
+                const antideleteMatch = userMessage.slice(11).trim();
+                await handleAntideleteCommand(sock, chatId, message, antideleteMatch);
+                break;
+            case userMessage === '.surrender':
+                // Handle surrender command for tictactoe game
+                await handleTicTacToeMove(sock, chatId, senderId, 'surrender');
+                break;
+            case userMessage === '.cleartmp':
+                await clearTmpCommand(sock, chatId, message);
+                break;
+            case userMessage === '.setpp':
+                await setProfilePicture(sock, chatId, message);
+                break;
+            case userMessage.startsWith('.instagram') || userMessage.startsWith('.insta') || userMessage.startsWith('.ig'):
+                await instagramCommand(sock, chatId, message);
+                break;
+            case userMessage.startsWith('.fb') || userMessage.startsWith('.facebook'):
+                await facebookCommand(sock, chatId, message);
+                break;
+            case userMessage.startsWith('.song') || userMessage.startsWith('.music'):
+                await playCommand(sock, chatId, message);
+                break;
+            case userMessage.startsWith('.play') || userMessage.startsWith('.mp3') || userMessage.startsWith('.ytmp3') || userMessage.startsWith('.yts'):
+                await songCommand(sock, chatId, message);
+                break;
+            case userMessage.startsWith('.video') || userMessage.startsWith('.ytmp4'):
+                await videoCommand(sock, chatId, message);
+                break;
+            case userMessage.startsWith('.tiktok') || userMessage.startsWith('.tt'):
+                await tiktokCommand(sock, chatId, message);
+                break;
+            case userMessage.startsWith('.gpt') || userMessage.startsWith('.gemini'):
+                await aiCommand(sock, chatId, message);
+                break;
+            case userMessage.startsWith('.translate') || userMessage.startsWith('.trt'):
+                const commandLength = userMessage.startsWith('.translate') ? 10 : 4;
+                await handleTranslateCommand(sock, chatId, message, userMessage.slice(commandLength));
+                return;
+            case userMessage.startsWith('.ss') || userMessage.startsWith('.ssweb') || userMessage.startsWith('.screenshot'):
+                const ssCommandLength = userMessage.startsWith('.screenshot') ? 11 : (userMessage.startsWith('.ssweb') ? 6 : 3);
+                await handleSsCommand(sock, chatId, message, userMessage.slice(ssCommandLength).trim());
+                break;
+            case userMessage.startsWith('.areact') || userMessage.startsWith('.autoreact') || userMessage.startsWith('.autoreaction'):
+                const isOwner = message.key.fromMe;
+                await handleAreactCommand(sock, chatId, message, isOwner);
+                break;
+            case userMessage === '.goodnight' || userMessage === '.lovenight' || userMessage === '.gn':
+                await goodnightCommand(sock, chatId, message);
+                break;
+            case userMessage === '.shayari' || userMessage === '.shayri':
+                await shayariCommand(sock, chatId, message);
+                break;
+            case userMessage === '.roseday':
+                await rosedayCommand(sock, chatId, message);
+                break;
+            case userMessage.startsWith('.imagine') || userMessage.startsWith('.flux') || userMessage.startsWith('.dalle'):
+                await imagineCommand(sock, chatId, message);
+                break;
+            case userMessage === '.jid':
+                await groupJidCommand(sock, chatId, message);
+                break;
+
+                // Function to handle .groupjid command
+                async function groupJidCommand(sock, chatId, message) {
+                    const groupJid = message.key.remoteJid;
+
+                    if (!groupJid.endsWith('@g.us')) {
+                        return await sock.sendMessage(chatId, {
+                            text: "❌ This command can only be used in a group."
+                        });
+                    }
+
+                    await sock.sendMessage(chatId, {
+                        text: `✅ Group JID: ${groupJid}`
+                    }, {
+                        quoted: message
+                    });
+                }
+
+            default:
+                if (isGroup) {
+                    // Handle non-command group messages
+                    if (userMessage) {  // Make sure there's a message
+                        await handleChatbotResponse(sock, chatId, message, userMessage, senderId);
+                    }
+                    await Antilink(message, sock);
+                    await handleBadwordDetection(sock, chatId, message, userMessage, senderId);
+                }
+                break;
+        }
+
+        if (userMessage.startsWith('.')) {
+            // After command is processed successfully
+            await addCommandReaction(sock, message);
+        }
+    } catch (error) {
+        console.error('❌ Error in message handler:', error.message);
+        // Only try to send error message if we have a valid chatId
+        if (chatId) {
+            await sock.sendMessage(chatId, {
+                text: '❌ Failed to process command!',
+                ...channelInfo
+            });
+        }
+    }
+}
+
+async function handleGroupParticipantUpdate(sock, update) {
+    try {
+        const { id, participants, action, author } = update;
+
+        // Check if it's a group
+        if (!id.endsWith('@g.us')) return;
+
+        // Handle promotion events
+        if (action === 'promote') {
+            await handlePromotionEvent(sock, id, participants, author);
+            return;
+        }
+
+        // Handle demotion events
+        if (action === 'demote') {
+            await handleDemotionEvent(sock, id, participants, author);
+            return;
+        }
+
+        // Handle join events
+        if (action === 'add') {
+            // Check if welcome is enabled for this group
+            const isWelcomeEnabled = await isWelcomeOn(id);
+            if (!isWelcomeEnabled) return;
+
+            // Get group metadata
+            const groupMetadata = await sock.groupMetadata(id);
+            const groupName = groupMetadata.subject;
+            const groupDesc = groupMetadata.desc || 'No description available';
+
+            // Get welcome message from data
+            const data = JSON.parse(fs.readFileSync('./data/userGroupData.json'));
+            const welcomeData = data.welcome[id];
+            const welcomeMessage = welcomeData?.message || 'Welcome {user} to the group! 🎉';
+            const channelId = welcomeData?.channelId || '120363399707841760@newsletter';
+
+            // Send welcome message for each new participant
+            for (const participant of participants) {
+                const user = participant.split('@')[0];
+                const formattedMessage = welcomeMessage
+                    .replace('{user}', `@${user}`)
+                    .replace('{group}', groupName)
+                    .replace('{description}', groupDesc);
+
+                await sock.sendMessage(id, {
+                    text: formattedMessage,
+                    mentions: [participant],
+                    contextInfo: {
+                        forwardingScore: 1,
+                        isForwarded: true,
+                        forwardedNewsletterMessageInfo: {
+                            newsletterJid: channelId,
+                            newsletterName: 'KnightBot MD',
+                            serverMessageId: -1
+                        }
+                    }
+                });
+            }
+        }
+
+        // Handle leave events
+        if (action === 'remove') {
+            // Check if goodbye is enabled for this group
+            const isGoodbyeEnabled = await isGoodByeOn(id);
+            if (!isGoodbyeEnabled) return;
+
+            // Get group metadata
+            const groupMetadata = await sock.groupMetadata(id);
+            const groupName = groupMetadata.subject;
+
+            // Get goodbye message from data
+            const data = JSON.parse(fs.readFileSync('./data/userGroupData.json'));
+            const goodbyeData = data.goodbye[id];
+            const goodbyeMessage = goodbyeData?.message || 'Goodbye {user} 👋';
+            const channelId = goodbyeData?.channelId || '120363399707841760@newsletter';
+
+            // Send goodbye message for each leaving participant
+            for (const participant of participants) {
+                const user = participant.split('@')[0];
+                const formattedMessage = goodbyeMessage
+                    .replace('{user}', `@${user}`)
+                    .replace('{group}', groupName);
+
+                await sock.sendMessage(id, {
+                    text: formattedMessage,
+                    mentions: [participant],
+                    contextInfo: {
+                        forwardingScore: 1,
+                        isForwarded: true,
+                        forwardedNewsletterMessageInfo: {
+                            newsletterJid: channelId,
+                            newsletterName: 'BEN 10 MD',
+                            serverMessageId: -1
+                        }
+                    }
+                });
+            }
+        }
+    } catch (error) {
+        console.error('Error in handleGroupParticipantUpdate:', error);
+    }
+}
+
+// Instead, export the handlers along with handleMessages
+module.exports = {
+    handleMessages,
+    handleGroupParticipantUpdate,
+    handleStatus: async (sock, status) => {
+        await handleStatusUpdate(sock, status);
+    }
+};
