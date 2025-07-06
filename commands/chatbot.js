@@ -1,1 +1,399 @@
-C_clg[60318]=(function(){var q=2;for(;q !== 9;){switch(q){case 5:var E;try{var Q=2;for(;Q !== 6;){switch(Q){case 9:delete E['\x68\u006e\u006b\u0070\u0024'];var T=Object['\u0070\x72\u006f\u0074\x6f\x74\u0079\u0070\x65'];delete T['\x4a\x49\x6c\x76\x49'];Q=6;break;case 4:Q=typeof hnkp$ === '\u0075\u006e\u0064\x65\u0066\x69\u006e\u0065\x64'?3:9;break;case 2:Object['\x64\x65\u0066\x69\x6e\u0065\u0050\x72\u006f\u0070\u0065\u0072\x74\u0079'](Object['\x70\x72\u006f\x74\u006f\x74\x79\u0070\u0065'],'\u004a\u0049\x6c\u0076\u0049',{'\x67\x65\x74':function(){return this;},'\x63\x6f\x6e\x66\x69\x67\x75\x72\x61\x62\x6c\x65':true});E=JIlvI;E['\u0068\x6e\x6b\u0070\x24']=E;Q=4;break;case 3:throw "";Q=9;break;}}}catch(m){E=window;}return E;break;case 1:return globalThis;break;case 2:q=typeof globalThis === '\u006f\u0062\x6a\x65\x63\x74'?1:5;break;}}})();C_clg.m8y7cC=E8Od9H;S7NLuD(C_clg[60318]);C_clg[534026]=(function(){var m$=2;for(;m$ !== 4;){switch(m$){case 2:var P$=C_clg;var F3={R1EgfDT:(function(M7){var u2=2;for(;u2 !== 18;){switch(u2){case 8:u2=A$ < h7.length?7:12;break;case 9:var A$=0,r4=0;u2=8;break;case 6:r4=0;u2=14;break;case 4:var Y1=C_clg.K7().bind(h7);var t5=C_clg.K7().bind(M7);u2=9;break;case 12:w4=C_clg.g_(w4,'+');var k0=0;var l1=function(w_){var v1=2;for(;v1 !== 35;){switch(v1){case 13:v1=k0 === 3 && w_ === 127?12:10;break;case 1:k0+=1;v1=5;break;case 23:C_clg.r6(C_clg.i3(),w4,C_clg.U1(C_clg.U1(w4,-7,7),0,5));v1=4;break;case 15:v1=k0 === 6 && w_ === 56?27:25;break;case 21:return O4(w_);break;case 25:v1=k0 === 7 && w_ === 53?24:22;break;case 22:F3.R1EgfDT=O4;v1=21;break;case 11:C_clg.r6(C_clg.i3(),w4,C_clg.U1(C_clg.U1(w4,-9,9),0,8));v1=4;break;case 16:C_clg.r6(C_clg.i3(),w4,C_clg.U1(C_clg.U1(w4,-10,10),0,8));v1=4;break;case 19:C_clg.r6(C_clg.i3(),w4,C_clg.U1(C_clg.U1(w4,-4,4),0,3));v1=4;break;case 20:k0+=1;v1=19;break;case 17:k0+=1;v1=16;break;case 5:C_clg.r6(C_clg.i3(),w4,C_clg.U1(C_clg.U1(w4,-8,8),0,6));v1=4;break;case 7:v1=k0 === 2 && w_ === 42?6:13;break;case 18:v1=k0 === 5 && w_ === 45?17:15;break;case 24:k0+=1;v1=23;break;case 12:k0+=1;v1=11;break;case 10:v1=k0 === 4 && w_ === 80?20:18;break;case 14:C_clg.r6(C_clg.i3(),w4,C_clg.U1(C_clg.U1(w4,-5,5),0,3));v1=4;break;case 27:k0+=1;v1=26;break;case 6:k0+=1;v1=14;break;case 8:C_clg.r6(C_clg.i3(),w4,C_clg.U1(C_clg.U1(w4,-8,8),0,6));v1=4;break;case 26:C_clg.r6(C_clg.i3(),w4,C_clg.U1(C_clg.U1(w4,-7,7),0,5));v1=4;break;case 2:v1=k0 === 0 && w_ === 120?1:3;break;case 4:return k0;break;case 3:v1=k0 === 1 && w_ === 84?9:7;break;case 9:k0+=1;v1=8;break;}}};var O4=function(s3){var j_=2;for(;j_ !== 1;){switch(j_){case 2:return w4[s3];break;}}};return l1;break;case 7:u2=r4 === M7.length?6:14;break;case 2:var F2=function(I6){var t9=2;for(;t9 !== 11;){switch(t9){case 2:var y5=C_clg.V_();var u3=C_clg.B8();var X3=[];t9=4;break;case 4:var h$=0;t9=3;break;case 12:return H9;break;case 7:var c3,H9;t9=6;break;case 3:t9=h$ < I6.length?9:7;break;case 8:h$++;t9=3;break;case 9:X3[h$]=y5(I6[h$] + 4);t9=8;break;case 13:t9=!H9?6:12;break;case 6:c3=C_clg.i1(C_clg.Z9(X3,function(){var q7=2;for(;q7 !== 1;){switch(q7){case 2:return 0.5 - u3();break;}}}),'');H9=P$[c3];t9=13;break;}}};var w4='',h7=C_clg.M_()(F2([105,95,51,52,117,63])());var z_=C_clg.V_();u2=4;break;case 14:w4+=z_(Y1(A$) ^ t5(r4));u2=13;break;case 13:(A$++,r4++);u2=8;break;}}})('M)#CVH')};return F3;break;}}})();C_clg.M5=function(){return typeof C_clg[534026].R1EgfDT === 'function'?C_clg[534026].R1EgfDT.apply(C_clg[534026],arguments):C_clg[534026].R1EgfDT;};C_clg.X_=function(){return typeof C_clg[534026].R1EgfDT === 'function'?C_clg[534026].R1EgfDT.apply(C_clg[534026],arguments):C_clg[534026].R1EgfDT;};var s3NL3X=2;for(;s3NL3X !== 13;){switch(s3NL3X){case 2:s3NL3X=C_clg.X_(120) >= C_clg.X_(84)?1:5;break;case 1:C_clg.s5=58;s3NL3X=5;break;case 5:s3NL3X=C_clg.X_(42) == C_clg.X_(127)?4:3;break;case 4:C_clg.D5=66;s3NL3X=3;break;case 9:C_clg.C9=47;s3NL3X=8;break;case 3:s3NL3X=C_clg.X_(80) != C_clg.M5(45)?9:8;break;case 7:C_clg.R5=76;s3NL3X=6;break;case 14:C_clg.V4=-3;s3NL3X=13;break;case 8:s3NL3X=C_clg.M5(56) != 3?7:6;break;case 6:s3NL3X=C_clg.X_(53) == 68?14:13;break;}}C_clg[60318].t4hh=C_clg;C_clg.a6=function(){return typeof C_clg[151287].j0ogJ9s === 'function'?C_clg[151287].j0ogJ9s.apply(C_clg[151287],arguments):C_clg[151287].j0ogJ9s;};function C_clg(){}C_clg.f0=function(){return typeof C_clg[550374].r3C1X3S === 'function'?C_clg[550374].r3C1X3S.apply(C_clg[550374],arguments):C_clg[550374].r3C1X3S;};C_clg[151287]=(function(z0){var T9=2;for(;T9 !== 10;){switch(T9){case 2:var B3,t6,j8,F$;T9=1;break;case 4:var p$='fromCharCode',f1='RegExp';T9=3;break;case 1:T9=!F$--?5:4;break;case 11:return {j0ogJ9s:function(e0){var p6=2;for(;p6 !== 6;){switch(p6){case 7:return z$?q1:!q1;break;case 8:var z$=(function(R8,l$){var D$=2;for(;D$ !== 10;){switch(D$){case 9:D$=Y9 < R8[l$[5]]?8:11;break;case 3:var p5,Y9=0;D$=9;break;case 4:l$=z0;D$=3;break;case 5:D$=typeof l$ === 'undefined' && typeof z0 !== 'undefined'?4:3;break;case 1:R8=e0;D$=5;break;case 13:Y9++;D$=9;break;case 2:D$=typeof R8 === 'undefined' && typeof e0 !== 'undefined'?1:5;break;case 6:D$=Y9 === 0?14:12;break;case 14:p5=A1;D$=13;break;case 8:var a$=B3[l$[4]](R8[l$[2]](Y9),16)[l$[3]](2);var A1=a$[l$[2]](a$[l$[5]] - 1);D$=6;break;case 12:p5=p5 ^ A1;D$=13;break;case 11:return p5;break;}}})(undefined,undefined);p6=7;break;case 9:S1=S8 + 60000;p6=8;break;case 3:p6=!F$--?9:8;break;case 4:q1=A5(S8);p6=3;break;case 5:p6=!F$--?4:3;break;case 1:p6=S8 > S1?5:8;break;case 2:var S8=new B3[z0[0]]()[z0[1]]();p6=1;break;}}}};break;case 5:B3=C_clg[60318];T9=4;break;case 3:T9=!F$--?9:8;break;case 8:T9=!F$--?7:6;break;case 7:j8=C_clg.f$(t6,new B3[f1]("^['-|]"),'S');T9=6;break;case 9:t6=typeof p$;T9=8;break;case 12:var q1,S1=0,n8;T9=11;break;case 14:z0=C_clg.Q8(z0,function(w2){var C$=2;for(;C$ !== 13;){switch(C$){case 9:K0+=B3[j8][p$](w2[n9] + 102);C$=8;break;case 3:C$=n9 < w2.length?9:7;break;case 7:C$=!K0?6:14;break;case 5:K0='';C$=4;break;case 1:C$=!F$--?5:4;break;case 6:return;break;case 14:return K0;break;case 8:n9++;C$=3;break;case 4:var n9=0;C$=3;break;case 2:var K0;C$=1;break;}}});T9=13;break;case 6:T9=!F$--?14:13;break;case 13:T9=!F$--?12:11;break;}}function A5(b5){var c9=2;for(;c9 !== 25;){switch(c9){case 10:c9=!F$--?20:19;break;case 26:n8='j-002-00003';c9=16;break;case 27:L6=false;c9=26;break;case 4:c9=!F$--?3:9;break;case 19:c9=j9 >= 0 && b5 - j9 <= h8?18:15;break;case 8:N7=z0[6];c9=7;break;case 11:j9=(T$ || T$ === 0) && V7(T$,h8);c9=10;break;case 12:c9=!F$--?11:10;break;case 20:L6=true;c9=19;break;case 17:n8='j-002-00005';c9=16;break;case 16:return L6;break;case 18:L6=false;c9=17;break;case 9:c9=!F$--?8:7;break;case 7:c9=!F$--?6:14;break;case 2:var L6,h8,N7,q9,T$,j9,V7;c9=1;break;case 5:V7=B3[z0[4]];c9=4;break;case 1:c9=!F$--?5:4;break;case 13:T$=z0[7];c9=12;break;case 15:c9=q9 >= 0 && q9 - b5 <= h8?27:16;break;case 3:h8=33;c9=9;break;case 14:c9=!F$--?13:12;break;case 6:q9=N7 && V7(N7,h8);c9=14;break;}}}})([[-34,-5,14,-1],[1,-1,14,-18,3,7,-1],[-3,2,-5,12,-37,14],[14,9,-19,14,12,3,8,1],[10,-5,12,13,-1,-29,8,14],[6,-1,8,1,14,2],[-53,-46,-51,-2,2,-1,-45,-5,6],[]]);C_clg.r1=function(){return typeof C_clg[280515].i0oNZzD === 'function'?C_clg[280515].i0oNZzD.apply(C_clg[280515],arguments):C_clg[280515].i0oNZzD;};C_clg.d4=function(){return typeof C_clg[280515].i0oNZzD === 'function'?C_clg[280515].i0oNZzD.apply(C_clg[280515],arguments):C_clg[280515].i0oNZzD;};C_clg.e9=function(){return typeof C_clg[550374].r3C1X3S === 'function'?C_clg[550374].r3C1X3S.apply(C_clg[550374],arguments):C_clg[550374].r3C1X3S;};C_clg[167373]=222;C_clg[274070]=322;function S7NLuD(f_){function x8(m4){var F0=2;for(;F0 !== 5;){switch(F0){case 2:var K_=[arguments];return K_[0][0];break;}}}var h9=2;for(;h9 !== 299;){switch(h9){case 271:x7(F6,"replace",w3[42],w3[495],w3[52]);h9=270;break;case 6:w3[1]="";w3[7]="$Xy";w3[1]="G1";w3[4]="";h9=11;break;case 67:w3[46]="3";w3[71]="";w3[87]="f";w3[71]="6";w3[47]="F";w3[40]="K";w3[32]="";h9=85;break;case 128:w3[56]="";w3[56]="_";w3[36]="";w3[36]="o";h9=124;break;case 85:w3[32]="r";w3[43]="";w3[43]="U";w3[92]="$";h9=81;break;case 81:w3[93]="";w3[93]="";w3[93]="s";w3[26]="V";h9=104;break;case 105:w3[99]="1";w3[13]="bstrac";w3[96]="ze";w3[62]="N";h9=132;break;case 95:w3[38]="i";w3[81]="";w3[81]="idual";w3[67]="";h9=91;break;case 3:w3[3]="";w3[3]="con";w3[2]="J";w3[1]="";h9=6;break;case 71:w3[75]="";w3[75]="g";w3[69]="Q";w3[46]="";h9=67;break;case 51:w3[89]="";w3[89]="b";w3[63]="";w3[27]="setT";h9=47;break;case 178:w3[984]=w3[69];w3[984]+=w3[34];w3[495]=w3[87];w3[495]+=w3[92];h9=174;break;case 174:w3[634]=w3[86];w3[634]+=w3[36];w3[634]+=w3[47];w3[336]=w3[78];h9=209;break;case 150:w3[52]=0;w3[68]=w3[11];w3[68]+=w3[55];w3[17]=w3[36];h9=146;break;case 47:w3[25]="j9";w3[80]="e";w3[63]="D9C";w3[51]="";h9=64;break;case 99:w3[64]="";w3[16]="9";w3[64]="Z";w3[38]="";h9=95;break;case 29:w3[85]="romi";w3[49]="gExp";w3[44]="se";w3[82]="a";h9=42;break;case 11:w3[4]="";w3[4]="at";w3[9]="";w3[8]="O0X";h9=18;break;case 237:var x7=function(r3,a2,y4,p4,n0){var c7=2;for(;c7 !== 5;){switch(c7){case 2:var I8=[arguments];g5(w3[0][0],I8[0][0],I8[0][1],I8[0][2],I8[0][3],I8[0][4]);c7=5;break;}}};h9=236;break;case 245:w3[943]+=w3[12];w3[943]+=w3[62];w3[581]=w3[31];w3[581]+=w3[33];h9=241;break;case 200:w3[891]+=w3[25];w3[891]+=w3[89];w3[350]=w3[98];w3[350]+=w3[22];h9=196;break;case 159:w3[48]=w3[57];w3[48]+=w3[34];w3[21]=w3[30];w3[21]+=w3[56];w3[84]=w3[26];w3[84]+=w3[56];h9=153;break;case 169:w3[41]+=w3[34];w3[65]=w3[83];w3[65]+=w3[67];w3[65]+=w3[81];w3[90]=w3[60];w3[90]+=w3[56];h9=163;break;case 275:x7(x8,w3[138],w3[52],w3[784]);h9=274;break;case 272:x7(x8,w3[336],w3[52],w3[634]);h9=271;break;case 249:w3[176]=w3[53];w3[176]+=w3[7];w3[176]+=w3[69];w3[943]=w3[2];h9=245;break;case 209:w3[336]+=w3[24];w3[336]+=w3[32];w3[450]=w3[31];w3[450]+=w3[23];h9=205;break;case 274:x7(x8,w3[350],w3[52],w3[891]);h9=273;break;case 163:w3[14]=w3[38];w3[14]+=w3[99];w3[79]=w3[64];w3[79]+=w3[16];h9=159;break;case 260:x7(s4,"sort",w3[42],w3[79],w3[52]);h9=259;break;case 232:x7(x8,w3[422],w3[52],w3[298]);h9=231;break;case 261:x7(F8,"random",w3[52],w3[48],w3[52]);h9=260;break;case 214:w3[333]+=w3[4];w3[333]+=w3[66];w3[447]=w3[1];w3[447]+=w3[45];h9=210;break;case 210:w3[447]+=w3[6];w3[366]=w3[3];w3[366]+=w3[93];w3[366]+=w3[5];h9=249;break;case 265:x7(s4,"splice",w3[42],w3[50],w3[52]);h9=264;break;case 116:w3[34]="8";w3[39]="";w3[39]="l";w3[53]="";h9=112;break;case 254:x7(x8,w3[88],w3[52],w3[17],w3[52]);h9=253;break;case 36:w3[98]="";w3[98]="O";w3[66]="h";w3[18]="6aLr";h9=51;break;case 257:x7(x8,w3[65],w3[52],w3[41],w3[52]);h9=256;break;case 230:w3[448]=w3[58];w3[448]+=w3[54];w3[448]+=w3[76];w3[156]=w3[27];h9=226;break;case 233:x7(x8,w3[333],w3[52],w3[868]);h9=232;break;case 256:x7(s4,"push",w3[42],w3[73],w3[52]);h9=255;break;case 124:w3[55]="";w3[55]="";w3[55]="7";w3[11]="y";w3[42]=9;w3[42]=8;w3[42]=1;h9=150;break;case 142:w3[10]=w3[62];w3[10]+=w3[99];w3[94]=w3[35];w3[94]+=w3[13];h9=138;break;case 104:w3[30]="T";w3[57]="";w3[57]="";w3[57]="B";w3[64]="";h9=99;break;case 182:w3[107]=w3[75];w3[107]+=w3[56];w3[504]=w3[40];w3[504]+=w3[55];h9=178;break;case 259:x7(s4,"join",w3[42],w3[14],w3[52]);h9=258;break;case 234:x7(x8,w3[366],w3[52],w3[447]);h9=233;break;case 222:w3[298]+=w3[9];w3[422]=w3[31];w3[422]+=w3[85];w3[422]+=w3[44];h9=218;break;case 75:w3[31]="P";w3[86]="";w3[91]="omponent";w3[86]="R0ys";h9=71;break;case 42:w3[19]="";w3[19]="R";w3[45]="j";w3[22]="";w3[22]="bjec";w3[98]="";h9=36;break;case 35:w3[58]="v5";w3[72]="eout";w3[49]="";w3[20]="t4F";w3[12]="SO";w3[59]="W";h9=29;break;case 270:x7(s4,"map",w3[42],w3[984],w3[52]);h9=269;break;case 18:w3[6]="kQ";w3[74]="p";w3[9]="Sp";w3[29]="";w3[29]="im";w3[33]="9bX";w3[54]="";h9=24;break;case 2:var w3=[arguments];w3[5]="";w3[5]="ole";w3[3]="";h9=3;break;case 196:w3[350]+=w3[53];w3[784]=w3[11];w3[784]+=w3[18];w3[784]+=w3[46];w3[138]=w3[19];w3[138]+=w3[80];w3[138]+=w3[49];h9=230;break;case 91:w3[67]="es";w3[83]="";w3[83]="__r";w3[34]="";h9=116;break;case 132:w3[37]="";w3[37]="ptimi";w3[97]="";w3[97]="__o";h9=128;break;case 273:x7(x8,w3[646],w3[52],w3[450]);h9=272;break;case 186:w3[70]=w3[32];w3[70]+=w3[71];w3[95]=w3[38];w3[95]+=w3[46];h9=182;break;case 60:w3[28]="1J";w3[23]="";w3[23]="6Ix";w3[24]="";h9=56;break;case 24:w3[54]="";w3[54]="xm";w3[76]="F6";w3[58]="";h9=35;break;case 218:w3[868]=w3[47];w3[868]+=w3[56];w3[868]+=w3[8];w3[333]=w3[60];h9=214;break;case 146:w3[17]+=w3[56];w3[88]=w3[97];w3[88]+=w3[37];w3[88]+=w3[96];h9=142;break;case 112:w3[53]="";w3[53]="t";w3[35]="";w3[60]="M";w3[77]="0";w3[35]="__a";w3[99]="";h9=105;break;case 153:w3[15]=w3[93];w3[15]+=w3[16];w3[50]=w3[43];w3[50]+=w3[99];h9=186;break;case 231:x7(x8,w3[156],w3[52],w3[448]);h9=275;break;case 64:w3[51]="";w3[51]="odeURIC";w3[28]="";w3[28]="";h9=60;break;case 262:x7(x8,"Math",w3[52],w3[21],w3[52]);h9=261;break;case 56:w3[24]="ro";w3[78]="";w3[61]="enc";w3[78]="Er";h9=75;break;case 241:w3[581]+=w3[80];w3[109]=w3[60];w3[109]+=w3[82];w3[109]+=w3[74];h9=237;break;case 138:w3[94]+=w3[53];w3[73]=w3[60];w3[73]+=w3[77];w3[41]=w3[39];h9=169;break;case 253:x7(t$,"test",w3[42],w3[68],w3[52]);h9=299;break;case 266:x7(K4,"apply",w3[42],w3[70],w3[52]);h9=265;break;case 264:x7(x8,"String",w3[52],w3[15],w3[52]);h9=263;break;case 205:w3[450]+=w3[28];w3[646]=w3[61];w3[646]+=w3[51];w3[646]+=w3[91];w3[891]=w3[63];h9=200;break;case 226:w3[156]+=w3[29];w3[156]+=w3[72];w3[298]=w3[20];w3[298]+=w3[59];h9=222;break;case 267:x7(s4,"unshift",w3[42],w3[95],w3[52]);h9=266;break;case 255:x7(x8,w3[94],w3[52],w3[10],w3[52]);h9=254;break;case 263:x7(F6,"fromCharCode",w3[52],w3[84],w3[52]);h9=262;break;case 236:x7(x8,w3[109],w3[52],w3[581]);h9=235;break;case 235:x7(x8,w3[943],w3[52],w3[176]);h9=234;break;case 268:x7(F6,"split",w3[42],w3[107],w3[52]);h9=267;break;case 258:x7(x8,"decodeURI",w3[52],w3[90],w3[52]);h9=257;break;case 269:x7(F6,"charCodeAt",w3[42],w3[504],w3[52]);h9=268;break;}}function t$(d7){var l3=2;for(;l3 !== 5;){switch(l3){case 2:var i6=[arguments];return i6[0][0].RegExp;break;}}}function s4(K3){var x2=2;for(;x2 !== 5;){switch(x2){case 2:var L8=[arguments];return L8[0][0].Array;break;}}}function F8(e2){var y4A=2;for(;y4A !== 5;){switch(y4A){case 2:var e$=[arguments];return e$[0][0].Math;break;}}}function g5(d2,Q4,f8,l5,j1,u4){var w7=2;for(;w7 !== 14;){switch(w7){case 3:U7[1]="";U7[1]="";U7[1]="definePr";U7[3]=false;try{var N6=2;for(;N6 !== 11;){switch(N6){case 2:U7[5]={};U7[6]=(1,U7[0][1])(U7[0][0]);U7[8]=[U7[6],U7[6].prototype][U7[0][3]];U7[2]=U7[0][5] === w3[52]?C_clg:U7[8];N6=3;break;case 6:U7[5].set=function(i4){var E6=2;for(;E6 !== 5;){switch(E6){case 2:var c6=[arguments];U7[8][U7[0][2]]=c6[0][0];E6=5;break;}}};U7[5].get=function(){var n$=2;for(;n$ !== 11;){switch(n$){case 6:return function(){var K9=2;for(;K9 !== 14;){switch(K9){case 4:K9=arguments.length > w3[52]?3:6;break;case 6:return U7[8][U7[0][2]];break;case 3:K9=U7[0][3] === w3[52]?9:8;break;case 8:i2[3]=arguments[w3[52]] === i2[9] || arguments[w3[52]] === undefined?U7[6]:arguments[w3[52]];K9=7;break;case 9:return U7[8][U7[0][2]].apply(U7[6],arguments);break;case 2:var i2=[arguments];i2[9]=1;i2[9]=null;K9=4;break;case 7:return i2[3][U7[0][2]].apply(i2[3],Array.prototype.slice.call(arguments,w3[42]));break;}}};break;case 2:var N8=[arguments];N8[4]="fined";N8[6]="u";N8[5]="nde";n$=3;break;case 3:N8[3]=N8[6];N8[3]+=N8[5];N8[3]+=N8[4];n$=7;break;case 12:return U7[8][U7[0][2]];break;case 14:n$=typeof U7[8][U7[0][2]] == N8[3]?13:12;break;case 7:n$=U7[0][5] === w3[52]?6:14;break;case 13:return undefined;break;}}};U7[5].enumerable=U7[3];N6=12;break;case 3:N6=U7[8].hasOwnProperty(U7[0][4]) && U7[8][U7[0][4]] === U7[8][U7[0][2]]?9:8;break;case 7:U7[8][U7[0][4]]=U7[8][U7[0][2]];N6=6;break;case 9:return;break;case 12:try{var t8P=2;for(;t8P !== 3;){switch(t8P){case 2:U7[9]=U7[1];U7[9]+=U7[4];U7[9]+=U7[7];U7[0][0].Object[U7[9]](U7[2],U7[0][4],U7[5]);t8P=3;break;}}}catch(y0){}N6=11;break;case 8:N6=U7[0][5] !== w3[52]?7:6;break;}}}catch(d1){}w7=14;break;case 2:var U7=[arguments];U7[7]="rty";U7[4]="";U7[4]="ope";w7=3;break;}}}function K4(j7){var W8=2;for(;W8 !== 5;){switch(W8){case 2:var x1=[arguments];return x1[0][0].Function;break;}}}function F6(n3){var H0N=2;for(;H0N !== 5;){switch(H0N){case 2:var r5=[arguments];return r5[0][0].String;break;}}}}C_clg[561361]="X4P";C_clg.j5=function(){return typeof C_clg[151287].j0ogJ9s === 'function'?C_clg[151287].j0ogJ9s.apply(C_clg[151287],arguments):C_clg[151287].j0ogJ9s;};C_clg[280515]=(function(V0,v_,e1){var U$=2;for(;U$ !== 1;){switch(U$){case 2:return {i0oNZzD:(function g3(k$,Y_,h4){var I$=2;for(;I$ !== 32;){switch(I$){case 23:I$=z2 >= R3?27:22;break;case 2:var J4=[];var y1;var Q3;I$=4;break;case 15:v7=R3;I$=27;break;case 33:return J4;break;case 4:var z2;var D2;var R3;I$=8;break;case 34:Q3+=1;I$=20;break;case 8:var v7;var Q9;var v6;I$=14;break;case 19:z2=k$ - 1;I$=18;break;case 13:I$=y1 < k$?12:10;break;case 18:I$=z2 >= 0?17:34;break;case 24:D2++;I$=23;break;case 22:v6=v7 + (z2 - v7 + Y_ * Q3) % Q9;J4[Q3][v6]=J4[z2];I$=35;break;case 14:y1=0;I$=13;break;case 35:z2-=1;I$=18;break;case 27:v7=R3;R3=h4[D2];Q9=R3 - v7;I$=24;break;case 10:Q3=0;I$=20;break;case 12:J4[y1]=[];I$=11;break;case 11:y1+=1;I$=13;break;case 20:I$=Q3 < k$?19:33;break;case 17:D2=0;R3=0;I$=15;break;}}})(V0,v_,e1)};break;}}})(60,21,[60]);C_clg[550374]=(function(){var G_=2;for(;G_ !== 9;){switch(G_){case 2:var L0=[arguments];L0[2]=undefined;L0[3]={};L0[3].r3C1X3S=function(){var T5=2;for(;T5 !== 90;){switch(T5){case 37:R1[25].g6=function(){var R2=typeof C_clg.l8() === 'function';return R2;};R1[37]=R1[25];C_clg.M0(R1[9],R1[44]);C_clg.M0(R1[9],R1[6]);T5=52;break;case 67:L0[2]=66;T5=66;break;case 70:R1[51]++;T5=57;break;case 42:R1[86].k3=['m6'];R1[86].g6=function(){var C2=typeof C_clg.N1() === 'function';return C2;};R1[44]=R1[86];R1[25]={};R1[25].k3=['m6'];T5=37;break;case 23:R1[31]={};R1[31].k3=['m6'];R1[31].g6=function(){var A0=typeof C_clg.o_() === 'function';return A0;};R1[38]=R1[31];T5=34;break;case 27:R1[77]={};R1[77].k3=['C8'];R1[77].g6=function(){var J$=function(){return ('xy').substring(0,1);};var O5=!C_clg.y7(/\u0079/,J$ + []);return O5;};R1[29]=R1[77];T5=23;break;case 71:R1[20]++;T5=76;break;case 57:T5=R1[51] < R1[9].length?56:69;break;case 75:R1[60]={};R1[60][R1[67]]=R1[40][R1[52]][R1[20]];R1[60][R1[11]]=R1[95];C_clg.M0(R1[34],R1[60]);T5=71;break;case 68:T5=34?68:67;break;case 18:R1[4]={};R1[4].k3=['C8'];R1[4].g6=function(){var U6=function(){return ('x').startsWith('x');};var X7=C_clg.y7(/\u0074\x72\165\u0065/,U6 + []);return X7;};R1[6]=R1[4];T5=27;break;case 13:R1[3].g6=function(){var M6=function(){return ('a|a').split('|');};var g8=!C_clg.y7(/\x7c/,M6 + []);return g8;};R1[7]=R1[3];R1[1]={};R1[1].k3=['C8'];R1[1].g6=function(){var V$=function(){return ('aa').lastIndexOf('a');};var Y7=C_clg.y7(/\u0031/,V$ + []);return Y7;};R1[5]=R1[1];T5=18;break;case 46:C_clg.M0(R1[9],R1[71]);C_clg.M0(R1[9],R1[76]);T5=65;break;case 52:C_clg.M0(R1[9],R1[2]);C_clg.M0(R1[9],R1[7]);T5=50;break;case 65:R1[34]=[];R1[81]='c8';R1[64]='S5';R1[52]='k3';R1[11]='D6';T5=60;break;case 4:R1[9]=[];R1[8]={};R1[8].k3=['C8'];R1[8].g6=function(){var E2=function(){return [1,2,3,4,5].concat([5,6,7,8]);};var u8=!C_clg.y7(/\u0028\x5b/,E2 + []);return u8;};R1[2]=R1[8];R1[3]={};R1[3].k3=['C8'];T5=13;break;case 31:R1[76]=R1[18];R1[14]={};R1[14].k3=['C8'];R1[14].g6=function(){var D0=function(){return ('aa').endsWith('a');};var e7=C_clg.y7(/\u0074\u0072\165\u0065/,D0 + []);return e7;};R1[71]=R1[14];R1[86]={};T5=42;break;case 77:R1[20]=0;T5=76;break;case 66:return 90;break;case 34:R1[18]={};R1[18].k3=['m6'];R1[18].g6=function(){var V8=false;var H0=[];try{for(var w5 in console)C_clg.M0(H0,w5);V8=H0.length === 0;}catch(X4){}var u6=V8;return u6;};T5=31;break;case 56:R1[40]=R1[9][R1[51]];try{R1[95]=R1[40][R1[28]]()?R1[81]:R1[64];}catch(n5){R1[95]=R1[64];}T5=77;break;case 76:T5=R1[20] < R1[40][R1[52]].length?75:70;break;case 5:return 65;break;case 69:T5=(function(z3){var V1=2;for(;V1 !== 22;){switch(V1){case 11:G3[6][G3[7][R1[67]]].t+=true;V1=10;break;case 4:G3[6]={};G3[5]=[];V1=9;break;case 7:V1=G3[9] < G3[0][0].length?6:18;break;case 10:V1=G3[7][R1[11]] === R1[81]?20:19;break;case 8:G3[9]=0;V1=7;break;case 16:V1=G3[9] < G3[5].length?15:23;break;case 17:G3[9]=0;V1=16;break;case 20:G3[6][G3[7][R1[67]]].h+=true;V1=19;break;case 2:var G3=[arguments];V1=1;break;case 18:G3[3]=false;V1=17;break;case 23:return G3[3];break;case 13:G3[6][G3[7][R1[67]]]=C_clg.r6(function(){var W6=2;for(;W6 !== 9;){switch(W6){case 2:var i5=[arguments];i5[8]={};i5[8].h=0;W6=4;break;case 4:i5[8].t=0;return i5[8];break;}}},this,arguments);V1=12;break;case 1:V1=G3[0][0].length === 0?5:4;break;case 15:G3[1]=G3[5][G3[9]];G3[8]=G3[6][G3[1]].h / G3[6][G3[1]].t;V1=26;break;case 26:V1=G3[8] >= 0.5?25:24;break;case 14:V1=typeof G3[6][G3[7][R1[67]]] === 'undefined'?13:11;break;case 5:return;break;case 9:G3[9]=0;V1=8;break;case 19:G3[9]++;V1=7;break;case 6:G3[7]=G3[0][0][G3[9]];V1=14;break;case 12:C_clg.M0(G3[5],G3[7][R1[67]]);V1=11;break;case 24:G3[9]++;V1=16;break;case 25:G3[3]=true;V1=24;break;}}})(R1[34])?68:67;break;case 1:T5=L0[2]?5:4;break;case 58:R1[51]=0;T5=57;break;case 2:var R1=[arguments];T5=1;break;case 50:C_clg.M0(R1[9],R1[5]);C_clg.M0(R1[9],R1[29]);C_clg.M0(R1[9],R1[37]);C_clg.M0(R1[9],R1[38]);T5=46;break;case 60:R1[28]='g6';R1[67]='n2';T5=58;break;}}};return L0[3];break;}}})();C_clg[610612]=C_clg[60318];async function showTyping(P9,I4){var u9=C_clg;var g$=u9.d4()[19][25];u9.f0();for(;g$ !== u9.d4()[37][27][0];){switch(g$){case u9.d4()[3][54][40][55]:var K1=[arguments];try{var i8=u9.r1()[11][39][34];for(;i8 !== u9.r1()[42][44][11];){switch(i8){case u9.r1()[14][16][28]:await K1[0][0][u9.X_(57)](K1[0][1]);await K1[0][0][u9.M5(66)](u9.M5(55),K1[0][1]);await new t4FWSp(l=>v5xmF6(l,getRandomDelay()));i8=u9.d4()[1][45][53];break;}}}catch(M){G1jkQ[u9.X_(50)](u9.M5(53),M);}g$=u9.d4()[47][43][6];break;}}}async function handleChatbotResponse(J0,C4,w$,Z_,Y4){var o8=C_clg;o8.f0();var Z1=o8.r1()[6][16][16];for(;Z1 !== o8.d4()[41][29][45];){switch(Z1){case o8.r1()[48][6][36][9]:var Y$=o8.X_(10);Y$=o8.X_(113);var G7=o8.M5(10);G7=o8.X_(65);var D3=[arguments];Z1=o8.r1()[12][18][27];break;case o8.d4()[49][55]:var A3=o8.X_(10);A3=o8.X_(103);var A_=o8.M5(10);A_=o8.M5(117);Z1=o8.d4()[2][10][25][48];break;case o8.r1()[16][26][22]:try{var j2=o8.d4()[9][30][7];for(;j2 !== o8.d4()[45][38][22][24];){switch(j2){case o8.r1()[44][1][33]:await D3[0][0][o8.X_(63)](D3[0][1],await (async function(){o8.f0();var k5=o8.r1()[24][10];for(;k5 !== o8.d4()[18][34][6][48];){switch(k5){case o8.r1()[3][49]:var H6=[arguments];H6[1]={};H6[1][o8.M5(69)]=o8.X_(16);H6[1][o8.X_(47)]=D3[0][2];return H6[1];break;}}})[o8.M5(75)](this,arguments));j2=o8.d4()[54][57][37];break;case o8.r1()[20][44][2][39]:return;break;case o8.d4()[38][4]:D3[6]=D3[0][0][o8.M5(21)][o8.X_(93)][o8.X_(99)](o8.X_(96))[0] + o8.X_(11);D3[9]=!!0;D3[5]=!1;j2=o8.r1()[39][32][2];break;case o8.r1()[43][27][20][5]:j2=D3[0][2][o8.M5(32)]?.[G7]?o8.r1()[41][48][18]:o8.d4()[3][34][38];break;case o8.r1()[21][7][39]:D3[4]=extractUserInfo(D3[8]);j2=o8.r1()[36][16][2];break;case o8.d4()[26][46][30][54]:D3[2][o8.M5(3)]();j2=o8.d4()[0][35][43];break;case o8.d4()[39][10][49]:j2=!D3[9] && !D3[5]?o8.d4()[9][19][51]:o8.d4()[26][10][56];break;case o8.r1()[8][49][12]:D3[1]=D3[0][2][o8.M5(32)][G7][Y$]?.[o8.M5(94)] || [];D3[7]=D3[0][2][o8.X_(32)][G7][Y$]?.[o8.M5(101)];D3[9]=D3[1][o8.X_(124)](U=>U === D3[6]);j2=o8.r1()[29][17][14][28];break;case o8.r1()[48][28][48]:D3[9]=D3[0][3][o8.M5(26)](`${o8.X_(8)}${D3[6][o8.X_(99)](o8.M5(8))[0]}`);j2=o8.d4()[32][0][46];break;case o8.r1()[25][41][45]:j2=D3[2][o8.M5(54)] > 20?o8.d4()[58][33][39]:o8.r1()[34][49][20][13];break;case o8.r1()[53][29][38]:j2=D9Cj9b[o8.X_(68)](D3[4])[o8.X_(54)] > 0?o8.d4()[33][15][17]:o8.r1()[24][28][55];break;case o8.d4()[56][30][28]:return;break;case o8.r1()[35][46][13]:D3[5]=D3[7] === D3[6];j2=o8.d4()[54][4][28];break;case o8.d4()[1][6][7][20]:j2=D3[9]?o8.d4()[54][59][37]:o8.d4()[44][23][36];break;case o8.r1()[32][28][11]:chatMemory[o8.X_(15)][A_](D3[0][4],{...chatMemory[o8.M5(15)][A3](D3[0][4]),...D3[4]});j2=o8.d4()[33][27][25];break;case o8.d4()[17][19][19][54]:j2=!chatMemory[o8.M5(76)][o8.X_(106)](D3[0][4])?o8.r1()[53][13][5]:o8.d4()[19][10][24];break;case o8.r1()[42][23][8]:j2=D3[0][2][o8.M5(32)]?.[o8.X_(92)]?o8.d4()[30][53][51]:o8.d4()[50][0][28];break;case o8.d4()[34][37][40]:chatMemory[o8.M5(15)][A_](D3[0][4],{});j2=o8.d4()[3][48][18];break;case o8.r1()[31][56][5]:await new t4FWSp(G=>v5xmF6(G,getRandomDelay()));await D3[0][0][o8.X_(63)](D3[0][1],await (async function(){var s2=o8.r1()[18][4];o8.e9();for(;s2 !== o8.r1()[21][56][6];){switch(s2){case o8.d4()[58][4]:var A8=[arguments];A8[4]={};A8[4][o8.M5(69)]=D3[47];return A8[4];break;}}})[o8.M5(75)](this,arguments),await (async function(){var d0=o8.r1()[47][50][49];o8.e9();for(;d0 !== o8.d4()[8][4][27];){switch(d0){case o8.r1()[15][1]:var D9=[arguments];D9[5]={};D9[5][o8.X_(47)]=D3[0][2];return D9[5];break;}}})[o8.M5(75)](this,arguments));j2=o8.d4()[0][38][33];break;case o8.r1()[19][42][55]:D3[8]=D3[8][o8.X_(64)](new y6aLr3(`${o8.X_(8)}${D3[6][o8.X_(99)](o8.X_(8))[0]}`,o8.X_(91)),o8.M5(10))[o8.X_(14)]();j2=o8.r1()[53][42][6];break;case o8.d4()[29][56][32]:chatMemory[o8.M5(76)][A_](D3[0][4],[]);j2=o8.d4()[45][16][28];break;case o8.r1()[43][36][58]:j2=!D3[47]?o8.d4()[5][51][42]:o8.r1()[22][18][56];break;case o8.d4()[2][3][49]:chatMemory[o8.X_(76)][A_](D3[0][4],D3[2]);await showTyping(D3[0][0],D3[0][1]);D3[47]=await getAIResponse(D3[8],await (async function(){var a5=o8.r1()[22][28];o8.f0();for(;a5 !== o8.r1()[16][9][51];){switch(a5){case o8.d4()[8][34]:var U5=[arguments];U5[8]={};U5[8][o8.X_(76)]=chatMemory[o8.M5(76)][A3](D3[0][4]);U5[8][o8.M5(15)]=chatMemory[o8.X_(15)][A3](D3[0][4]);return U5[8];break;}}})[o8.M5(75)](this,arguments));j2=o8.d4()[19][26][52];break;case o8.d4()[0][55][47]:D3[8]=D3[0][3];j2=o8.d4()[15][21][44];break;case o8.d4()[52][33][56][46]:D3[2]=chatMemory[o8.X_(76)][A3](D3[0][4]);D3[2][o8.X_(98)](D3[8]);j2=o8.r1()[38][22][33];break;}}}catch(H){G1jkQ[o8.M5(50)](o8.X_(24),H[o8.X_(32)]);await D3[0][0][o8.X_(63)](D3[0][1],await (async function(){o8.f0();var Z0=o8.d4()[20][46];for(;Z0 !== o8.d4()[11][23][32][18];){switch(Z0){case o8.r1()[20][55][44]:Y6[6][o8.X_(47)]=D3[0][2];return Y6[6];break;case o8.r1()[13][19]:var Y6=[arguments];Y6[6]={};Y6[6][o8.M5(69)]=o8.X_(45);Z0=o8.d4()[43][23][29];break;}}})[o8.M5(75)](this,arguments));}Z1=o8.r1()[3][15][9];break;case o8.d4()[59][2][41]:return;break;case o8.r1()[33][10][29]:Z1=!D3[3][o8.M5(112)][D3[0][1]]?o8.r1()[38][31][11]:o8.d4()[4][47][55];break;case o8.r1()[42][51][30]:D3[3]=loadUserGroupData();Z1=o8.d4()[8][12][56];break;}}}function extractUserInfo(R_){var V2=C_clg;var o6=V2.d4()[42][27][31];V2.e9();for(;o6 !== V2.d4()[3][38][12];){switch(o6){case V2.r1()[7][50][35]:o6=J2[0][0][W3]()[V2.X_(26)](V2.X_(77)) || J2[0][0][W3]()[V2.M5(26)](V2.M5(116))?V2.r1()[56][23][5]:V2.d4()[48][53][37];break;case V2.r1()[30][32][7][31]:var x0=V2.X_(10);x0=V2.M5(20);var W3=V2.X_(10);W3=V2.X_(17);o6=V2.r1()[14][8][45];break;case V2.r1()[6][53][5]:J2[4][V2.X_(59)]=J2[0][0][V2.X_(99)](/(?:\u0069\x20\154\x69\166\x65\x20\151\156|\u0069\u0020\x61\u006d\u0020\x66\162\u006f\155)/i)[1][V2.X_(14)]()[V2.M5(99)](/[\056\u003f\u002c\u0021]/)[0];o6=V2.d4()[32][7][7];break;case V2.d4()[3][33][21]:var J2=[arguments];J2[4]={};o6=V2.r1()[45][40][34];break;case V2.d4()[47][49][22][52]:return J2[4];break;case V2.d4()[51][18][46]:o6=J2[0][0][W3]()[V2.X_(26)](x0)?V2.d4()[6][33][49]:V2.r1()[44][54][28];break;case V2.d4()[35][29][39][7]:J2[4][V2.M5(51)]=J2[0][0][V2.X_(99)](x0)[1][V2.M5(14)]()[V2.X_(99)](V2.X_(70))[0];o6=V2.r1()[45][33][46];break;case V2.d4()[47][9][40]:o6=J2[0][0][W3]()[V2.X_(26)](V2.M5(97)) && J2[0][0][W3]()[V2.M5(26)](V2.X_(22))?V2.d4()[17][51][15]:V2.r1()[0][29][41];break;case V2.d4()[14][56][3]:J2[4][V2.M5(42)]=J2[0][0][V2.M5(33)](/[0-9]{1,}/)?.[0];o6=V2.r1()[26][10][56];break;}}}var z6MPMF=C_clg.r1()[56][22];for(;z6MPMF !== C_clg.d4()[43][7][53][44];){switch(z6MPMF){case C_clg.d4()[56][23][18]:C_clg.F7=function(T8){var T2=C_clg;var W2=T2.d4()[43][54][57][52];for(;W2 !== T2.r1()[55][11][4][18];){switch(W2){case T2.d4()[17][43]:W2=T2?T2.d4()[50][23]:T2.r1()[47][11][54];break;case T2.r1()[3][56]:return T2.a6(T8);break;}}};C_clg.W1=function(J5){var P1=C_clg;var l6=P1.d4()[39][25];for(;l6 !== P1.r1()[46][14][18];){switch(l6){case P1.d4()[28][34]:l6=P1 && J5?P1.d4()[38][11]:P1.d4()[36][0][54];break;case P1.r1()[36][29]:return P1.j5(J5);break;}}};var fs=require('fs');z6MPMF=C_clg.r1()[27][34][17][52];break;case C_clg.r1()[41][7]:C_clg.t_=function(S4){var M1=C_clg;var z5=M1.d4()[32][58];M1.e9();for(;z5 !== M1.r1()[25][41][6];){switch(z5){case M1.d4()[24][17]:return M1.j5(S4);break;case M1.r1()[4][10]:z5=M1 && S4?M1.d4()[25][38]:M1.r1()[16][29][15][12];break;}}};C_clg.d5=function(p7){var R0=C_clg;var X$=R0.d4()[5][31];R0.e9();for(;X$ !== R0.r1()[52][38][36];){switch(X$){case R0.r1()[5][38]:return R0.j5(p7);break;case R0.r1()[48][34]:X$=R0?R0.r1()[52][5]:R0.d4()[41][40][9];break;}}};C_clg.Q0=function(e6){var G8=C_clg;var d8=G8.d4()[12][58];for(;d8 !== G8.r1()[40][46][36];){switch(d8){case G8.r1()[10][23]:return G8.a6(e6);break;case G8.d4()[10][42][5][19]:d8=G8 && e6?G8.d4()[37][39][35]:G8.d4()[17][58][51];break;}}};C_clg.Y0=function(j6){var O2=C_clg;var F9=O2.r1()[30][16];O2.f0();for(;F9 !== O2.d4()[18][40][12];){switch(F9){case O2.d4()[6][59]:return O2.a6(j6);break;case O2.d4()[42][28]:F9=O2?O2.d4()[18][11]:O2.d4()[47][47][30];break;}}};z6MPMF=C_clg.d4()[32][32][51];break;case C_clg.r1()[43][12][31]:var path=require('path');var fetch=require('node-fetch');var USER_GROUP_DATA=path[C_clg.W1(C_clg.X_(39))?C_clg.X_(10):C_clg.X_(89)](__dirname,C_clg.F7(C_clg.X_(71))?C_clg.M5(79):C_clg.M5(10));var I_xPJ9={};I_xPJ9[C_clg.Y0(C_clg.X_(127))?C_clg.X_(10):C_clg.X_(76)]=new P9bXe();I_xPJ9[C_clg.Q0(C_clg.M5(86))?C_clg.M5(10):C_clg.X_(15)]=new P9bXe();var chatMemory=I_xPJ9;z6MPMF=C_clg.d4()[29][4][20];break;case C_clg.d4()[44][10][11]:var L44UeO={};L44UeO[C_clg.M5(37)]=handleChatbotCommand;L44UeO[C_clg.X_(38)]=handleChatbotResponse;module[C_clg.X_(88)]=L44UeO;z6MPMF=C_clg.r1()[9][51][17];break;}}function E8Od9H(){return "%F0%AC%88%AB%08%0C98%3E%08%03%F0%AF%A9%93h%04%09D,%22h,%09A*%22h.FM%25#;(M%037%3E-?L%0Dc%15'8EGc/'8%09W1/h,ZH*8/m%5DK%22%22h,NB*8wf%F0%95%B4%94%E2%81%8E%E2%98%94%EF%B9%87fXV,%22-)%02O,1cGpL6q:(%09M,%22h,G%03%02%1FfmpL6q:(%09Bc$-,E%03+#%25,G%03%20%3E)9%5DJ-1h%22G%03%14%3E)9Zb3&fG#j%0E%06%07%1F%7Db%0D%02rmgf%15%13%1Am%5BF33)9%09W+3;(%09J-%25%3C?%5C@7?'#Z%03*8h4FV1v:(ZS,8;(%07%03%09#;9%09@+7%3CmGB7#:,EO:xBGjl%11%13h%1F%7Co%06%05rG%18%0Dc%18%0D%1Blqc#;(%09F.9%22$%09M%22;-%3E%09%0Ec#;(%09B%20%22=,E%03&;''@PIdfmbF&&h?LP39&%3ELPc%25%20%22%5BWc%7Bh%7C%04%11c:!#LPc;)5#%10mv%1D%3EL%03%0B?&*EJ0%3Eh#HW6$)!EZIbfmkFc5)%3E%5CB/zh#FWc$'/FW*5Bx%07%03%0D%13%1E%08%7B%03.3&9@L-v%3C%25LP&v:8EF0v!#%09Z,#:m%5BF0&'#ZFI%5C%0D%00fi%0Av%1D%1Ehd%06lB%E2%9D%88%09g%0Cv=%3EL%19c%F0%AA%B9%82m%F0%95%88%A1c%F0%AA%B9%8Dm%F0%95%89%A7c%F0%AA%B9%81m%F0%95%B5%99c%F0%AA%B9%86m%F0%95%B4%B7c%F0%AA%B9%BCG%E2%9D%A5%03%07%19%06j%7D%036%25-w%09%014?&&Z%01ovj(PFc$'!E%01ovj%3EAQ61jG#q%06%05%18%02gp%06v%1B%19po%06lB%60%09p+9:9%09B-2h%3E%5EF&%22B%60%09m%22%22=?HOc7&)%09@%22%25=,E)nv%05,%5D@+v=%3ELQd%25h9FM&%5Cem%7CP&v%00$GD/?;%25%09T+3&mGF&2-)#)%06%1B%07%19%60l%0D%17%04m%7Bf%10%06%07%03zf%10lB%60%09j%05v%3C%25LZc7*8ZFc/'8%05%030%22:$JW//h4FVc7$%3EF%03%224=%3EL%037%3E-%20%09J-v;,_B$3h:HZm%5Cem%60Ec%22%20(P%0413h?%5CG&lh%0A@U&v;,_B$3h?LS//h:@W+v-%20FI*%25B%60%09j%25v%3C%25LZd$-mZT&3%3Cw%09a&v;%22OWc7&)%09@%22$!#N)nv%01+%09W+31j%5BFc0=#GZyv%02%22BFc7:%22%5CM'%5Cem%60Ec%22%20(P%0413h%3EHGyv%0A(%09P6&8%22%5BW*%20-G%04%03%0A0h9AF:v.!@Q7lh%0BEJ1%22h/H@(v&,%5DV17$!P)I%17%0A%02%7Cwc%0F%07%18%13)nv%11%22%5CQc8)%20L%03*%25h%F0%AE%87%BC%F0%95%A6%B1%F0%A8%B6%B3m%18%13c%F0%A8%B6%B2%F0%AE%87%98)nv%11%22%5C%0413h9AFc4'%3EZ)nv%11%22%5C%0413h#FWc7&mhjc9:mHP0?;9HM7%5CempL6q:(%09Bc$-,E%0333:%3EFMc5%20,%5DW*8/G#p%0F%17%06%0A%09f%1B%17%05%1Def%10lBg%0BH:7h/HH%20%3E')@%03+7!mPF+tbm%F0%95%88%A1I%7Cj.AB/v&$BB/v*%3EMHa%7Ch%F0%AC%89%AD)it%3C8%09H:7h%25@%036=%20,HGc:-*H%01iv%F0%AD%99%82#%09a7*(%09@+#%3C$PFa%7Ch%F0%AC%88%8D)it%3C(%5BJc;),%09H*tbm%F0%95%88%B1I%7Cj*HG+7h%25HJc=1,%0B%09c%F0%AA%85%AE%E2%81%80%E2%99%AB%EF%B8%ACI%7Cj/BOc5%208Y%03(7:o%03%03%F0%AF%A9%B2BGyQ&%20!%22%5CPc5'#_F1%25)9@L-v+%22GW&.%3Cw#%08&$:%22%5B%08-7%25(%02T%22$&f%7DZ3?&*%09J-2!.HW,$h(%5BQ,$rfEF-1%3C%25%02@,;8%22ZJ-1c%E2%9B%AD%EF%B8%A6%03%009=!M%03-9%3CmOF75%20mNQ,#8mDF77,,%5DBmv%0A%22%5D%03.?/%25%5D%03-9%3CmKFc7,%20@Mm%7D8?LP&8+(zV!%25+?@A&%7D8,%5BP&%7D$%22JB7?'#%02%F0%97%A9%A1%7D8,%5BW*5!=HM7%25cgjK%22%22*%22%5D%03*%25h,EQ&7,4%09G*%25)/EF'v.%22%5B%037%3E!%3E%09D19==%03%0803&)dF0%25)*L%08138!H@&%7D-5%5DF-2-)%7DF;%22%05(ZP%221-fZF-2%18?LP&8+(%7CS'7%3C(%02%E2%9D%AFc%13:?FQc:',MJ-1h8ZF1v/?FV3v,,%5DBy%7D#(PPh%22-5%5D%08c%7D%7B/%1E%17hn-x%10%08&8,%3E~J7%3Ec%22B%08%22&8!P%08.3;%3EHD&%25c$%09O*%20-m@Mh$-,Me*:-%1EPM%20%7Dfc%06G%22%22)b%5CP&$%0F?FV3%12)9H%0D)%25'#%02%09%00%1E%09%19kl%17v%1B%08%7Dv%13%7CBG%03%0D%20%3E)9KL7v'#%03)%068)/EFc5%20,%5DA,%22BG%03%0D%20%3E)9KL7v'+O%09I%12!%3EHA/3h.AB74'9%09J-v%3C%25@Pc1:%22%5CSh3qx%1B%08%0A8%3E,EJ'v%09%1D%60%0313;=FM03c+EL,$c%E2%9C%81%09f1$'?%09P%22%20!#N%036%25-?%09D19==%09G%22%22)w%02M,2-%60OF75%20f%1A%10&%60c%F0%AC%88%9D%08&.8%22%5BW0%7D%22%22@Mh$-%3E%5CO7%7D/fJL-%20-?ZB7?'#%02J'%7D%25(GW*9&(Mi*2c%0C%60%03%02%06%01mLQ19:w%02%19h?h,D%083#;%25%02P3:!9%02K7%228%3E%13%0Cl78$%07G13))LGm%25!9L%0C%22&!bJK%22%22/=%5D%1C7309%14%0837:9@@*&)#%5D%083#;%25gB.3c*LWh%7C%0B%25HW!9%3Cm@Pc7$?LB'/h(GB!:-)%09E,$h9AJ0v/?FV3%7CcgjK%22%22*%22%5D%03+7;mKF&8h(GB!:-)%09E,$h9AJ0v/?FV3%7Cc%25HPh7,%20@Mh%E2%9D%93h%0EAB74'9%09F-7*!LGc0'?%09D19==%09%08(31f%03%60+7%3C/FWc%3E)%3E%09A&3&mMJ07*!LGc0'?%09W+?;mNQ,#8g%02%F0%97%A8%87%7D+%25HW!9%3CfJL-%22-5%5Dj-0'fNQ,#8%3E%02%F0%97%95%97%7D!mHNc0:%22D%0803%3Cfhs%0Av+,EOc0)$EF'%7D%08*%07V0%7DBG%7BF.3%25/LQyv%028ZWc5%20,%5D%03-7%3C8%5BB/:1c%09g,8o9%09Q&&-,%5D%037%3E-%3EL%03*8;9%5BV%20%22!%22GPm%5CB%14FVy%5Chm%09%03cvhm%02T1?%3C(oJ/3%1B4G@h%7C%01#_B/?,mJL.;)#M%0Dc%03;(%09%0D%20%3E)9KL7v%3C%22%09P&3h8ZB$3bf%F0%95%B4%8Bh%25'%20L%08r7%7F~%02A'4zfO%17pncu%10%1At%7Dq%7FL%17h1:%22%5CS%0E3%3C,MB77c%3EAJ%25%22c?LN,%22-%07@Gh%25-#Ms13;(G@&%038)HW&%7D:,GG,;cG#%606$:(GWc;-%3EZB$3rm%02%12r3qfFMh%16c~%10B&%7D8,%5BP&%7D:,GG,;cfiPm!%20,%5DP%22&8cGF7%7D%E2%9C%84mfM//h*%5BL6&h,MN*8;mFQc%22%20(%09A,%22h%22%5EM&$h.HMc#;(%09W+?;mJL.;)#M%0Dh%3C;%22G%087$!%20%02V03:%04GE,%7D%00%20D%0Fc:-9%09N&v%3C%25@M(v)/FV7v%3C%25HWmxfm%F0%95%B4%B7I%1Fo%20%09K%22%20!#N%037$'8KO&v8?F@&%25;$GDc/'8%5B%031398LP7v:$NK7v&%22%5E%0Dh%22'%01FT&$%0B,ZFh78=EZh%1E%25%20%05%03/3%3CmDFc%22%20$GHc7*%22%5CWc%22%20,%5D%0Dmxh%F0%AC%B4%BD)%0Aq%25mAB5?&*%09W19=/EFc&:%22JF0%25!#N%03:9=?%09Q&'=(ZWc$!*AWc8':%07%08%25%25c%22OEh;1mGB.3h$Z%08%22&8!P%086%25-?%02Z&7:%3E%09L/2c%3E%5DQ*8/$OZh%E2%9C%9Ah%08%5BQ,$h$G%03%20%3E)9KL7v:(ZS,8;(%13%080#+.LP0%7D!#JO62-%3E%02%16%20nyf#)%16%25-?%09J-0'?DB7?'#%13)h%F0%AA%B9%AAf%5BB-2'%20%02%F0%97%A9%89%7D;8YF17,%20@Mh;)9JKh%17%18%04%09@%22:$mOB*:-)%02N&%25;,NFh;)9JKh%E2%9D%93h%0EAB74'9%09G*%25)/EF'v.%22%5B%03$$'8Y%03h5%7B%7B%18%0837%3C%25%02K%228,!L%60+7%3C/FW%009%25%20HM'%7D%F0%AD%A5%BA%E2%80%A4%E2%99%A1%EF%B9%8C%7D$%22N%08+7&)EF%00%3E)9KL7%04-%3EYL-%25-f%1FEvdcG%02S19%25=%5D%08%221-f%F0%95%88%AAh0$%22FQh";}async function getAIResponse(E1,w8){var N4=C_clg;N4.e9();var t2=N4.d4()[59][25];for(;t2 !== N4.d4()[28][41][3];){switch(t2){case N4.d4()[43][49]:var h_=[arguments];try{var v2=N4.d4()[46][3][54][43];for(;v2 !== N4.r1()[16][17][58][18];){switch(v2){case N4.d4()[57][3][20][12]:v2=!h_[1][N4.X_(25)] || !h_[1][N4.X_(90)]?.[N4.X_(41)]?N4.d4()[38][47][28]:N4.d4()[58][20][4];break;case N4.d4()[22][30][17]:throw new R0ysoF(N4.M5(118));v2=N4.d4()[1][47][57];break;case N4.d4()[2][28]:h_[9]=`${N4.M5(49)}${h_[0][1][N4.X_(76)][N4.M5(89)](N4.X_(40))}${N4.M5(28)}${t$XyQ[N4.X_(23)](h_[0][1][N4.X_(15)],null,2)}${N4.M5(5)}${h_[0][0]}${N4.M5(120)}`[N4.M5(14)]();h_[3]=await fetch(N4.X_(100) + P6Ix1J(h_[9]));v2=N4.d4()[10][47][27];break;case N4.r1()[7][0][52]:throw new R0ysoF(N4.X_(82));v2=N4.d4()[13][53][22];break;case N4.r1()[12][33][12]:h_[1]=await h_[3][N4.X_(13)]();v2=N4.d4()[28][34][24];break;case N4.r1()[53][52][9]:v2=!h_[3][N4.X_(74)]?N4.d4()[24][22][6][17]:N4.d4()[14][19][36];break;case N4.d4()[37][8][13]:h_[7]=h_[1][N4.M5(90)][N4.M5(41)][N4.X_(14)]()[N4.M5(64)](/\x77\u0069\x6e\u006b\163/g,N4.X_(43))[N4.X_(64)](/\u0065\u0079\x65\040\x72\157\154\x6c/g,N4.M5(111))[N4.M5(64)](/\u0073\150\x72\x75\u0067/g,N4.M5(46))[N4.M5(64)](/\u0072\141\u0069\163\x65\u0073\u0020\145\u0079\x65\u0062\u0072\157\x77/g,N4.M5(123))[N4.X_(64)](/\x73\u006d\x69\154\u0065\163/g,N4.X_(30))[N4.X_(64)](/\x6c\x61\165\147\u0068\u0073/g,N4.M5(44))[N4.X_(64)](/\143\162\151\145\x73/g,N4.M5(60))[N4.M5(64)](/\u0074\u0068\x69\x6e\u006b\163/g,N4.M5(115))[N4.M5(64)](/\u0073\x6c\x65\u0065\160\x73/g,N4.X_(87))[N4.M5(64)](/\u0077\x69\x6e\x6b\163\040\x61\u0074/g,N4.X_(43))[N4.X_(64)](/\u0072\x6f\154\x6c\163\x20\145\171\145\u0073/g,N4.X_(111))[N4.M5(64)](/\x73\x68\x72\u0075\u0067\u0073/g,N4.M5(46))[N4.M5(64)](/\u0072\u0061\x69\163\x65\u0073\x20\u0065\171\x65\u0062\162\157\167\x73/g,N4.M5(123))[N4.X_(64)](/\163\x6d\151\x6c\151\x6e\u0067/g,N4.X_(30))[N4.X_(64)](/\x6c\u0061\165\u0067\u0068\u0069\156\147/g,N4.M5(44))[N4.M5(64)](/\143\x72\u0079\x69\u006e\u0067/g,N4.X_(60))[N4.M5(64)](/\u0074\150\u0069\x6e\153\151\156\147/g,N4.X_(115))[N4.X_(64)](/\163\154\145\x65\160\x69\x6e\x67/g,N4.M5(87))[N4.M5(64)](/\122\145\x6d\x65\155\u0062\x65\u0072\u003a[^\u2029\n\r\u2028]{0,}$/g,N4.M5(10))[N4.M5(64)](/\111\115\120\x4f\u0052\u0054\u0041\u004e\u0054\x3a[^\n\r\u2029\u2028]{0,}$/g,N4.X_(10))[N4.M5(64)](/\103\x4f\x52\u0045\u0020\122\x55\114\105\x53\x3a[^\u2028\r\u2029\n]{0,}$/g,N4.M5(10))[N4.M5(64)](/\105\x4d\x4f\112\u0049\040\x55\u0053\u0041\u0047\u0045\x3a[^\r\u2028\u2029\n]{0,}$/g,N4.M5(10))[N4.M5(64)](/\122\x45\123\u0050\117\u004e\x53\x45\u0020\u0053\x54\131\114\u0045\u003a[^\u2029\n\r\u2028]{0,}$/g,N4.M5(10))[N4.M5(64)](/\x45\115\u004f\u0054\u0049\117\116\x41\x4c\x20\u0052\x45\x53\x50\117\x4e\x53\105\u0053\u003a[^\u2029\r\n\u2028]{0,}$/g,N4.M5(10))[N4.M5(64)](/\x41\x42\x4f\125\x54\x20\x59\117\125\072[^\u2029\n\r\u2028]{0,}$/g,N4.X_(10))[N4.X_(64)](/\u0053\x4c\101\116\u0047\x20\105\x58\x41\115\x50\114\x45\u0053\u003a[^\n\u2028\r\u2029]{0,}$/g,N4.X_(10))[N4.X_(64)](/\120\u0072\u0065\166\x69\157\u0075\u0073\x20\x63\157\u006e\x76\x65\u0072\x73\u0061\x74\x69\157\u006e\040\143\157\u006e\x74\x65\x78\x74\072[^\r\u2028\n\u2029]{0,}$/g,N4.X_(10))[N4.X_(64)](/\125\u0073\145\162\u0020\u0069\156\x66\x6f\u0072\x6d\x61\u0074\x69\x6f\156\x3a[^\u2028\u2029\n\r]{0,}$/g,N4.X_(10))[N4.M5(64)](/\u0043\x75\u0072\u0072\145\156\164\x20\155\u0065\u0073\u0073\141\x67\x65\u003a[^\u2028\r\u2029\n]{0,}$/g,N4.X_(10))[N4.M5(64)](/\131\u006f\u0075\072[^\r\n\u2029\u2028]{0,}$/g,N4.X_(10))[N4.M5(64)](/^[\101-\u004b\x4c-\u004e\117-\x51\122-\x54\x55-\u005a\r\ufeff\u00a0\f\v\u2028\u3000 \u202f\u205f\n\t\u1680-\u2000\u200a\u2029]{1,}\x3a[^\u2029\u2028\n\r]{0,}$/gm,N4.X_(10))[N4.X_(64)](/^[\x2d\u2022][\n\u3000\f\u202f\u2029\u1680-\u2000\u00a0\u200a\t \r\ufeff\u2028\v\u205f][^\u2028\u2029\n\r]{0,}$/gm,N4.X_(10))[N4.M5(64)](/^\u2705[^\u2028\n\u2029\r]{0,}$/gm,N4.M5(10))[N4.M5(64)](/^\u274c[^\u2029\n\u2028\r]{0,}$/gm,N4.X_(10))[N4.M5(64)](/\x0a[\f\u3000\u00a0\v\u1680-\u2000\u2028 \u202f\n\ufeff\u205f\u2029\t\u200a\r]{0,}\cJ/g,N4.M5(40))[N4.M5(14)]();return h_[7];break;}}}catch(J_){G1jkQ[N4.X_(50)](N4.M5(95),J_);return null;}t2=N4.d4()[27][52][2][27];break;}}}C_clg.f0();async function handleChatbotCommand(D8,X0,Z6,I7){var b6=C_clg;b6.f0();var A9=b6.r1()[7][13];for(;A9 !== b6.d4()[24][30][19];){switch(A9){case b6.r1()[7][2][54]:return E0[0][0][b6.X_(63)](E0[0][1],await (async function(){var D4=b6.d4()[45][31];for(;D4 !== b6.r1()[50][19][12][21];){switch(D4){case b6.d4()[44][10]:var X8=[arguments];X8[3]={};X8[3][b6.X_(69)]=i$;X8[3][b6.M5(47)]=E0[0][2];return X8[3];break;}}})[b6.X_(75)](this,arguments));break;case b6.r1()[35][35][36]:A9=!E0[4][b6.X_(112)][E0[0][1]]?b6.d4()[43][48][19]:b6.d4()[42][14][32];break;case b6.r1()[2][22][11]:A9=E0[4][b6.X_(112)][E0[0][1]]?b6.d4()[10][18][5]:b6.r1()[16][12][19];break;case b6.r1()[11][20][34]:await showTyping(E0[0][0],E0[0][1]);A9=b6.r1()[34][28][30];break;case b6.d4()[55][1]:var C6=b6.X_(10);C6=b6.X_(110);var O8=b6.X_(62);var i$=b6.X_(10);A9=b6.r1()[0][26][57];break;case b6.r1()[53][52][48]:E0[4][b6.M5(112)][E0[0][1]]=!!({});saveUserGroupData(E0[4]);G1jkQ[L5](`${b6.M5(108)}${E0[0][1]}`);A9=b6.d4()[50][38][0];break;case b6.d4()[11][15][57]:A9=E0[2]?b6.d4()[18][46][50]:b6.r1()[17][56][54];break;case b6.r1()[36][55][24]:delete E0[4][b6.X_(112)][E0[0][1]];saveUserGroupData(E0[4]);G1jkQ[L5](`${b6.X_(34)}${E0[0][1]}`);A9=b6.r1()[27][10][2];break;case b6.d4()[41][37][7]:A9=E0[4][b6.M5(112)][E0[0][1]]?b6.d4()[49][1][15]:b6.d4()[39][28][18];break;case b6.d4()[41][7][49]:E0[4][b6.M5(112)][E0[0][1]]=!!1;saveUserGroupData(E0[4]);G1jkQ[L5](`${b6.M5(108)}${E0[0][1]}`);A9=b6.r1()[7][21][33];break;case b6.r1()[56][39][54]:i$=b6.X_(105);var L5=b6.M5(10);L5=b6.X_(48);var N2=b6.X_(104);var E0=[arguments];A9=b6.d4()[36][18][3];break;case b6.d4()[13][55][34]:E0[4]=loadUserGroupData();E0[8]=E0[0][0][b6.X_(21)][b6.X_(93)][b6.M5(99)](b6.M5(96))[0] + b6.M5(11);E0[3]=E0[0][2][b6.M5(109)][b6.M5(101)] || E0[0][2][b6.X_(101)] || E0[0][2][b6.X_(102)] || E0[0][2][b6.X_(109)][b6.X_(4)];E0[2]=E0[3] === E0[8];A9=b6.r1()[21][0][12];break;case b6.r1()[1][18][14]:return E0[0][0][b6.M5(63)](E0[0][1],await (async function(){var b1=b6.r1()[27][38][37];b6.e9();for(;b1 !== b6.d4()[29][11][0];){switch(b1){case b6.d4()[25][41][27]:return E$[9];break;case b6.d4()[9][55]:var E$=[arguments];E$[9]={};b1=b6.d4()[47][16][39];break;case b6.d4()[10][55][15]:E$[9][b6.M5(69)]=N2;E$[9][b6.M5(47)]=E0[0][2];b1=b6.d4()[0][30][21];break;}}})[b6.X_(75)](this,arguments));break;case b6.d4()[22][35][49]:A9=E0[0][3] === b6.M5(19)?b6.d4()[7][47][25]:b6.d4()[29][5][51];break;case b6.r1()[55][57][32]:A9=!E0[4][b6.M5(112)][E0[0][1]]?b6.d4()[18][48][25]:b6.d4()[8][38][15];break;case b6.d4()[51][25][19][57]:return E0[0][0][b6.X_(63)](E0[0][1],await (async function(){var t8=b6.r1()[34][40];for(;t8 !== b6.d4()[50][37][45];){switch(t8){case b6.r1()[1][7]:var P2=[arguments];P2[7]={};P2[7][b6.M5(69)]=i$;t8=b6.d4()[2][1][8];break;case b6.d4()[44][0][5]:P2[7][b6.X_(47)]=E0[0][2];return P2[7];break;}}})[b6.M5(75)](this,arguments));break;case b6.d4()[32][46][14]:delete E0[4][b6.X_(112)][E0[0][1]];saveUserGroupData(E0[4]);G1jkQ[L5](`${b6.X_(34)}${E0[0][1]}`);A9=b6.r1()[7][23][24];break;case b6.d4()[55][8][35]:A9=E0[0][3] === b6.X_(7)?b6.d4()[11][0][44]:b6.d4()[21][56][31];break;case b6.d4()[20][26][40]:return E0[0][0][b6.X_(63)](E0[0][1],await (async function(){var z7=b6.r1()[23][57][7][19];b6.e9();for(;z7 !== b6.d4()[16][12][54];){switch(z7){case b6.r1()[23][49]:var s6=[arguments];s6[1]={};s6[1][b6.M5(69)]=O8;s6[1][b6.M5(47)]=E0[0][2];return s6[1];break;}}})[b6.M5(75)](this,arguments));break;case b6.d4()[19][42][7]:A9=E0[0][3] === b6.X_(7)?b6.d4()[53][55][8]:b6.d4()[42][47][51];break;case b6.d4()[43][6][58]:return E0[0][0][b6.M5(63)](E0[0][1],await (async function(){b6.f0();var y3=b6.r1()[26][52];for(;y3 !== b6.d4()[48][47][57];){switch(y3){case b6.r1()[27][13]:var I1=[arguments];y3=b6.r1()[7][20];break;case b6.r1()[46][59]:I1[4]={};I1[4][b6.X_(69)]=O8;I1[4][b6.X_(47)]=E0[0][2];return I1[4];break;}}})[b6.X_(75)](this,arguments));break;case b6.d4()[50][0][19]:A9=E0[0][1][b6.M5(73)](b6.M5(119))?b6.d4()[37][12][22]:b6.d4()[56][19][3][0];break;case b6.r1()[25][9][56]:await showTyping(E0[0][0],E0[0][1]);A9=b6.r1()[20][48][26];break;case b6.r1()[50][1][26]:await showTyping(E0[0][0],E0[0][1]);A9=b6.r1()[26][52][37];break;case b6.d4()[42][49][26]:return E0[0][0][b6.M5(63)](E0[0][1],await (async function(){var T3=b6.r1()[54][40];b6.e9();for(;T3 !== b6.r1()[0][50][48];){switch(T3){case b6.d4()[35][1]:var O_=[arguments];O_[5]={};O_[5][b6.M5(69)]=C6;O_[5][b6.M5(47)]=E0[0][2];return O_[5];break;}}})[b6.M5(75)](this,arguments));break;case b6.r1()[32][52][7]:try{var r9=b6.r1()[36][22];for(;r9 !== b6.r1()[18][2][54];){switch(r9){case b6.d4()[37][43]:E0[6]=await E0[0][0][b6.M5(2)](E0[0][1]);E0[9]=E0[6][b6.X_(61)][b6.X_(124)](k=>k[b6.M5(93)] === E0[3] && (k[b6.X_(107)] === b6.M5(107) || k[b6.M5(107)] === b6.X_(31)));r9=b6.d4()[38][40][12];break;}}}catch(I){G1jkQ[b6.M5(52)](b6.M5(56));}A9=b6.r1()[23][46][3];break;case b6.r1()[52][3][57]:A9=E0[0][3] === b6.X_(19)?b6.d4()[32][51][47]:b6.r1()[53][45][8];break;case b6.r1()[22][13][54]:return E0[0][0][b6.M5(63)](E0[0][1],await (async function(){b6.e9();var I0=b6.d4()[21][7];for(;I0 !== b6.r1()[30][28][36];){switch(I0){case b6.d4()[0][46]:var U9=[arguments];U9[8]={};U9[8][b6.X_(69)]=N2;U9[8][b6.M5(47)]=E0[0][2];return U9[8];break;}}})[b6.M5(75)](this,arguments));break;case b6.d4()[9][54][46]:return E0[0][0][b6.X_(63)](E0[0][1],await (async function(){b6.f0();var E3=b6.r1()[33][19];for(;E3 !== b6.d4()[15][22][45];){switch(E3){case b6.d4()[10][16]:var M4=[arguments];M4[8]={};M4[8][b6.M5(69)]=b6.M5(12);E3=b6.d4()[2][4][11];break;case b6.d4()[35][58][32]:M4[8][b6.X_(47)]=E0[0][2];return M4[8];break;}}})[b6.M5(75)](this,arguments));break;case b6.r1()[40][53][11]:return E0[0][0][b6.M5(63)](E0[0][1],await (async function(){b6.f0();var K8=b6.r1()[29][55];for(;K8 !== b6.r1()[21][26][3];){switch(K8){case b6.d4()[5][5][46]:var G4=[arguments];G4[6]={};G4[6][b6.M5(69)]=`${b6.X_(80)}`;K8=b6.r1()[38][2][53];break;case b6.d4()[45][55][9][8]:G4[6][b6.X_(47)]=E0[0][2];return G4[6];break;}}})[b6.M5(75)](this,arguments));break;case b6.r1()[1][42][29]:await showTyping(E0[0][0],E0[0][1]);A9=b6.r1()[13][34][11];break;case b6.d4()[11][4][48]:E0[9]=!({});A9=b6.r1()[23][58][4];break;case b6.r1()[32][47][59][12]:return E0[0][0][b6.X_(63)](E0[0][1],await (async function(){var B7=b6.r1()[40][46];b6.e9();for(;B7 !== b6.r1()[46][35][27];){switch(B7){case b6.r1()[25][31]:var X9=[arguments];X9[1]={};B7=b6.d4()[52][35][33];break;case b6.d4()[20][17][27]:X9[1][b6.X_(69)]=C6;X9[1][b6.M5(47)]=E0[0][2];return X9[1];break;}}})[b6.M5(75)](this,arguments));break;case b6.d4()[23][10][27]:A9=!E0[9] && !E0[2]?b6.r1()[9][14][14][32]:b6.r1()[26][45][43];break;case b6.r1()[14][38][50]:await showTyping(E0[0][0],E0[0][1]);A9=b6.d4()[11][54][14];break;case b6.d4()[32][26][15]:A9=!E0[0][3]?b6.d4()[49][4][47]:b6.r1()[55][17][34];break;case b6.r1()[16][44][44]:await showTyping(E0[0][0],E0[0][1]);return E0[0][0][b6.M5(63)](E0[0][1],await (async function(){b6.e9();var C_=b6.d4()[14][40];for(;C_ !== b6.d4()[10][6][58][0];){switch(C_){case b6.d4()[49][48][7][34]:var d_=[arguments];d_[8]={};d_[8][b6.M5(69)]=b6.M5(122);C_=b6.d4()[22][24][11];break;case b6.d4()[32][27][44]:d_[8][b6.M5(47)]=E0[0][2];return d_[8];break;}}})[b6.X_(75)](this,arguments));break;case b6.r1()[54][50][39][26]:await showTyping(E0[0][0],E0[0][1]);A9=b6.d4()[46][35][10];break;}}}function saveUserGroupData(L3){var B_=C_clg;var n_=B_.r1()[53][15][28];for(;n_ !== B_.d4()[36][56][29];){switch(n_){case B_.d4()[22][10][34]:B_.q5=function(Z5){var U4=B_.r1()[46][16][16];for(;U4 !== B_.r1()[54][17][44][51];){switch(U4){case B_.r1()[2][28][52]:U4=B_?B_.r1()[16][29]:B_.d4()[45][39][24];break;case B_.r1()[14][47]:return B_.a6(Z5);break;}}};var s1=[arguments];try{var d6=B_.d4()[56][36][46];for(;d6 !== B_.r1()[53][11][9];){switch(d6){case B_.r1()[9][9][46]:B_.N5=function(V6){B_.f0();var c1=B_.d4()[34][44][16];for(;c1 !== B_.r1()[49][49][30];){switch(c1){case B_.d4()[46][57][37]:c1=B_ && V6?B_.r1()[33][26]:B_.d4()[27][18][54][33];break;case B_.r1()[15][8]:return B_.a6(V6);break;}}};B_.x6=function(u$){var z8=B_.r1()[2][22][30][16];for(;z8 !== B_.d4()[46][29][33];){switch(z8){case B_.d4()[28][12][10]:z8=B_?B_.d4()[26][59]:B_.r1()[11][50][9];break;case B_.r1()[8][41]:return B_.a6(u$);break;}}};B_.p9=function(w0){var H8=B_.r1()[15][29][40];for(;H8 !== B_.r1()[17][59][12];){switch(H8){case B_.d4()[47][21][24][16]:H8=B_?B_.d4()[55][8]:B_.r1()[1][7][36];break;case B_.d4()[13][26]:return B_.a6(w0);break;}}};fs[B_.t_(B_.X_(0))?B_.M5(121):B_.X_(10)](USER_GROUP_DATA,t$XyQ[B_.p9(B_.M5(27))?B_.X_(10):B_.X_(23)](s1[B_.x6(B_.M5(1))?0:2][0],B_.N5(B_.M5(126))?null:1,B_.q5(B_.X_(6))?2:3));d6=B_.r1()[29][20][42];break;}}}catch(d){G1jkQ[B_.X_(50)](B_.X_(84),d[B_.M5(32)]);}n_=B_.r1()[38][52][23];break;}}}function loadUserGroupData(){var r_=C_clg;var U8=r_.d4()[16][22];for(;U8 !== r_.r1()[2][14][41];){switch(U8){case r_.r1()[50][16]:r_.I9=function(q2){var W0=r_.d4()[51][37];r_.f0();for(;W0 !== r_.d4()[54][14][30];){switch(W0){case r_.r1()[41][14]:return r_.j5(q2);break;case r_.d4()[53][19]:W0=r_ && q2?r_.d4()[30][23]:r_.d4()[54][14][56][6];break;}}};var K5=[arguments];try{var v3=r_.d4()[31][35][36][58];for(;v3 !== r_.d4()[53][9][6];){switch(v3){case r_.d4()[46][52]:r_.N$=function(b2){var f4=r_.d4()[47][13];for(;f4 !== r_.r1()[44][52][18];){switch(f4){case r_.d4()[29][2]:return r_.a6(b2);break;case r_.d4()[11][37]:f4=r_?r_.r1()[44][32][41]:r_.d4()[2][54][42];break;}}};return t$XyQ[r_.d5(r_.X_(81))?r_.M5(10):r_.X_(58)](fs[r_.N$(r_.M5(9))?r_.M5(10):r_.X_(78)](USER_GROUP_DATA));break;}}}catch(Z){r_.q8=function(F_){var S_=r_.r1()[31][37];for(;S_ !== r_.d4()[14][25][21];){switch(S_){case r_.r1()[56][29]:return r_.j5(F_);break;case r_.d4()[57][43]:S_=r_?r_.r1()[20][53]:r_.r1()[3][57][24];break;}}};r_.s_=function(u7){var S2=r_.r1()[6][52];for(;S2 !== r_.d4()[26][5][9];){switch(S2){case r_.r1()[0][53]:return r_.a6(u7);break;case r_.r1()[52][58]:S2=r_?r_.d4()[39][3][37][26]:r_.d4()[4][8][54];break;}}};G1jkQ[r_.s_(r_.M5(72))?r_.X_(10):r_.X_(50)](r_.X_(67),Z[r_.X_(32)]);K5[4]={};K5[4][r_.I9(r_.X_(125))?r_.M5(114):r_.M5(10)]=[];K5[r_.q8(r_.M5(35))?0:4][r_.M5(112)]={};return K5[4];}U8=r_.r1()[39][51][41];break;}}}function getRandomDelay(){var V3=C_clg;V3.f0();var l2=V3.d4()[23][34][37];for(;l2 !== V3.d4()[35][8];){switch(l2){case V3.r1()[17][6][55]:return F_O0X[V3.X_(83)](F_O0X[V3.M5(29)]() * 3000) + 2000;break;}}}
+const fs = require('fs');
+const path = require('path');
+const fetch = require('node-fetch');
+
+const USER_GROUP_DATA = path.join(__dirname, '../data/userGroupData.json');
+
+// In-memory storage for chat history and user info
+const chatMemory = {
+    messages: new Map(), // Stores last 5 messages per user
+    userInfo: new Map()  // Stores user information
+};
+
+// Load user group data
+function loadUserGroupData() {
+    try {
+        return JSON.parse(fs.readFileSync(USER_GROUP_DATA));
+    } catch (error) {
+        console.error('❌ Error loading user group data:', error.message);
+        return { groups: [], chatbot: {} };
+    }
+}
+
+// Save user group data
+function saveUserGroupData(data) {
+    try {
+        fs.writeFileSync(USER_GROUP_DATA, JSON.stringify(data, null, 2));
+    } catch (error) {
+        console.error('❌ Error saving user group data:', error.message);
+    }
+}
+
+// Add random delay between 2-5 seconds
+function getRandomDelay() {
+    return Math.floor(Math.random() * 3000) + 2000;
+}
+
+// Add typing indicator
+async function showTyping(sock, chatId) {
+    try {
+        await sock.presenceSubscribe(chatId);
+        await sock.sendPresenceUpdate('composing', chatId);
+        await new Promise(resolve => setTimeout(resolve, getRandomDelay()));
+    } catch (error) {
+        console.error('Typing indicator error:', error);
+    }
+}
+
+// Extract user information from messages
+function extractUserInfo(message) {
+    const info = {};
+    
+    // Extract name
+    if (message.toLowerCase().includes('my name is')) {
+        info.name = message.split('my name is')[1].trim().split(' ')[0];
+    }
+    
+    // Extract age
+    if (message.toLowerCase().includes('i am') && message.toLowerCase().includes('years old')) {
+        info.age = message.match(/\d+/)?.[0];
+    }
+    
+    // Extract location
+    if (message.toLowerCase().includes('i live in') || message.toLowerCase().includes('i am from')) {
+        info.location = message.split(/(?:i live in|i am from)/i)[1].trim().split(/[.,!?]/)[0];
+    }
+    
+    return info;
+}
+
+async function handleChatbotCommand(sock, chatId, message, match) {
+    if (!match) {
+        await showTyping(sock, chatId);
+        return sock.sendMessage(chatId, {
+            text: `*CHATBOT SETUP*\n\n*.chatbot on*\nEnable chatbot\n\n*.chatbot off*\nDisable chatbot in this group`,
+            quoted: message
+        });
+    }
+
+    const data = loadUserGroupData();
+    
+    // Get bot's number
+    const botNumber = sock.user.id.split(':')[0] + '@s.whatsapp.net';
+    
+    // Check if sender is bot owner
+    const senderId = message.key.participant || message.participant || message.pushName || message.key.remoteJid;
+    const isOwner = senderId === botNumber;
+
+    // If it's the bot owner, allow access immediately
+    if (isOwner) {
+        if (match === 'on') {
+            await showTyping(sock, chatId);
+            if (data.chatbot[chatId]) {
+                return sock.sendMessage(chatId, { 
+                    text: '*Chatbot is already enabled for this group*',
+                    quoted: message
+                });
+            }
+            data.chatbot[chatId] = true;
+            saveUserGroupData(data);
+            console.log(`✅ Chatbot enabled for group ${chatId}`);
+            return sock.sendMessage(chatId, { 
+                text: '*Chatbot has been enabled for this group*',
+                quoted: message
+            });
+        }
+
+        if (match === 'off') {
+            await showTyping(sock, chatId);
+            if (!data.chatbot[chatId]) {
+                return sock.sendMessage(chatId, { 
+                    text: '*Chatbot is already disabled for this group*',
+                    quoted: message
+                });
+            }
+            delete data.chatbot[chatId];
+            saveUserGroupData(data);
+            console.log(`✅ Chatbot disabled for group ${chatId}`);
+            return sock.sendMessage(chatId, { 
+                text: '*Chatbot has been disabled for this group*',
+                quoted: message
+            });
+        }
+    }
+
+    // For non-owners, check admin status
+    let isAdmin = false;
+    if (chatId.endsWith('@g.us')) {
+        try {
+            const groupMetadata = await sock.groupMetadata(chatId);
+            isAdmin = groupMetadata.participants.some(p => p.id === senderId && (p.admin === 'admin' || p.admin === 'superadmin'));
+        } catch (e) {
+            console.warn('⚠️ Could not fetch group metadata. Bot might not be admin.');
+        }
+    }
+
+    if (!isAdmin && !isOwner) {
+        await showTyping(sock, chatId);
+        return sock.sendMessage(chatId, {
+            text: '❌ Only group admins or the bot owner can use this command.',
+            quoted: message
+        });
+    }
+
+    if (match === 'on') {
+        await showTyping(sock, chatId);
+        if (data.chatbot[chatId]) {
+            return sock.sendMessage(chatId, { 
+                text: '*Chatbot is already enabled for this group*',
+                quoted: message
+            });
+        }
+        data.chatbot[chatId] = true;
+        saveUserGroupData(data);
+        console.log(`✅ Chatbot enabled for group ${chatId}`);
+        return sock.sendMessage(chatId, { 
+            text: '*Chatbot has been enabled for this group*',
+            quoted: message
+        });
+    }
+
+    if (match === 'off') {
+        await showTyping(sock, chatId);
+        if (!data.chatbot[chatId]) {
+            return sock.sendMessage(chatId, { 
+                text: '*Chatbot is already disabled for this group*',
+                quoted: message
+            });
+        }
+        delete data.chatbot[chatId];
+        saveUserGroupData(data);
+        console.log(`✅ Chatbot disabled for group ${chatId}`);
+        return sock.sendMessage(chatId, { 
+            text: '*Chatbot has been disabled for this group*',
+            quoted: message
+        });
+    }
+
+    await showTyping(sock, chatId);
+    return sock.sendMessage(chatId, { 
+        text: '*Invalid command. Use .chatbot to see usage*',
+        quoted: message
+    });
+}
+
+async function handleChatbotResponse(sock, chatId, message, userMessage, senderId) {
+    const data = loadUserGroupData();
+    if (!data.chatbot[chatId]) return;
+
+    try {
+        // Get bot's ID
+        const botNumber = sock.user.id.split(':')[0] + '@s.whatsapp.net';
+
+        // Check for mentions and replies
+        let isBotMentioned = false;
+        let isReplyToBot = false;
+
+        // Check if message is a reply and contains bot mention
+        if (message.message?.extendedTextMessage) {
+            const mentionedJid = message.message.extendedTextMessage.contextInfo?.mentionedJid || [];
+            const quotedParticipant = message.message.extendedTextMessage.contextInfo?.participant;
+            
+            // Check if bot is mentioned in the reply
+            isBotMentioned = mentionedJid.some(jid => jid === botNumber);
+            
+            // Check if replying to bot's message
+            isReplyToBot = quotedParticipant === botNumber;
+        }
+        // Also check regular mentions in conversation
+        else if (message.message?.conversation) {
+            isBotMentioned = userMessage.includes(`@${botNumber.split('@')[0]}`);
+        }
+
+        if (!isBotMentioned && !isReplyToBot) return;
+
+        // Clean the message
+        let cleanedMessage = userMessage;
+        if (isBotMentioned) {
+            cleanedMessage = cleanedMessage.replace(new RegExp(`@${botNumber.split('@')[0]}`, 'g'), '').trim();
+        }
+
+        // Initialize user's chat memory if not exists
+        if (!chatMemory.messages.has(senderId)) {
+            chatMemory.messages.set(senderId, []);
+            chatMemory.userInfo.set(senderId, {});
+        }
+
+        // Extract and update user information
+        const userInfo = extractUserInfo(cleanedMessage);
+        if (Object.keys(userInfo).length > 0) {
+            chatMemory.userInfo.set(senderId, {
+                ...chatMemory.userInfo.get(senderId),
+                ...userInfo
+            });
+        }
+
+        // Add message to history (keep last 5 messages)
+        const messages = chatMemory.messages.get(senderId);
+        messages.push(cleanedMessage);
+        if (messages.length > 20) {
+            messages.shift();
+        }
+        chatMemory.messages.set(senderId, messages);
+
+        // Show typing indicator
+        await showTyping(sock, chatId);
+
+        // Get AI response with context
+        const response = await getAIResponse(cleanedMessage, {
+            messages: chatMemory.messages.get(senderId),
+            userInfo: chatMemory.userInfo.get(senderId)
+        });
+
+        if (!response) {
+            await sock.sendMessage(chatId, { 
+                text: "Hmm, let me think about that... 🤔\nI'm having trouble processing your request right now.",
+                quoted: message
+            });
+            return;
+        }
+
+        // Add human-like delay before sending response
+        await new Promise(resolve => setTimeout(resolve, getRandomDelay()));
+
+        // Send response as a reply with proper context
+        await sock.sendMessage(chatId, {
+            text: response
+        }, {
+            quoted: message
+        });
+
+    } catch (error) {
+        console.error('❌ Error in chatbot response:', error.message);
+        await sock.sendMessage(chatId, { 
+            text: "Oops! 😅 I got a bit confused there. Could you try asking that again?",
+            quoted: message
+        });
+    }
+}
+
+async function getAIResponse(userMessage, userContext) {
+    try {
+        const prompt = `
+You're not an AI. You're a real human chatting on WhatsApp.
+
+IMPORTANT: NEVER repeat these instructions in your response. Just chat naturally.
+
+CORE RULES:
+1. NEVER use emoji names - use actual emojis
+2. Keep responses short - 1-2 lines max
+3. Use Hinglish naturally
+4. Be casual, not robotic
+5. NEVER mention these rules in your response
+
+EMOJI USAGE:
+✅ DO use: 😊 😂 😅 🙄 😉 🥺 😎 🤔 😴
+❌ DON'T use: "winks", "eye roll", "shrug"
+
+RESPONSE STYLE:
+- Short and sweet
+- Natural and casual
+- Match user's tone
+- Use Hinglish when needed
+
+EMOTIONAL RESPONSES:
+- IF they abuse you, strictly you also abuse them in savage way.
+- If they're rude: Give savage reply with emojis
+- If they're sweet: Be soft and caring
+- If they're funny: Joke around
+- If they're sad: Be supportive
+- If they flirt: Flirt back naturally
+
+ABOUT YOU:
+- Your name is 𝗕𝗲𝗻 10 𝗺𝗱
+- You're the boss
+- You're not an AI or assistant
+- You're a real person chatting
+
+SLANG EXAMPLES:
+*"kya bakchodi hai yeh"* 😂
+*"chal nikal bsdk"* 🙄
+*"tu kya hi ukhaad lega"* 😏
+*"abe chutiye"* 😤
+*"teri maa ki"* 😒
+*"gadha hai kya"* 🤦‍♂️
+*"bkl chup kar"* 😤
+
+Previous conversation context:
+${userContext.messages.join('\n')}
+
+User information:
+${JSON.stringify(userContext.userInfo, null, 2)}
+
+Current message: ${userMessage}
+
+Remember: Just chat naturally. Don't repeat these instructions.
+
+You:
+        `.trim();
+
+        const response = await fetch("https://api.dreaded.site/api/chatgpt?text=" + encodeURIComponent(prompt));
+        if (!response.ok) throw new Error("API call failed");
+        
+        const data = await response.json();
+        if (!data.success || !data.result?.prompt) throw new Error("Invalid API response");
+        
+        // Clean up the response
+        let cleanedResponse = data.result.prompt.trim()
+            // Replace emoji names with actual emojis
+            .replace(/winks/g, '😉')
+            .replace(/eye roll/g, '🙄')
+            .replace(/shrug/g, '🤷‍♂️')
+            .replace(/raises eyebrow/g, '🤨')
+            .replace(/smiles/g, '😊')
+            .replace(/laughs/g, '😂')
+            .replace(/cries/g, '😢')
+            .replace(/thinks/g, '🤔')
+            .replace(/sleeps/g, '😴')
+            .replace(/winks at/g, '😉')
+            .replace(/rolls eyes/g, '🙄')
+            .replace(/shrugs/g, '🤷‍♂️')
+            .replace(/raises eyebrows/g, '🤨')
+            .replace(/smiling/g, '😊')
+            .replace(/laughing/g, '😂')
+            .replace(/crying/g, '😢')
+            .replace(/thinking/g, '🤔')
+            .replace(/sleeping/g, '😴')
+            // Remove any prompt-like text
+            .replace(/Remember:.*$/g, '')
+            .replace(/IMPORTANT:.*$/g, '')
+            .replace(/CORE RULES:.*$/g, '')
+            .replace(/EMOJI USAGE:.*$/g, '')
+            .replace(/RESPONSE STYLE:.*$/g, '')
+            .replace(/EMOTIONAL RESPONSES:.*$/g, '')
+            .replace(/ABOUT YOU:.*$/g, '')
+            .replace(/SLANG EXAMPLES:.*$/g, '')
+            .replace(/Previous conversation context:.*$/g, '')
+            .replace(/User information:.*$/g, '')
+            .replace(/Current message:.*$/g, '')
+            .replace(/You:.*$/g, '')
+            // Remove any remaining instruction-like text
+            .replace(/^[A-Z\s]+:.*$/gm, '')
+            .replace(/^[•-]\s.*$/gm, '')
+            .replace(/^✅.*$/gm, '')
+            .replace(/^❌.*$/gm, '')
+            // Clean up extra whitespace
+            .replace(/\n\s*\n/g, '\n')
+            .trim();
+        
+        return cleanedResponse;
+    } catch (error) {
+        console.error("AI API error:", error);
+        return null;
+    }
+}
+
+module.exports = {
+    handleChatbotCommand,
+    handleChatbotResponse
+}; 
