@@ -1,8 +1,8 @@
 {
-  "name": "NEXUS-XMD",
-  "description": "Javascript WhatsApp bot made by Pkdriller",
+  "name": "BEN-10-MD",
+  "description": "Javascript WhatsApp bot made by snowbird",
   "logo": "https://files.catbox.moe/jlovlp.jpg",
-  "keywords": ["NEXUS-XMD"],
+  "keywords": ["BEN-10-MD"],
   "success_url": "/",
 
     "stack": "container",
@@ -16,7 +16,7 @@
     "STICKER_NAME": {
       "description": "type your sticker pack name.",
       "required": false,
-      "value": "NEXUS-XMD"
+      "value": "BEN-10-MD"
     }, 
       
     "PREFIX": {
@@ -79,27 +79,27 @@
     "AUTO_STATUS_MSG": {
       "description": "Type custom message on status reply",
       "required": true,
-      "value": "*SEEN YOUR STATUS BY NEXUS-XMD 🖤*"
+      "value": "*SEEN YOUR STATUS BY BEN-10-MD 🖤*"
    
      }, 
     
     "OWNER_NAME": {
       "description": "Type Bot Owner Name.",
       "required": false,
-      "value": "Pkdriller"
+      "value": "snowbird"
 }, 
 
     "OWNER_NUMBER": {
       "description": "put the owner number for bot.",
       "required": false,
-      "value": "254794146821"
+      "value": "263*****"
 
     }, 
 
     "BOT_NAME": {
       "description": "Type here the bot name.",
       "required": false,
-      "value": "NEXUS-XMD"
+      "value": "BEN-10-MD"
 
       }, 
 
@@ -132,13 +132,13 @@
     "MENU_IMAGE_URL": {
       "description": "add url for mention reply and menu if want.",
       "required": false,
-      "value": "https://res.cloudinary.com/dtjjgiitl/image/upload/q_auto:good,f_auto,fl_progressive/v1751639160/zgp5ipdcrin18zagzslb.jpg"
+      "value": ""
     },
     
      "DESCRIPTION": {
       "description": "add caption for menu and other",
       "required": false,
-      "value": "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ Pkdriller*"
+      "value": "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ SNOWBIRD-XMD*"
     },
 
       "DELETE_LINKS": {
