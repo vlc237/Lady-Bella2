@@ -1,7 +1,7 @@
 {
-	"name": "xstro",
+	"name": "BEN-10-MD",
 	"description": "Simple WA Bot",
-	"repository": "https://github.com/AstroX11/whatsapp-bot",
+	"repository": "https://github.com/SNOWBIRD0074/BEN-10-MD",
 	"stack": "container",
 	"success_url": "/",
 	"env": {
