@@ -10,7 +10,7 @@ A powerful and customizable **WhatsApp Multi-Device Bot** built using the Bailey
 
 <div align="center"> 
   <a href="https://github.com/SNOWBIRD0074/BEN-10-MD">
-    <img src="https://telegra.ph/file/21e3f8f9a6d6e0289de46.jpg" alt="BEN-10 MD BOT" height="300">
+    <img src="https://files.catbox.moe/lkleoi.jpg" alt="BEN-10 MD BOT" height="300">
   </a> 
 </div>
 
