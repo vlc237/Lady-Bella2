@@ -1,90 +1,98 @@
-<p align="center">
-  <img src="https://files.catbox.moe/qw1f54.jpg" alt="Ben 10 MD Bot" width="180" style="border-radius: 20px;">
-</p>
+# 🤖 BEN-10 MD BOT
 
-<h1 align="center">BEN-10-MD WhatsApp Bot</h1>
-<p align="center">
-  <b>A powerful multi-device WhatsApp bot developed by <a href="https://github.com/SNOWBIRD0074">SNOWBIRD0074</a></b>
-</p>
+A powerful and customizable **WhatsApp Multi-Device Bot** built using the Baileys library. It includes rich features such as group moderation, auto replies, stickers, media tools, and more — all optimized for modern WhatsApp multi-device support.
 
-<p align="center">
-  <a href="https://github.com/SNOWBIRD0074/BEN-10-MD/archive/refs/heads/main.zip">
-    <img src="https://img.shields.io/badge/Download%20ZIP-blue?logo=github&style=for-the-badge" alt="Download ZIP">
-  </a>
-  <a href="https://dashboard.render.com/deploy?repo=https://github.com/SNOWBIRD0074/BEN-10-MD">
-    <img src="https://img.shields.io/badge/Deploy%20to%20Render-3C47E9?logo=render&logoColor=white&style=for-the-badge" alt="Deploy to Render">
-  </a>
-  <a href="https://heroku.com/deploy?template=https://github.com/SNOWBIRD0074/BEN-10-MD">
-    <img src="https://img.shields.io/badge/Deploy%20to%20Heroku-430098?logo=heroku&logoColor=white&style=for-the-badge" alt="Deploy to Heroku">
-  </a>
-  <a href="https://whatsapp.com/channel/0029Vb5nSebFy722d2NEeU3C">
-    <img src="https://img.shields.io/badge/Follow%20WhatsApp%20Channel-25D366?logo=whatsapp&logoColor=white&style=for-the-badge" alt="Follow WhatsApp Channel">
-  </a>
-  <a href="https://wa.me/263780145644?text=Hello%20I%20am%20interested%20in%20your%20WhatsApp%20bot">
-    <img src="https://img.shields.io/badge/Message%20Owner-075E54?logo=whatsapp&logoColor=white&style=for-the-badge" alt="Message Owner">
-  </a>
-</p>
+<div align="center"> 
+  <a href="https://git.io/typing-svg"> 
+    <img src="https://readme-typing-svg.demolab.com?font=Ribeye&size=50&pause=1000&color=00FFA3&center=true&width=910&height=100&lines=BEN-10+MD+BOT;Multi-Device+Whatsapp+Bot;Coded+By+SNOWBIRD0074" alt="Typing SVG" />
+  </a> 
+</div> 
+
+<div align="center"> 
+  <a href="https://github.com/SNOWBIRD0074/BEN-10-MD">
+    <img src="https://telegra.ph/file/21e3f8f9a6d6e0289de46.jpg" alt="BEN-10 MD BOT" height="300">
+  </a> 
+</div>
 
 ---
 
-## 🚀 Features
+## 🚀 Deploying BEN-10 MD
 
-- WhatsApp Multi-Device Support (Baileys Library)
-- Easy deployment on Render & Heroku
-- Download as ZIP and run locally
-- Rich commands and automation features
-- Customizable and developer-friendly
-- Regular updates
+### Step 1: Fork This Repository
 
-## 🛠️ Getting Started
+Click below to fork this repo to your GitHub account:
 
-### 1. GET SESSION ID HERE
- <br>
- <a href='https://snowbird-pairing.onrender.com/' target="_blank"><img alt='Get Session ID' src='https://img.shields.io/badge/Get session id-blue?style=for-the-badge&logo=opencv&logoColor=white'/></a> 
+<div align="center">
+  <a href="https://github.com/SNOWBIRD0074/BEN-10-MD/fork">
+    <img src="https://img.shields.io/badge/Fork-This_Repo-blue?style=for-the-badge" alt="Fork Repository"/>
+  </a>
+</div>
 
-### 2. Download
+---
 
-- [Download ZIP](https://github.com/SNOWBIRD0074/BEN-10-MD/archive/refs/heads/main.zip)
+### Step 2: Generate Pairing Code
 
-### 3. Deploy Online
+You can generate a pairing code using the links below to link your WhatsApp account.
 
-- **[Deploy to Render](https://dashboard.render.com/deploy?repo=https://github.com/SNOWBIRD0074/BEN-10-MD)**
-- **[Deploy to Heroku](https://heroku.com/deploy?template=https://github.com/SNOWBIRD0074/BEN-10-MD)**
+<div align="center">
+  <a href="https://replit.com/@DGXeon/Xeon-PairCode?v=1">
+    <img src="https://img.shields.io/badge/Generate%20Code-Replit-green?style=for-the-badge" alt="Replit"/>
+  </a>
+  <a href="https://ben10-md-paircode.onrender.com">
+    <img src="https://img.shields.io/badge/GET%20PAIR%20CODE-Render-orange?style=for-the-badge" alt="Render"/>
+  </a>
+</div>
 
-### 4. Run Locally
+> 🔐 After generating the `creds.json` file, upload it into the `session` folder.
+
+---
+
+### Step 3: Deploy & Run the Bot
+
+<div align="center">
+  <a href="https://youtu.be/-oz_u1iMgf8">
+    <img src="https://img.shields.io/badge/Watch+Tutorial-red?style=for-the-badge&logo=youtube" alt="YouTube"/>
+  </a>
+  <a href="https://bot-hosting.net/?aff=1068419752923508776">
+    <img src="https://img.shields.io/badge/Deploy_on_Hosting_Panel-28a745?style=for-the-badge" alt="Deploy Panel"/>
+  </a>
+</div>
+
+---
+
+## ⚙️ Features
+
+- ✅ Group Tag All (`.tagall`)
+- 🛡️ Admin-Only Restrictions
+- 🎮 Mini Games like Tic Tac Toe
+- 🔈 Text-to-Speech
+- 🖼️ Sticker Maker
+- 🔗 Anti-Link Detection
+- 🚫 Warn System
+- 🎧 Music / YouTube Download
+- 🎭 AI Chat (.ai/.gpt commands)
+- 🧠 Shazam Song Detection
+- 📷 Media Converters (image/video/gif to sticker)
+
+---
+
+## 📖 About BEN-10 MD
+
+BEN-10 MD is a Node.js-based WhatsApp bot powered by Baileys. It helps automate group tasks, entertain users, and provide advanced utilities in WhatsApp. It supports **multi-device** sessions and can be hosted on platforms like Replit, Render, Railway, or even VPS.
+
+---
+
+## 🛠️ Manual Setup (Local)
+
+### Requirements
+
+- Node.js installed
+- Git installed
+
+### Installation Steps
 
 ```bash
-git clone https://github.com/SNOWBIRD0074/BEN-10-MD.git
+git clone https://github.com/SNOWBIRD0074/BEN-10-MD
 cd BEN-10-MD
 npm install
-npm start
-```
-
-### 5. Configure
-
-- Edit `.env` or `config.js` as required for your WhatsApp session and bot settings.
-
----
-
-## 📢 Connect
-
-- **Follow our [WhatsApp Channel](https://whatsapp.com/channel/0029Vb5nSebFy722d2NEeU3C) for updates**
-- **Message the Owner:** [Click to Chat](https://wa.me/263780145644?text=Hello%20I%20am%20interested%20in%20your%20WhatsApp%20bot)
-
----
-
-## 🤝 Contributing
-
-PRs and issues are welcome! Please fork and submit a pull request.
-
----
-
-## 📝 License
-
-This project is open source. See [LICENSE](LICENSE) for details.
-
----
-
-<p align="center">
-  <b>Developed & maintained by <a href="https://github.com/SNOWBIRD0074">SNOWBIRD0074</a></b>
-</p>
+node index.js
