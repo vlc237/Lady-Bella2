@@ -35,10 +35,10 @@ Click below to fork this repo to your GitHub account:
 You can generate a pairing code using the links below to link your WhatsApp account.
 
 <div align="center">
-  <a href="https://replit.com/@DGXeon/Xeon-PairCode?v=1">
+  <a href="https://snowbird-pairing.onrender.com/">
     <img src="https://img.shields.io/badge/Generate%20Code-Replit-green?style=for-the-badge" alt="Replit"/>
   </a>
-  <a href="https://ben10-md-paircode.onrender.com">
+  <a href="https://snowbird-pairing.onrender.com/">
     <img src="https://img.shields.io/badge/GET%20PAIR%20CODE-Render-orange?style=for-the-badge" alt="Render"/>
   </a>
 </div>
