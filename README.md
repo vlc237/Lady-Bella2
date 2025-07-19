@@ -22,7 +22,7 @@ A powerful and customizable **WhatsApp Multi-Device Bot** built using the Bailey
   <a href="https://whatsapp.com/channel/0029Vb5nSebFy722d2NEeU3C">
     <img src="https://img.shields.io/badge/Follow%20WhatsApp%20Channel-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="Follow WhatsApp Channel"/>
   </a>
-  <a href="https://wa.me/263780710682?text=Hi%20I%20want%20to%20report%20an%20error%20in%20BEN-10%20MD%20BOT">
+  <a href="https://wa.me/263780145644?text=Hi%20I%20want%20to%20report%20an%20error%20in%20BEN-10%20MD%20BOT">
     <img src="https://img.shields.io/badge/Report%20Error%20on%20WhatsApp-EA4335?style=for-the-badge&logo=whatsapp&logoColor=white" alt="Report Error"/>
   </a>
   <a href="https://github.com/SNOWBIRD0074/BEN-10-MD/archive/refs/heads/main.zip">
