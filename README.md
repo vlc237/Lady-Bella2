@@ -98,7 +98,7 @@ node index.js
 
 ## 🤝 Contributing
 
-Found a bug or want a feature? [Report via WhatsApp](https://wa.me/263780710682?text=Hi%20I%20want%20to%20report%20an%20error%20in%20BEN-10%20MD%20BOT) or open an [Issue](https://github.com/SNOWBIRD0074/BEN-10-MD/issues).  
+Found a bug or want a feature? [Report via WhatsApp](https://wa.me/263780145644?text=Hi%20I%20want%20to%20report%20an%20error%20in%20BEN-10%20MD%20BOT) or open an [Issue](https://github.com/SNOWBIRD0074/BEN-10-MD/issues).  
 Pull requests are welcome!
 
 ---
@@ -106,7 +106,7 @@ Pull requests are welcome!
 ## 💬 Support & Community
 
 - [Follow WhatsApp Channel](https://whatsapp.com/channel/0029Vb5nSebFy722d2NEeU3C)
-- [Contact on WhatsApp](https://wa.me/263780710682)
+- [Contact on WhatsApp](https://wa.me/263780145644)
 - [GitHub Discussions](https://github.com/SNOWBIRD0074/BEN-10-MD/discussions)
 
 ---
