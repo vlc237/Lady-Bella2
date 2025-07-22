@@ -1,1 +1,90 @@
-function _0x12f1(){const _0x5890fd=['77829LZrquf','Admin\x20Commands','.self','6KHzJBy','General\x20Commands','.downloader','Image/Sticker\x20Commands','.github','120363399707841760@newsletter','exports','.ai','3416twTtfB','.fun','315vSTKdM','AI\x20Commands','../assets/bot_image.jpg','203570ByqrwT','Error\x20in\x20help\x20command:','92FoystG','Select\x20a\x20category\x20to\x20view\x20commands','Textmaker','𝗕𝗘𝗡\x2010\x20𝗠𝗗','88vKVjgi','\x20\x0a╭━✧━❖\x20𝙱𝙴𝙽\x2010\x20𝙼𝙳\x20✧━❖\x0a┊✺┌────••••────⊷\x0a┃★│◎\x20𝙾𝚠𝚗𝚎𝚛\x20:\x20𝚂𝙽𝙾𝚆𝙱𝙸𝚁𝙳\x0a┃★│◎\x20𝙿𝚙𝚛𝚎𝚏𝚒𝚡\x20\x20:\x20[\x20.\x20]\x0a┃★│◎\x20𝙼𝚘𝚍𝚎\x20:\x20𝙿𝚞𝚋𝚕𝚒𝚌\x0a┃★│◎\x20𝚁𝚊𝚖\x20:\x208/132\x20GB\x0a┃★│◎\x20𝙿𝚕𝚊𝚝𝚏𝚘𝚛𝚖\x20:\x20𝙿𝚊𝚗𝚎𝚕\x0a┃★│◎\x20𝙲𝚛𝚎𝚊𝚝𝚘𝚛\x20:\x20𝚂𝙽𝙾𝚆𝙱𝙸𝚁𝙳\x0a┃★│◎\x20𝙲𝚘𝚖𝚖𝚊𝚗𝚍𝚜\x20:\x20103\x0a┃★│◎\x20𝚃𝚑𝚎𝚖𝚎\x20:\x20𝙱𝙴𝙽\x2010\x20𝙼𝙳\x0a┊\x20\x20└────••••────⊷\x0a╰──────────────❖\x0a\x20*❖──⬡\x20𝚂𝚎𝚕𝚎𝚌𝚝\x20𝙼𝚎𝚗𝚞⬡─❖\x0a\x20\x0a*╭──────────────⬡*\x0a*║╭─────────⊷*\x0a*║┊❍-1️⃣.\x20\x20𝙶𝚎𝚗𝚎𝚛𝚊𝚕\x0a*║┊❍-2️⃣.\x20\x20𝙰𝚍𝚖𝚒𝚗\x20\x0a*║┊❍-3️⃣.\x20\x20𝙾𝚠𝚗𝚎𝚛\x0a*║┊❍-4️⃣.\x20\x20𝙸𝚖𝚊𝚐𝚎\x0a*║┊❍-5️⃣.\x20\x20𝙶𝚊𝚖𝚎\x0a*║┊❍-6️⃣.\x20\x20𝙰𝚒\x20𝚜𝚎𝚊𝚛𝚌𝚑\x20\x20\x20\x20\x20\x20\x0a*║┊❍-7️⃣.\x20\x20𝙵𝚞𝚗\x20\x20\x20\x20\x0a*║┊❍-8️⃣.\x20\x20𝚃𝚎𝚡𝚝𝚖𝚊𝚔𝚎𝚛\x20\x0a*║┊❍-9️⃣.\x20\x20𝙳𝚘𝚠𝚗𝚕𝚊𝚍\x20\x20\x20\x0a*║┊❍-🔟.\x20\x20𝙶𝚒𝚝𝚑𝚞𝚋\x20\x20\x0a*║╰──────────⊷*\x0a*╰───────────────⬡*\x0a\x0a𝚁𝚎𝚙𝚕𝚢\x20𝚠𝚒𝚝𝚑\x20.(𝚗𝚞𝚖𝚋𝚎𝚛)\x20𝚝𝚘\x20𝚜𝚎𝚎\x20𝚖𝚘𝚛𝚎\x20𝚌𝚘𝚖𝚖𝚊𝚗𝚍𝚜\x0a\x0a*𝙿𝚘𝚠𝚎𝚛𝚎𝚍\x20𝚋𝚢\x20𝚝𝚑𝚎\x20𝙲𝚢𝚋𝚎𝚛𝚍𝚎𝚟𝚜\x20𝙲𝚕𝚞𝚋:*\x20','.general','936228WTLueY','Downloader','path','Fun\x20Commands','../assets/welcome.mp3','.textmaker','Game\x20Commands','error','232315mgbpwJ','80690ozIwpP','2219rFVpvr','.game','join','existsSync','727012VcpUFu','sendMessage','audio/mp4'];_0x12f1=function(){return _0x5890fd;};return _0x12f1();}const _0xdfbb85=_0x5d6a;(function(_0x22d843,_0x2d2240){const _0x241e87=_0x5d6a,_0x501c59=_0x22d843();while(!![]){try{const _0x3d4711=parseInt(_0x241e87(0x8b))/0x1+-parseInt(_0x241e87(0x91))/0x2+-parseInt(_0x241e87(0x94))/0x3*(-parseInt(_0x241e87(0xa6))/0x4)+-parseInt(_0x241e87(0xa4))/0x5*(-parseInt(_0x241e87(0x97))/0x6)+parseInt(_0x241e87(0x8d))/0x7*(parseInt(_0x241e87(0x9f))/0x8)+parseInt(_0x241e87(0xa1))/0x9*(parseInt(_0x241e87(0x8c))/0xa)+parseInt(_0x241e87(0x80))/0xb*(-parseInt(_0x241e87(0x83))/0xc);if(_0x3d4711===_0x2d2240)break;else _0x501c59['push'](_0x501c59['shift']());}catch(_0xd8efde){_0x501c59['push'](_0x501c59['shift']());}}}(_0x12f1,0x4933a));const settings=require('../settings'),fs=require('fs'),path=require(_0xdfbb85(0x85));async function helpCommand(_0x1452f6,_0x1e63e,_0x517ce4,_0x569733){const _0x2fb472=_0xdfbb85,_0x24f563='\x0a'+(settings['botName']||'')+_0x2fb472(0x81)+_0x569733+'\x0a';try{const _0x30c659=path[_0x2fb472(0x8f)](__dirname,_0x2fb472(0xa3)),_0x3c5229=path[_0x2fb472(0x8f)](__dirname,_0x2fb472(0x87)),_0x5b0824=[{'buttonId':_0x2fb472(0x82),'buttonText':{'displayText':_0x2fb472(0x98)},'type':0x1},{'buttonId':'.admin','buttonText':{'displayText':_0x2fb472(0x95)},'type':0x1},{'buttonId':_0x2fb472(0x96),'buttonText':{'displayText':'Self\x20Commands'},'type':0x1},{'buttonId':'.image','buttonText':{'displayText':_0x2fb472(0x9a)},'type':0x1},{'buttonId':_0x2fb472(0x8e),'buttonText':{'displayText':_0x2fb472(0x89)},'type':0x1},{'buttonId':_0x2fb472(0x9e),'buttonText':{'displayText':_0x2fb472(0xa2)},'type':0x1},{'buttonId':_0x2fb472(0xa0),'buttonText':{'displayText':_0x2fb472(0x86)},'type':0x1},{'buttonId':_0x2fb472(0x88),'buttonText':{'displayText':_0x2fb472(0x7e)},'type':0x1},{'buttonId':_0x2fb472(0x99),'buttonText':{'displayText':_0x2fb472(0x84)},'type':0x1},{'buttonId':_0x2fb472(0x9b),'buttonText':{'displayText':'Github\x20Commands'},'type':0x1}],_0x3851ae={'image':fs[_0x2fb472(0x90)](_0x30c659)?{'url':_0x30c659}:null,'caption':_0x24f563,'footer':_0x2fb472(0x7d),'buttons':_0x5b0824,'headerType':0x4,'contextInfo':{'forwardingScore':0x1,'isForwarded':!![],'forwardedNewsletterMessageInfo':{'newsletterJid':_0x2fb472(0x9c),'newsletterName':_0x2fb472(0x7f),'serverMessageId':-0x1}}};await _0x1452f6['sendMessage'](_0x1e63e,_0x3851ae,{'quoted':_0x517ce4}),fs[_0x2fb472(0x90)](_0x3c5229)&&await _0x1452f6[_0x2fb472(0x92)](_0x1e63e,{'audio':{'url':_0x3c5229},'mimetype':_0x2fb472(0x93)},{'quoted':_0x517ce4});}catch(_0xb51f9a){console[_0x2fb472(0x8a)](_0x2fb472(0xa5),_0xb51f9a),await _0x1452f6['sendMessage'](_0x1e63e,{'text':_0x24f563});}}function _0x5d6a(_0x1dcfcb,_0xf9884d){const _0x12f17a=_0x12f1();return _0x5d6a=function(_0x5d6af3,_0x14863e){_0x5d6af3=_0x5d6af3-0x7d;let _0x35cbe1=_0x12f17a[_0x5d6af3];return _0x35cbe1;},_0x5d6a(_0x1dcfcb,_0xf9884d);}module[_0xdfbb85(0x9d)]=helpCommand;
+const settings = require('../settings');
+const fs = require('fs');
+const path = require('path');
+
+async function helpCommand(sock, chatId, message, channelLink) {
+  const helpMessage = `
+${settings.botName || ''} 
+╭━━━✦❮ *𝙱𝙴𝙽 10 𝙼𝙳* ❯✦━⊷
+┃★╭━━━━━━━━━━━━━━⊷
+┃★┃✪ 𝙾𝚠𝚗𝚎𝚛 : 𝚂𝙽𝙾𝚆𝙱𝙸𝚁𝙳
+┃★┃✪ 𝙿𝚛𝚎𝚏𝚒𝚡  : [ . ]
+┃★┃✪ 𝙼𝚘𝚍𝚎 : 𝙿𝚞𝚋𝚕𝚒𝚌
+┃★┃✪ 𝚁𝚊𝚖 : 8/132 GB
+┃★┃✪ 𝙿𝚕𝚊𝚝𝚏𝚘𝚛𝚖 : 𝙿𝚊𝚗𝚎𝚕
+┃★┃✪ 𝙲𝚛𝚎𝚊𝚝𝚘𝚛 : 𝚂𝙽𝙾𝚆𝙱𝙸𝚁𝙳
+┃★┃✪ 𝙲𝚘𝚖𝚖𝚊𝚗𝚍𝚜 : 103
+┃★┃✪ 𝚃𝚑𝚎𝚖𝚎 : 𝙱𝙴𝙽 10 𝙼𝙳
+┃  ╰━━━━━━━━━━━━━━━━⊷
+╰━━━━━━━━━━━━━━━━━❖
+ 
+╭━━━✦❮ *𝚂𝚎𝚕𝚎𝚌𝚝 𝚌𝚊𝚝𝚎𝚐𝚘𝚛𝚢* ❯✦━⊷
+
+╭━━━━━━━━━━━━━━━⬡*
+╭━━━━━━━━━━━*
+┃❍-1️⃣.  𝙶𝚎𝚗𝚎𝚛𝚊𝚕
+┃❍-2️⃣.  𝙰𝚍𝚖𝚒𝚗 
+┃❍-3️⃣.  𝙾𝚠𝚗𝚎𝚛
+┃❍-4️⃣.  𝙸𝚖𝚊𝚐𝚎
+┃❍-5️⃣.  𝙶𝚊𝚖𝚎
+┃❍-6️⃣.  𝙰𝚒 𝚜𝚎𝚊𝚛𝚌𝚑      
+┃❍-7️⃣.  𝙵𝚞𝚗    
+┃❍-8️⃣.  𝚃𝚎𝚡𝚝𝚖𝚊𝚔𝚎𝚛 
+┃❍-9️⃣.  𝙳𝚘𝚠𝚗𝚕𝚊𝚍   
+┃❍-🔟.  𝙶𝚒𝚝𝚑𝚞𝚋  
+╰━━━━━━━━━━━━━━━━━━
+╰━━━━━━━━━━━━━━━━━⬡*
+
+𝚁𝚎𝚙𝚕𝚢 𝚠𝚒𝚝𝚑 .(𝚗𝚞𝚖𝚋𝚎𝚛) 𝚝𝚘 𝚜𝚎𝚎 𝚖𝚘𝚛𝚎 𝚌𝚘𝚖𝚖𝚊𝚗𝚍𝚜
+
+*𝙿𝚘𝚠𝚎𝚛𝚎𝚍 𝚋𝚢 𝚝𝚑𝚎 𝙲𝚢𝚋𝚎𝚛𝚍𝚎𝚟𝚜 𝙲𝚕𝚞𝚋:* ${channelLink}
+`;
+
+
+  try {
+    const imagePath = path.join(__dirname, '../assets/bot_image.jpg');
+    const audioPath = path.join(__dirname, '../assets/welcome.mp3');
+
+    const buttons = [
+      { buttonId: '.general', buttonText: { displayText: 'General Commands' }, type:1 },
+      { buttonId: '.admin', buttonText: { displayText: 'Self Commands' }, type:1 },
+      { buttonId: '.self', buttonText: { displayText: 'Self Commands' }, type:1 },
+      { buttonId: '.image', buttonText: { displayText: 'Image/Sticker Commands' }, type:1 },
+      { buttonId: '.game', buttonText: { displayText: 'Game Commands' }, type:1 },
+      { buttonId: '.ai', buttonText: { displayText: 'AI Commands' }, type:1 },
+      { buttonId: '.fun', buttonText: { displayText: 'Fun Commands' }, type:1 },
+      { buttonId: '.textmaker', buttonText: { displayText: 'Textmaker' }, type:1 },
+      { buttonId: '.downloader', buttonText: { displayText: 'Downloader' }, type:1 },
+      { buttonId: '.github', buttonText: { displayText: 'Github Commands' }, type:1 },
+    ];
+
+    const buttonMessage = {
+      image: fs.existsSync(imagePath) ? { url: imagePath } : null,
+      caption: helpMessage,
+      footer: 'Select a category to view commands',
+      buttons: buttons,
+      headerType:4,
+      contextInfo: {
+        forwardingScore:1,
+        isForwarded: true,
+        forwardedNewsletterMessageInfo: {
+          newsletterJid: '120363399707841760@newsletter',
+          newsletterName: '𝗕𝗘𝗡 10 𝗠𝗗',
+          serverMessageId: -1,
+        },
+      },
+    };
+
+    await sock.sendMessage(chatId, buttonMessage, { quoted: message });
+
+    // Send audio message
+    if (fs.existsSync(audioPath)) {
+      await sock.sendMessage(chatId, { audio: { url: audioPath }, mimetype: 'audio/mp4' }, { quoted: message });
+    }
+  } catch (error) {
+    console.error('Error in help command:', error);
+    await sock.sendMessage(chatId, { text: helpMessage });
+  }
+}
+
+module.exports = helpCommand;
