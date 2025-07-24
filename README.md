@@ -56,6 +56,16 @@ Watch [video tutorial](https://youtu.be/-oz_u1iMgf8)
 
 ---
 
+  **JOIN US**
+<div align="left">
+  <a href="https://t.me/cypherx_support">
+    <img src="https://img.shields.io/badge/Join%20Telegram-0078E7?style=for-the-badge&logo=telegram&logoColor=darkblue" alt="Join Telegram"/>
+  </a>
+<br>
+  <a href="https://chat.whatsapp.com/LYMEdDXJNkPDQ5tdTVyh5I?mode=ac_t">
+    <img src="https://img.shields.io/badge/Join%20WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=darkgreen" alt="WHATSAPP"/>
+  </a>
+</div>
 ## ⚙️ Features
 
 - ✅ Group Tag All (`.tagall`)
