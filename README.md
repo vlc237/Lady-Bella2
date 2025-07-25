@@ -44,7 +44,7 @@ Click the "Fork Repo" button above or [fork here](https://github.com/SNOWBIRD007
 Link your WhatsApp account using the links below:
 
 <div align="center">
-  <a href="https://sessions-june2.onrender.com">
+  <a href="https://snowbird-pairing.onrender.com/">
     <img src="https://img.shields.io/badge/Generate%20Pairing%20Code-green?style=for-the-badge" alt="Generate Pairing Code"/>
   </a>
 </div>
@@ -56,25 +56,6 @@ Watch [video tutorial](https://youtu.be/-oz_u1iMgf8)
 
 ---
 
-  **JOIN US**
-<div align="left">
-  <a href="https://t.me/cypherx_support">
-    <img src="https://img.shields.io/badge/Join%20Telegram-0078E7?style=for-the-badge&logo=telegram&logoColor=darkblue" alt="Join Telegram"/>
-  </a>
-<br>
-  <a href="  **JOIN US**
-<div align="left">
-  <a href="https://https://t.me/+Dpt31G6vZWpiNjc0">
-    <img src="https://img.shields.io/badge/Join%20Telegram-0078E7?style=for-the-badge&logo=telegram&logoColor=darkblue" alt="Join Telegram"/>
-  </a>
-<br>
-  <a href="https://chat.whatsapp.com/DFGVVdaiVmD7kNPAxNxdlo?mode=ac_t">
-    <img src="https://img.shields.io/badge/Join%20WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=darkgreen" alt="WHATSAPP"/>
-  </a>
-  </div>?mode=ac_t">
-    <img src="https://img.shields.io/badge/Join%20WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=darkgreen" alt="WHATSAPP"/>
-  </a>
-</div>
 ## ⚙️ Features
 
 - ✅ Group Tag All (`.tagall`)
