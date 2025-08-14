@@ -52,7 +52,7 @@ Link your WhatsApp account using the links below:
 > After generating `creds.json`, upload it to the `session` folder.
 
 **Step 3:** Deploy & Run the Bot  
-Watch [video tutorial](https://youtu.be/-oz_u1iMgf8) 
+Watch [video tutorial](https://youtu.be/G2fBDcrmFdQ?si=HHw4SKe0_-xrVQ7K) 
 
 ---
 
