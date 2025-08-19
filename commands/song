@@ -185,7 +185,7 @@ async function songCommand(sock, chatId, message) {
         let sentMsg;
         try {
             sentMsg = await sock.sendMessage(chatId, {
-                image: { url: result.result.thumbnail },
+                //image: { url: result.result.thumbnail },
                 caption: `*${result.result.title}*\n\n _Downloading song Request ..._\n  *_By 𝐉ᴜɴᴇ 𝐌ᴅ_*`
             }, { quoted: message });
         } catch (e) {

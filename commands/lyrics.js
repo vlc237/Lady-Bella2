@@ -10,7 +10,7 @@ async function lyricsCommand(sock, chatId, songTitle) {
 
     try {
         // Fetch song lyrics using the some-random-api.com API
-        const apiUrl = `https://some-random-api.com/lyrics?title=${encodeURIComponent(songTitle)}`;
+        const apiUrl = `https://api.lyrics.ovh/v1/=${encodeURIComponent(songTitle)}`;
         const res = await fetch(apiUrl);
         
         if (!res.ok) {

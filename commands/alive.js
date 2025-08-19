@@ -20,7 +20,7 @@ async function aliveCommand(sock, chatId) {
     try {
         const message = `
 ╭━━━━━━━━━━━━━━━━━━━╮
-┃      𝗕𝗘𝗡 10-𝐌𝐃   ┃
+┃        𝗟𝗮𝗱𝘆_𝗕𝗲𝗹𝗹𝗮🎀
 ╰━━━━━━━━━━━━━━━━━━━╯
 ┌───────────────────┐
 │  🔹 *Status*: Online
@@ -45,7 +45,7 @@ async function aliveCommand(sock, chatId) {
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363399707841760@newsletter',
-                    newsletterName: '𝗕𝗘𝗡 10-𝐌𝐃',
+                    newsletterName: '𝗟𝗮𝗱𝘆_𝗕𝗲𝗹𝗹𝗮🎀',
                     serverMessageId: -1
                 }
             }

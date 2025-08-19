@@ -37,8 +37,8 @@ async function simpCommand(sock, chatId, quotedMsg, mentionedJid, sender) {
                 forwardingScore: 1,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363399707841760@newsletter',
-                    newsletterName: '𝗕𝗘𝗡 10 𝗠𝗗',
+                    newsletterJid: '@newsletter',
+                    newsletterName: '𝐉ᴜɴᴇ 𝐌ᴅ',
                     serverMessageId: -1
                 }
             }
@@ -52,8 +52,8 @@ async function simpCommand(sock, chatId, quotedMsg, mentionedJid, sender) {
                 forwardingScore: 1,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363399707841760@newsletter',
-                    newsletterName: '𝗕𝗘𝗡 10 𝗠𝗗',
+                    newsletterJid: '@newsletter',
+                    newsletterName: '𝐉ᴜɴᴇ 𝐌ᴅ',
                     serverMessageId: -1
                 }
             }

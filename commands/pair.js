@@ -10,8 +10,8 @@ async function pairCommand(sock, chatId, message, q) {
                     forwardingScore: 1,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363399707841760@newsletter',
-                        newsletterName: '𝗕𝗘𝗡 10 𝗠𝗗',
+                        newsletterJid: '120363400862271383@newsletter',
+                        newsletterName: '𝕊𝔸𝕄𝕂𝕀𝔼𝕃 𝔹𝕆𝕋',
                         serverMessageId: -1
                     }
                 }
@@ -29,8 +29,8 @@ async function pairCommand(sock, chatId, message, q) {
                     forwardingScore: 1,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363399707841760@newsletter',
-                        newsletterName: '𝗕𝗘𝗡 10 𝗠𝗗',
+                        newsletterJid: '120363400862271383@newsletter',
+                        newsletterName: '𝕊𝔸𝕄𝕂𝕀𝔼𝕃 𝔹𝕆𝕋',
                         serverMessageId: -1
                     }
                 }
@@ -48,8 +48,8 @@ async function pairCommand(sock, chatId, message, q) {
                         forwardingScore: 1,
                         isForwarded: true,
                         forwardedNewsletterMessageInfo: {
-                            newsletterJid: '120363399707841760@newsletter',
-                            newsletterName: '𝗕𝗘𝗡 10 𝗠𝗗',
+                            newsletterJid: '120363400862271383@newsletter',
+                            newsletterName: '𝕊𝔸𝕄𝕂𝕀𝔼𝕃 𝔹𝕆𝕋',
                             serverMessageId: -1
                         }
                     }
@@ -62,8 +62,8 @@ async function pairCommand(sock, chatId, message, q) {
                     forwardingScore: 1,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363399707841760@newsletter',
-                        newsletterName: '𝗕𝗘𝗡 10 𝗠𝗗',
+                        newsletterJid: '120363400862271383@newsletter',
+                        newsletterName: '𝕊𝔸𝕄𝕂𝕀𝔼𝕃 𝔹𝕆𝕋',
                         serverMessageId: -1
                     }
                 }
@@ -85,8 +85,8 @@ async function pairCommand(sock, chatId, message, q) {
                             forwardingScore: 1,
                             isForwarded: true,
                             forwardedNewsletterMessageInfo: {
-                                newsletterJid: '120363399707841760@newsletter',
-                                newsletterName: '𝗕𝗘𝗡 10 𝗠𝗗',
+                                newsletterJid: '120363400862271383@newsletter',
+                                newsletterName: '𝕊𝔸𝕄𝕂𝕀𝔼𝕃 𝔹𝕆𝕋',
                                 serverMessageId: -1
                             }
                         }
@@ -106,8 +106,8 @@ async function pairCommand(sock, chatId, message, q) {
                         forwardingScore: 1,
                         isForwarded: true,
                         forwardedNewsletterMessageInfo: {
-                            newsletterJid: '120363399707841760@newsletter',
-                            newsletterName: '𝗕𝗘𝗡 10 𝗠𝗗',
+                            newsletterJid: '120363400862271383@newsletter',
+                            newsletterName: '𝕊𝔸𝕄𝕂𝕀𝔼𝕃 𝔹𝕆𝕋',
                             serverMessageId: -1
                         }
                     }
@@ -122,8 +122,8 @@ async function pairCommand(sock, chatId, message, q) {
                 forwardingScore: 1,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363399707841760@newsletter',
-                    newsletterName: '𝗕𝗘𝗡 10 𝗠𝗗',
+                    newsletterJid: '120363400862271383@newsletter',
+                    newsletterName: '𝕊𝔸𝕄𝕂𝕀𝔼𝕃 𝔹𝕆𝕋',
                     serverMessageId: -1
                 }
             }

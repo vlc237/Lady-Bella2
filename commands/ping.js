@@ -39,7 +39,7 @@ async function pingCommand(sock, chatId, message) {
 
         const botInfo = `
 ╭────────────────────────
-│     BEN-𝐌𝐃 𝐁𝐎𝐓 𝐒𝐓𝐀𝐓𝐔𝐒  
+│     𝗟𝗮𝗱𝘆_𝗕𝗲𝗹𝗹𝗮🎀  STATUS
 ├────────────────────────
 │  🚀 Response: ${ping.toString().padEnd(6)} ms
 │  ⏳ Uptime:   ${uptime.padEnd(14)}
@@ -50,7 +50,7 @@ async function pingCommand(sock, chatId, message) {
 │  👥 Users:    ${global.users?.length || 0} active
 ╰──────────────────────────────
 ╭──────────────────────────────
-│  🔗 GitHub:   https://github.com/SNOWBIRD0074/BEN-10-MD
+│  🔗 GitHub:   https://github.com/SNOWBIRD0074/LADY_BELLA/tree/main
 │  📢 Channel:  ${settings.channelLink || 'whatsapp.com/channel/https://whatsapp.com/channel/0029Vb5nSebFy722d2NEeU3C'}
 ╰──────────────────────────────
 `.trim();
@@ -63,7 +63,7 @@ async function pingCommand(sock, chatId, message) {
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363399707841760@newsletter',
-                    newsletterName: 'BEN 10 MD',
+                    newsletterName: '𝗟𝗮𝗱𝘆_𝗕𝗲𝗹𝗹𝗮🎀',
                     serverMessageId: -1
                 }
             }
@@ -89,7 +89,7 @@ async function pingCommand(sock, chatId, message) {
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363399707841760@newsletter',
-                    newsletterName: 'BEN 10 𝐌𝐃',
+                    newsletterName: '𝗟𝗮𝗱𝘆_𝗕𝗲𝗹𝗹𝗮🎀',
                     serverMessageId: -1
                 }
             }

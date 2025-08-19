@@ -10,7 +10,7 @@ const channelInfo = {
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
             newsletterJid: '120363399707841760@newsletter',
-            newsletterName: '𝗕𝗘𝗡 10 𝗠𝗗',
+            newsletterName: '𝗟𝗮𝗱𝘆_𝗕𝗲𝗹𝗹𝗮🎀',
             serverMessageId: -1
         }
     }
@@ -25,7 +25,7 @@ async function viewOnceCommand(sock, chatId, message) {
 
         if (!quotedMessage) {
             await sock.sendMessage(chatId, { 
-                text: '❌ Please reply to a view once message!',
+                text: '🛑 _Please reply to a view once message!_',
                 ...channelInfo
             });
             return;
@@ -55,7 +55,7 @@ async function viewOnceCommand(sock, chatId, message) {
         if (!mediaMessage) {
             console.log('Message structure:', JSON.stringify(message, null, 2));
             await sock.sendMessage(chatId, { 
-                text: '❌ Could not detect view once message! Please make sure you replied to a view once image/video.',
+                text: ' 🛑 Could not detect view once message! Please make sure you replied to a view once image/video.',
                 ...channelInfo
             });
             return;
@@ -75,15 +75,15 @@ async function viewOnceCommand(sock, chatId, message) {
                 
                 await sock.sendMessage(chatId, { 
                     image: buffer,
-                    caption: `*💀 𝗕𝗘𝗡 10 𝗠𝗗💀*\n\n*Type:* Image 📸\n${caption ? `*Caption:* ${caption}` : ''}`,
+                    caption: `*𝗟𝗮𝗱𝘆_𝗕𝗲𝗹𝗹𝗮🎀*\n\n*ViewOnce:* Image 📸\n${caption ? `*Caption:* ${caption}` : ''}`,
                     ...channelInfo
                 });
-                console.log('✅ View once image processed successfully');
+                console.log('_View once image processed successfully_');
                 return;
             } catch (err) {
-                console.error('❌ Error downloading image:', err);
+                console.error('🛑 Error downloading image:', err);
                 await sock.sendMessage(chatId, { 
-                    text: '❌ Failed to process view once image! Error: ' + err.message,
+                    text: '🛑 Failed to process view once image! Error: ' + err.message,
                     ...channelInfo
                 });
                 return;
@@ -93,7 +93,7 @@ async function viewOnceCommand(sock, chatId, message) {
         // Handle view once video
         if (isViewOnceVideo) {
             try {
-                console.log('📹 Processing view once video...');
+                console.log('Processing view once video...');
                 
                 // Create temp directory if it doesn't exist
                 const tempDir = path.join(__dirname, '../temp');
@@ -117,19 +117,19 @@ async function viewOnceCommand(sock, chatId, message) {
 
                 await sock.sendMessage(chatId, { 
                     video: fs.readFileSync(tempFile),
-                    caption: `*💀 𝗕𝗘𝗡 10 𝗠𝗗 💀*\n\n*Type:* Video 📹\n${caption ? `*Caption:* ${caption}` : ''}`,
+                    caption: `*𝗟𝗮𝗱𝘆_𝗕𝗲𝗹𝗹𝗮🎀*\n\n*ViewOnce* Video 📹\n${caption ? `*Caption:* ${caption}` : ''}`,
                     ...channelInfo
                 });
 
                 // Clean up temp file
                 fs.unlinkSync(tempFile);
                 
-                console.log('✅ View once video processed successfully');
+                console.log('View once video processed successfully');
                 return;
             } catch (err) {
-                console.error('❌ Error processing video:', err);
+                console.error(' 🛑 Error processing video:', err);
                 await sock.sendMessage(chatId, { 
-                    text: '❌ Failed to process view once video! Error: ' + err.message,
+                    text: ' 🛑 Failed to process view once video! Error: ' + err.message,
                     ...channelInfo
                 });
                 return;
@@ -138,14 +138,14 @@ async function viewOnceCommand(sock, chatId, message) {
 
         // If we get here, it wasn't a view once message
         await sock.sendMessage(chatId, { 
-            text: '❌ This is not a view once message! Please reply to a view once image/video.',
+            text: '🛑 This is not a view once message! Please reply to a view once image/video.',
             ...channelInfo
         });
 
     } catch (error) {
-        console.error('❌ Error in viewonce command:', error);
+        console.error('🛑 Error in viewonce command:', error);
         await sock.sendMessage(chatId, { 
-            text: '❌ Error processing view once message! Error: ' + error.message,
+            text: '🛑 Error processing view once message! Error: ' + error.message,
             ...channelInfo
         });
     }
