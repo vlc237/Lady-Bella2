@@ -1,1 +1,365 @@
-function _0x3269(){const _0x4727bb=['Please\x20type\x20your\x20WhatsApp\x20number\x20😍\x0aFormat:\x206281376552730\x20(without\x20+\x20or\x20spaces)\x20:\x20','type','parse','--pairing-code','messages.upsert','263780145644','awesome-phonenumber','subject','Chrome','remoteJid','connection.update','messages.reaction','status@broadcast','isTTY','black','52840876iWdUTp','chalk','chats.set','split','magenta','notify','20.0.04','6414015fWtehH','match','cyan','unhandledRejection','BEN\x2010\x20MD','❌\x20An\x20error\x20occurred\x20while\x20processing\x20your\x20message.','status.update','35783qvWyOp','join','Invalid\x20phone\x20number.\x20Please\x20enter\x20your\x20full\x20international\x20number\x20(e.g.,\x2015551234567\x20for\x20US,\x20447911123456\x20for\x20UK,\x20etc.)\x20without\x20+\x20or\x20spaces.','name','\x20CREDIT:\x20SNOWBIRD','requestPairingCode','messages','error','green','redBright','phoneNumber','server','blue','contacts','key','@whiskeysockets/baileys','@s.whatsapp.net','\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','./main','group-participants.update','bind','stringify','open','\x0aPlease\x20enter\x20this\x20code\x20in\x20your\x20WhatsApp\x20app:\x0a1.\x20Open\x20WhatsApp\x0a2.\x20Go\x20to\x20Settings\x20>\x20Linked\x20Devices\x0a3.\x20Tap\x20\x22Link\x20a\x20Device\x22\x0a4.\x20Enter\x20the\x20code\x20shown\x20above','toLocaleString','child','pino','resolve','30hHQpvF','5885140HlAIad','test','international','🌿Connected\x20to\x20=>\x20','verifiedName','Error\x20in\x20messages.upsert:','ephemeralMessage','registered','658847clHwUw','themeemoji','withoutContact','66gIELXP','red','path','uncaughtException','bgBlack','\x0a✅\x20Status:\x20Online\x20and\x20Ready!\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a✅Make\x20sure\x20to\x20join\x20below\x20channel','decodeJid','𝗕𝗘𝗡\x2010\x20𝗠𝗗','white','silent','Your\x20Pairing\x20Code\x20:\x20','Update\x20','argv','--mobile','Fatal\x20error:','<\x20==================================================\x20>','\x20GITHUB:\x20snowbird','cache','4704952WDyuMM','watchFile','Cannot\x20use\x20pairing\x20code\x20with\x20mobile\x20api','replace','sendMessage','readFileSync','creds.update','serializeM','stdout','startsWith','120363399707841760@newsletter','getName','libphonenumber-js','WhatsApp','creds','./lib/exif','./data/owner.json','Error\x20in\x20handleMessages:','botname','chats','\x20YT\x20CHANNEL:\x20𝗦𝗡𝗢𝗪𝗕𝗜𝗥𝗗','message','user','@g.us','@hapi/boom','axios','includes','ownerNumber','255576kJLXFr','isValid','exit','fatal','stdin','./settings','24KnsoVd','close','0@s.whatsapp.net','public','\x20🤖\x20Bot\x20Connected\x20Successfully!\x20✅','contacts.update','18xmYiGB','log','statusCode','unwatchFile','node-cache','question','Uncaught\x20Exception:','yellow','fromMe','catch'];_0x3269=function(){return _0x4727bb;};return _0x3269();}const _0x592a33=_0x1724;(function(_0x3d2e08,_0x5a2405){const _0x75ef8=_0x1724,_0x10b7cd=_0x3d2e08();while(!![]){try{const _0x1cd68c=parseInt(_0x75ef8(0x218))/0x1*(-parseInt(_0x75ef8(0x1b7))/0x2)+parseInt(_0x75ef8(0x234))/0x3*(parseInt(_0x75ef8(0x1e5))/0x4)+-parseInt(_0x75ef8(0x211))/0x5+parseInt(_0x75ef8(0x1eb))/0x6*(-parseInt(_0x75ef8(0x1b4))/0x7)+-parseInt(_0x75ef8(0x1c9))/0x8+parseInt(_0x75ef8(0x1f1))/0x9*(-parseInt(_0x75ef8(0x235))/0xa)+parseInt(_0x75ef8(0x20a))/0xb;if(_0x1cd68c===_0x5a2405)break;else _0x10b7cd['push'](_0x10b7cd['shift']());}catch(_0x3447d3){_0x10b7cd['push'](_0x10b7cd['shift']());}}}(_0x3269,0xcc707),require(_0x592a33(0x1ea)));const {Boom}=require(_0x592a33(0x1e1)),fs=require('fs'),chalk=require(_0x592a33(0x20b)),FileType=require('file-type'),path=require(_0x592a33(0x1b9)),axios=require(_0x592a33(0x1e2)),{handleMessages,handleGroupParticipantUpdate,handleStatus}=require(_0x592a33(0x22a)),PhoneNumber=require(_0x592a33(0x201)),{imageToWebp,videoToWebp,writeExifImg,writeExifVid}=require(_0x592a33(0x1d8)),{smsg,isUrl,generateMessageTag,getBuffer,getSizeMedia,fetch,await,sleep,reSize}=require('./lib/myfunc'),{default:makeWASocket,useMultiFileAuthState,DisconnectReason,fetchLatestBaileysVersion,generateForwardMessageContent,prepareWAMessageMedia,generateWAMessageFromContent,generateMessageID,downloadContentFromMessage,jidDecode,proto,jidNormalizedUser,makeCacheableSignalKeyStore,delay}=require(_0x592a33(0x227)),NodeCache=require(_0x592a33(0x1f5)),pino=require(_0x592a33(0x232)),readline=require('readline'),{parsePhoneNumber}=require(_0x592a33(0x1d5)),{PHONENUMBER_MCC}=require('@whiskeysockets/baileys/lib/Utils/generics'),{rmSync,existsSync}=require('fs'),{join}=require(_0x592a33(0x1b9)),store={'messages':{},'contacts':{},'chats':{},'groupMetadata':async _0x44a568=>{return{};},'bind':function(_0x592845){const _0x2d4d3a=_0x592a33;_0x592845['on'](_0x2d4d3a(0x1ff),({messages:_0x75f754})=>{_0x75f754['forEach'](_0x1fd7a5=>{const _0xe11417=_0x1724;_0x1fd7a5[_0xe11417(0x226)]&&_0x1fd7a5[_0xe11417(0x226)][_0xe11417(0x204)]&&(this[_0xe11417(0x21e)][_0x1fd7a5['key'][_0xe11417(0x204)]]=this[_0xe11417(0x21e)][_0x1fd7a5[_0xe11417(0x226)][_0xe11417(0x204)]]||{},this[_0xe11417(0x21e)][_0x1fd7a5['key'][_0xe11417(0x204)]][_0x1fd7a5[_0xe11417(0x226)]['id']]=_0x1fd7a5);});}),_0x592845['on'](_0x2d4d3a(0x1f0),_0xe5801a=>{_0xe5801a['forEach'](_0x135502=>{const _0x12dfac=_0x1724;_0x135502['id']&&(this[_0x12dfac(0x225)][_0x135502['id']]=_0x135502);});}),_0x592845['on'](_0x2d4d3a(0x20c),_0x30b90e=>{const _0x3a0dca=_0x2d4d3a;this[_0x3a0dca(0x1dc)]=_0x30b90e;});},'loadMessage':async(_0x54b760,_0x56a567)=>{const _0x37991e=_0x592a33;return this[_0x37991e(0x21e)][_0x54b760]?.[_0x56a567]||null;}};let phoneNumber=_0x592a33(0x200),owner=JSON[_0x592a33(0x1fd)](fs[_0x592a33(0x1ce)](_0x592a33(0x1d9)));global[_0x592a33(0x1db)]='BEN\x2010\x20MD',global[_0x592a33(0x1b5)]='•';const settings=require('./settings'),pairingCode=!!phoneNumber||process[_0x592a33(0x1c3)][_0x592a33(0x1e3)](_0x592a33(0x1fe)),useMobile=process['argv'][_0x592a33(0x1e3)](_0x592a33(0x1c4)),rl=process[_0x592a33(0x1e9)][_0x592a33(0x208)]?readline['createInterface']({'input':process['stdin'],'output':process[_0x592a33(0x1d1)]}):null,question=_0x3600e7=>{const _0x3c146c=_0x592a33;return rl?new Promise(_0x6dffb6=>rl[_0x3c146c(0x1f6)](_0x3600e7,_0x6dffb6)):Promise[_0x3c146c(0x233)](settings[_0x3c146c(0x1e4)]||phoneNumber);};function _0x1724(_0x18f69a,_0x1424e9){const _0x326963=_0x3269();return _0x1724=function(_0x1724a0,_0x518e27){_0x1724a0=_0x1724a0-0x1b3;let _0x307a8c=_0x326963[_0x1724a0];return _0x307a8c;},_0x1724(_0x18f69a,_0x1424e9);}async function startXeonBotInc(){const _0x36b667=_0x592a33;let {version:_0x52fdf0,isLatest:_0x225146}=await fetchLatestBaileysVersion();const {state:_0x301120,saveCreds:_0x8d6c59}=await useMultiFileAuthState('./session'),_0x45a9c0=new NodeCache(),_0x54ed44=makeWASocket({'version':_0x52fdf0,'logger':pino({'level':_0x36b667(0x1c0)}),'printQRInTerminal':!pairingCode,'browser':['Ubuntu',_0x36b667(0x203),_0x36b667(0x210)],'auth':{'creds':_0x301120[_0x36b667(0x1d7)],'keys':makeCacheableSignalKeyStore(_0x301120['keys'],pino({'level':_0x36b667(0x1e8)})[_0x36b667(0x231)]({'level':_0x36b667(0x1e8)}))},'markOnlineOnConnect':!![],'generateHighQualityLinkPreview':!![],'getMessage':async _0x2a3cd5=>{const _0x3efaa7=_0x36b667;let _0x3db2f2=jidNormalizedUser(_0x2a3cd5[_0x3efaa7(0x204)]),_0x3466b9=await store['loadMessage'](_0x3db2f2,_0x2a3cd5['id']);return _0x3466b9?.[_0x3efaa7(0x1de)]||'';},'msgRetryCounterCache':_0x45a9c0,'defaultQueryTimeoutMs':undefined});store[_0x36b667(0x22c)](_0x54ed44['ev']),_0x54ed44['ev']['on'](_0x36b667(0x1ff),async _0x2bced9=>{const _0xf7329=_0x36b667;try{const _0x12ab46=_0x2bced9['messages'][0x0];if(!_0x12ab46[_0xf7329(0x1de)])return;_0x12ab46[_0xf7329(0x1de)]=Object['keys'](_0x12ab46[_0xf7329(0x1de)])[0x0]===_0xf7329(0x23b)?_0x12ab46[_0xf7329(0x1de)]['ephemeralMessage']['message']:_0x12ab46['message'];if(_0x12ab46[_0xf7329(0x226)]&&_0x12ab46[_0xf7329(0x226)]['remoteJid']===_0xf7329(0x207)){await handleStatus(_0x54ed44,_0x2bced9);return;}if(!_0x54ed44[_0xf7329(0x1ee)]&&!_0x12ab46[_0xf7329(0x226)][_0xf7329(0x1f9)]&&_0x2bced9[_0xf7329(0x1fc)]===_0xf7329(0x20f))return;if(_0x12ab46[_0xf7329(0x226)]['id'][_0xf7329(0x1d2)]('BAE5')&&_0x12ab46[_0xf7329(0x226)]['id']['length']===0x10)return;try{await handleMessages(_0x54ed44,_0x2bced9,!![]);}catch(_0x19d615){console[_0xf7329(0x21f)](_0xf7329(0x1da),_0x19d615),_0x12ab46['key']&&_0x12ab46[_0xf7329(0x226)]['remoteJid']&&await _0x54ed44[_0xf7329(0x1cd)](_0x12ab46['key'][_0xf7329(0x204)],{'text':_0xf7329(0x216),'contextInfo':{'forwardingScore':0x1,'isForwarded':!![],'forwardedNewsletterMessageInfo':{'newsletterJid':_0xf7329(0x1d3),'newsletterName':_0xf7329(0x215),'serverMessageId':-0x1}}})[_0xf7329(0x1fa)](console[_0xf7329(0x21f)]);}}catch(_0xb07077){console[_0xf7329(0x21f)](_0xf7329(0x23a),_0xb07077);}}),_0x54ed44[_0x36b667(0x1bd)]=_0x2ca7f9=>{const _0x5e0351=_0x36b667;if(!_0x2ca7f9)return _0x2ca7f9;if(/:\d+@/gi[_0x5e0351(0x236)](_0x2ca7f9)){let _0x345b9c=jidDecode(_0x2ca7f9)||{};return _0x345b9c[_0x5e0351(0x1df)]&&_0x345b9c['server']&&_0x345b9c[_0x5e0351(0x1df)]+'@'+_0x345b9c[_0x5e0351(0x223)]||_0x2ca7f9;}else return _0x2ca7f9;},_0x54ed44['ev']['on'](_0x36b667(0x1f0),_0x48dde8=>{const _0x5c2034=_0x36b667;for(let _0x1e7e46 of _0x48dde8){let _0xc7db88=_0x54ed44['decodeJid'](_0x1e7e46['id']);if(store&&store[_0x5c2034(0x225)])store[_0x5c2034(0x225)][_0xc7db88]={'id':_0xc7db88,'name':_0x1e7e46[_0x5c2034(0x20f)]};}}),_0x54ed44[_0x36b667(0x1d4)]=(_0x5b09c7,_0x422e0f=![])=>{const _0x4c1c0a=_0x36b667;id=_0x54ed44[_0x4c1c0a(0x1bd)](_0x5b09c7),_0x422e0f=_0x54ed44[_0x4c1c0a(0x1b6)]||_0x422e0f;let _0x3eaa53;if(id['endsWith'](_0x4c1c0a(0x1e0)))return new Promise(async _0x279762=>{const _0x186b08=_0x4c1c0a;_0x3eaa53=store[_0x186b08(0x225)][id]||{};if(!(_0x3eaa53[_0x186b08(0x21b)]||_0x3eaa53[_0x186b08(0x202)]))_0x3eaa53=_0x54ed44['groupMetadata'](id)||{};_0x279762(_0x3eaa53[_0x186b08(0x21b)]||_0x3eaa53['subject']||PhoneNumber('+'+id[_0x186b08(0x1cc)](_0x186b08(0x228),''))['getNumber'](_0x186b08(0x237)));});else _0x3eaa53=id===_0x4c1c0a(0x1ed)?{'id':id,'name':_0x4c1c0a(0x1d6)}:id===_0x54ed44['decodeJid'](_0x54ed44['user']['id'])?_0x54ed44['user']:store['contacts'][id]||{};return(_0x422e0f?'':_0x3eaa53[_0x4c1c0a(0x21b)])||_0x3eaa53['subject']||_0x3eaa53[_0x4c1c0a(0x239)]||PhoneNumber('+'+_0x5b09c7[_0x4c1c0a(0x1cc)]('@s.whatsapp.net',''))['getNumber'](_0x4c1c0a(0x237));},_0x54ed44[_0x36b667(0x1ee)]=!![],_0x54ed44[_0x36b667(0x1d0)]=_0x28ffb0=>smsg(_0x54ed44,_0x28ffb0,store);if(pairingCode&&!_0x54ed44['authState'][_0x36b667(0x1d7)][_0x36b667(0x1b3)]){if(useMobile)throw new Error(_0x36b667(0x1cb));let _0x572054;!!global[_0x36b667(0x222)]?_0x572054=global['phoneNumber']:_0x572054=await question(chalk[_0x36b667(0x1bb)](chalk['greenBright'](_0x36b667(0x1fb))));_0x572054=_0x572054[_0x36b667(0x1cc)](/[^0-9]/g,'');const _0xfddc41=require(_0x36b667(0x201));!_0xfddc41('+'+_0x572054)[_0x36b667(0x1e6)]()&&(console[_0x36b667(0x1f2)](chalk[_0x36b667(0x1b8)](_0x36b667(0x21a))),process[_0x36b667(0x1e7)](0x1)),setTimeout(async()=>{const _0x11b95c=_0x36b667;try{let _0x510eaa=await _0x54ed44[_0x11b95c(0x21d)](_0x572054);_0x510eaa=_0x510eaa?.[_0x11b95c(0x212)](/.{1,4}/g)?.[_0x11b95c(0x219)]('-')||_0x510eaa,console[_0x11b95c(0x1f2)](chalk['black'](chalk['bgGreen'](_0x11b95c(0x1c1))),chalk[_0x11b95c(0x209)](chalk[_0x11b95c(0x1bf)](_0x510eaa))),console[_0x11b95c(0x1f2)](chalk[_0x11b95c(0x1f8)](_0x11b95c(0x22f)));}catch(_0x182a95){console['error']('Error\x20requesting\x20pairing\x20code:',_0x182a95),console[_0x11b95c(0x1f2)](chalk[_0x11b95c(0x1b8)]('Failed\x20to\x20get\x20pairing\x20code.\x20Please\x20check\x20your\x20phone\x20number\x20and\x20try\x20again.'));}},0xbb8);}return _0x54ed44['ev']['on'](_0x36b667(0x205),async _0x290d34=>{const _0x2c29d8=_0x36b667,{connection:_0x1fd73d,lastDisconnect:_0x3a1e48}=_0x290d34;if(_0x1fd73d==_0x2c29d8(0x22e)){console['log'](chalk[_0x2c29d8(0x20e)]('\x20')),console['log'](chalk[_0x2c29d8(0x1f8)](_0x2c29d8(0x238)+JSON[_0x2c29d8(0x22d)](_0x54ed44[_0x2c29d8(0x1df)],null,0x2)));const _0x1c792f=_0x54ed44[_0x2c29d8(0x1df)]['id'][_0x2c29d8(0x20d)](':')[0x0]+_0x2c29d8(0x228);await _0x54ed44[_0x2c29d8(0x1cd)](_0x1c792f,{'text':'🤖\x20Bot\x20Connected\x20Successfully!\x0a\x0a⏰\x20Time:\x20'+new Date()[_0x2c29d8(0x230)]()+_0x2c29d8(0x1bc),'contextInfo':{'forwardingScore':0x1,'isForwarded':!![],'forwardedNewsletterMessageInfo':{'newsletterJid':_0x2c29d8(0x1d3),'newsletterName':_0x2c29d8(0x1be),'serverMessageId':-0x1}}}),await delay(0x7cf),console[_0x2c29d8(0x1f2)](chalk[_0x2c29d8(0x1f8)](_0x2c29d8(0x229)+chalk['bold'][_0x2c29d8(0x224)]('[\x20'+(global[_0x2c29d8(0x1db)]||'')+'\x20]')+'\x0a\x0a')),console['log'](chalk[_0x2c29d8(0x213)](_0x2c29d8(0x1c6))),console[_0x2c29d8(0x1f2)](chalk['magenta']('\x0a'+(global['themeemoji']||'•')+_0x2c29d8(0x1dd))),console['log'](chalk['magenta']((global[_0x2c29d8(0x1b5)]||'•')+_0x2c29d8(0x1c7))),console['log'](chalk[_0x2c29d8(0x20e)]((global[_0x2c29d8(0x1b5)]||'•')+'\x20WA\x20NUMBER:\x20'+owner)),console[_0x2c29d8(0x1f2)](chalk['magenta']((global[_0x2c29d8(0x1b5)]||'•')+_0x2c29d8(0x21c))),console[_0x2c29d8(0x1f2)](chalk[_0x2c29d8(0x220)]((global['themeemoji']||'•')+_0x2c29d8(0x1ef)));}_0x1fd73d===_0x2c29d8(0x1ec)&&_0x3a1e48&&_0x3a1e48[_0x2c29d8(0x21f)]&&_0x3a1e48['error']['output'][_0x2c29d8(0x1f3)]!=0x191&&startXeonBotInc();}),_0x54ed44['ev']['on'](_0x36b667(0x1cf),_0x8d6c59),_0x54ed44['ev']['on'](_0x36b667(0x22b),async _0x4de764=>{await handleGroupParticipantUpdate(_0x54ed44,_0x4de764);}),_0x54ed44['ev']['on'](_0x36b667(0x1ff),async _0x326bfd=>{const _0x4b3049=_0x36b667;_0x326bfd['messages'][0x0][_0x4b3049(0x226)]&&_0x326bfd[_0x4b3049(0x21e)][0x0][_0x4b3049(0x226)]['remoteJid']===_0x4b3049(0x207)&&await handleStatus(_0x54ed44,_0x326bfd);}),_0x54ed44['ev']['on'](_0x36b667(0x217),async _0x5de8e5=>{await handleStatus(_0x54ed44,_0x5de8e5);}),_0x54ed44['ev']['on'](_0x36b667(0x206),async _0x15fcdd=>{await handleStatus(_0x54ed44,_0x15fcdd);}),_0x54ed44;}startXeonBotInc()[_0x592a33(0x1fa)](_0x2bf04c=>{const _0x255128=_0x592a33;console[_0x255128(0x21f)](_0x255128(0x1c5),_0x2bf04c),process[_0x255128(0x1e7)](0x1);}),process['on'](_0x592a33(0x1ba),_0x452fc6=>{const _0x1ab11f=_0x592a33;console[_0x1ab11f(0x21f)](_0x1ab11f(0x1f7),_0x452fc6);}),process['on'](_0x592a33(0x214),_0x14cb25=>{const _0x4597a9=_0x592a33;console[_0x4597a9(0x21f)]('Unhandled\x20Rejection:',_0x14cb25);});let file=require['resolve'](__filename);fs[_0x592a33(0x1ca)](file,()=>{const _0xe9bf01=_0x592a33;fs[_0xe9bf01(0x1f4)](file),console['log'](chalk[_0xe9bf01(0x221)](_0xe9bf01(0x1c2)+__filename)),delete require[_0xe9bf01(0x1c8)][file],require(file);});
+//➤➤➤➤➤➤➤MD➤JUNE➤MD➤➤➤➤➤➤//
+
+/*Terrivez*/
+require('./settings')
+const { Boom } = require('@hapi/boom')
+const fs = require('fs')
+const chalk = require('chalk')
+const FileType = require('file-type')
+const path = require('path')
+const axios = require('axios')
+const { handleMessages, handleGroupParticipantUpdate, handleStatus } = require('./main');
+const PhoneNumber = require('awesome-phonenumber')
+const { imageToWebp, videoToWebp, writeExifImg, writeExifVid } = require('./lib/exif')
+const { smsg, isUrl, generateMessageTag, getBuffer, getSizeMedia, fetch, await, sleep, reSize } = require('./lib/myfunc')
+const { 
+    default: makeWASocket,
+    useMultiFileAuthState, 
+    DisconnectReason, 
+    fetchLatestBaileysVersion,
+    generateForwardMessageContent,
+    prepareWAMessageMedia,
+    generateWAMessageFromContent,
+    generateMessageID,
+    downloadContentFromMessage,
+    jidDecode,
+    proto,
+    jidNormalizedUser,
+    makeCacheableSignalKeyStore,
+    delay
+} = require("@whiskeysockets/baileys")
+const NodeCache = require("node-cache")
+const pino = require("pino")
+const readline = require("readline")
+const { parsePhoneNumber } = require("libphonenumber-js")
+const { PHONENUMBER_MCC } = require('@whiskeysockets/baileys/lib/Utils/generics')
+const { rmSync, existsSync } = require('fs')
+const { join } = require('path')
+
+// Create a store object with required methods
+const store = {
+    messages: {},
+    contacts: {},
+    chats: {},
+    groupMetadata: async (jid) => {
+        return {}
+    },
+    bind: function(ev) {
+        // Handle events
+        ev.on('messages.upsert', ({ messages }) => {
+            messages.forEach(msg => {
+                if (msg.key && msg.key.remoteJid) {
+                    this.messages[msg.key.remoteJid] = this.messages[msg.key.remoteJid] || {}
+                    this.messages[msg.key.remoteJid][msg.key.id] = msg
+                }
+            })
+        })
+        
+        ev.on('contacts.update', (contacts) => {
+            contacts.forEach(contact => {
+                if (contact.id) {
+                    this.contacts[contact.id] = contact
+                }
+            })
+        })
+        
+        ev.on('chats.set', (chats) => {
+            this.chats = chats
+        })
+    },
+    loadMessage: async (jid, id) => {
+        return this.messages[jid]?.[id] || null
+    }
+}
+
+let phoneNumber = "263780145644"
+let owner = JSON.parse(fs.readFileSync('./data/owner.json'))
+
+global.botname = "Lady bella"
+global.themeemoji = "•"
+global.statusview = true
+
+const settings = require('./settings')
+const pairingCode = !!phoneNumber || process.argv.includes("--pairing-code")
+const useMobile = process.argv.includes("--mobile")
+
+const rl = process.stdin.isTTY ? readline.createInterface({ input: process.stdin, output: process.stdout }) : null
+const question = (text) => {
+    if (rl) {
+        return new Promise((resolve) => rl.question(text, resolve))
+    } else {
+        
+        return Promise.resolve(settings.ownerNumber || phoneNumber)
+    }
+}
+
+async function startconn() {
+    let { version, isLatest } = await fetchLatestBaileysVersion()
+    const { state, saveCreds } = await useMultiFileAuthState(`./session`)
+    const msgRetryCounterCache = new NodeCache()
+
+    const conn = makeWASocket({
+        version,
+        logger: pino({ level: 'silent' }),
+        printQRInTerminal: !pairingCode,
+        browser: ["Ubuntu", "Chrome", "20.0.04"],
+        auth: {
+            creds: state.creds,
+            keys: makeCacheableSignalKeyStore(state.keys, pino({ level: "fatal" }).child({ level: "fatal" })),
+        },
+        markOnlineOnConnect: true,
+        generateHighQualityLinkPreview: true,
+        getMessage: async (key) => {
+            let jid = jidNormalizedUser(key.remoteJid)
+            let msg = await store.loadMessage(jid, key.id)
+            return msg?.message || ""
+        },
+        msgRetryCounterCache,
+        defaultQueryTimeoutMs: undefined,
+    })
+
+    store.bind(conn.ev)
+
+    conn.ev.on('messages.upsert', async chatUpdate => {
+        try {
+            const mek = chatUpdate.messages[0]
+            if (!mek.message) return
+            mek.message = (Object.keys(mek.message)[0] === 'ephemeralMessage') ? mek.message.ephemeralMessage.message : mek.message
+            if (mek.key && mek.key.remoteJid === 'status@broadcast') {
+                await handleStatus(conn, chatUpdate);
+                return;
+            }
+            if (!conn.public && !mek.key.fromMe && chatUpdate.type === 'notify') return
+            if (mek.key.id.startsWith('BAE5') && mek.key.id.length === 16) return
+            
+            try {
+                await handleMessages(conn, chatUpdate, true)
+            } catch (err) {
+                console.error("Error in handleMessages:", err)
+                if (mek.key && mek.key.remoteJid) {
+                    await conn.sendMessage(mek.key.remoteJid, { 
+                        text: '❌ An error occurred while processing your message.',
+                        contextInfo: {
+                            forwardingScore: 1,
+                            isForwarded: false,
+                            forwardedNewsletterMessageInfo: {
+                                newsletterJid: '120363399707841760@newsletter',
+                                newsletterName: 'Lady bella',
+                                serverMessageId: -1
+                            }
+                        }
+                    }).catch(console.error);
+                }
+            }
+        } catch (err) {
+            console.error("Error in messages.upsert:", err)
+        }
+    })
+
+    conn.ev.on('messages.upsert', async chatUpdate => {
+        if (global.statusview){
+            try {
+                if (!chatUpdate.messages || chatUpdate.messages.length === 0) return;
+                const mek = chatUpdate.messages[0];
+
+                if (!mek.message) return;
+                mek.message =
+                    Object.keys(mek.message)[0] === 'ephemeralMessage'
+                        ? mek.message.ephemeralMessage.message
+                        : mek.message;
+
+                if (mek.key && mek.key.remoteJid === 'status@broadcast') {
+                    let emoji = [ "💙","❤️","💓","⭐","👍","😘","🤍","🖤" ];
+                    let sigma = emoji[Math.floor(Math.random() * emoji.length)];
+                    await conn.readMessages([mek.key]);
+                    conn.sendMessage(
+                        'status@broadcast',
+                        { react: { text: sigma, key: mek.key } },
+                        { statusJidList: [mek.key.participant] },
+                    );
+                }
+            } catch (err) {
+                console.error(err);
+            }
+        }
+    });
+
+    conn.decodeJid = (jid) => {
+        if (!jid) return jid
+        if (/:\d+@/gi.test(jid)) {
+            let decode = jidDecode(jid) || {}
+            return decode.user && decode.server && decode.user + '@' + decode.server || jid
+        } else return jid
+    }
+
+    conn.ev.on('contacts.update', update => {
+        for (let contact of update) {
+            let id = conn.decodeJid(contact.id)
+            if (store && store.contacts) store.contacts[id] = { id, name: contact.notify }
+        }
+    })
+
+    conn.getName = (jid, withoutContact = false) => {
+        id = conn.decodeJid(jid)
+        withoutContact = conn.withoutContact || withoutContact 
+        let v
+        if (id.endsWith("@g.us")) return new Promise(async (resolve) => {
+            v = store.contacts[id] || {}
+            if (!(v.name || v.subject)) v = conn.groupMetadata(id) || {}
+            resolve(v.name || v.subject || PhoneNumber('+' + id.replace('@s.whatsapp.net', '')).getNumber('international'))
+        })
+        else v = id === '0@s.whatsapp.net' ? {
+            id,
+            name: 'WhatsApp'
+        } : id === conn.decodeJid(conn.user.id) ?
+            conn.user :
+            (store.contacts[id] || {})
+        return (withoutContact ? '' : v.name) || v.subject || v.verifiedName || PhoneNumber('+' + jid.replace('@s.whatsapp.net', '')).getNumber('international')
+    }
+
+    conn.public = true
+
+    conn.serializeM = (m) => smsg(conn, m, store)
+
+    if (pairingCode && !conn.authState.creds.registered) {
+        if (useMobile) throw new Error('Cannot use pairing code with mobile api')
+
+        let phoneNumber
+        if (!!global.phoneNumber) {
+            phoneNumber = global.phoneNumber
+        } else {
+            phoneNumber = await question(chalk.bgBlack(chalk.greenBright(`Please type your WhatsApp number 😍\nFormat: 2637XXXXX (without + or spaces) : `)))
+        }
+
+        phoneNumber = phoneNumber.replace(/[^0-9]/g, '')
+
+        const pn = require('awesome-phonenumber');
+        if (!pn('+' + phoneNumber).isValid()) {
+            console.log(chalk.red('Invalid phone number. Please enter your full international number (e.g., 2547XXXXX for Tanzania, 254798570132 for Kenya, etc.) without + or spaces.'));
+            process.exit(1);
+        }
+
+        setTimeout(async () => {
+            try {
+                let code = await conn.requestPairingCode(phoneNumber)
+                code = code?.match(/.{1,4}/g)?.join("-") || code
+                console.log(chalk.black(chalk.bgGreen(`Your Pairing Code : `)), chalk.black(chalk.white(code)))
+                console.log(chalk.yellow(`\nPlease enter this code in your WhatsApp app:\n1. Open WhatsApp\n2. Go to Settings > Linked Devices\n3. Tap "Link a Device"\n4. Enter the code shown above`))
+            } catch (error) {
+                console.error('Error requesting pairing code:', error)
+                console.log(chalk.red('Failed to get pairing code. Please check your phone number and try again.'))
+            }
+        }, 3000)
+    }
+
+    
+    conn.ev.on('connection.update', async (s) => {
+        const { connection, lastDisconnect } = s
+        if (connection == "open") {
+            console.log(chalk.magenta(` `))
+            console.log(chalk.yellow(`♻️Connected to => ` + JSON.stringify(conn.user, null, 2)))
+            
+            const botNumber = conn.user.id.split(':')[0] + '@s.whatsapp.net';
+            await conn.sendMessage(botNumber, { 
+                text: 
+                `
+┏❐═⭔ *CONNECTED* ⭔═❐
+┃⭔ *Bot:* Lady Bella
+┃⭔ *Time:* ${new Date().toLocaleString()}
+┃⭔ *Status:* Online
+┃⭔ *User:* ${botNumber}
+┗❐═⭔════════⭔═❐`,
+                contextInfo: {
+                    forwardingScore: 1,
+                    isForwarded: true,
+                    forwardedNewsletterMessageInfo: {
+                        newsletterJid: '120363399707841760@newsletter',
+                        newsletterName: 'Lady bella',
+                        serverMessageId: -1
+                    }
+                }
+            });
+
+            await delay(1999)
+            console.log(chalk.yellow(`\n\n    ${chalk.bold.blue(`[ ${global.botname || 'KNIGHT BOT'} ]`)}\n\n`))
+            console.log(chalk.cyan(`< ================================================== >`))
+            console.log(chalk.magenta(`\n${global.themeemoji || '•'} YT CHANNEL: SNOWBIRD`))
+            console.log(chalk.magenta(`${global.themeemoji || '•'} GITHUB: mrunqiuehacker`))
+            console.log(chalk.magenta(`${global.themeemoji || '•'} WA NUMBER: ${owner}`))
+            console.log(chalk.magenta(`${global.themeemoji || '•'} CREDIT: SNOWBIRD`))
+            console.log(chalk.green(`${global.themeemoji || '•'} 🤖 Bot Connected Successfully! ✅`))
+            console.log(chalk.cyan(`< ================================================== >`))
+        }
+        if (
+            connection === "close" &&
+            lastDisconnect &&
+            lastDisconnect.error &&
+            lastDisconnect.error.output.statusCode != 401
+        ) {
+            startconn()
+        }
+    })
+
+    conn.ev.on('creds.update', saveCreds)
+
+    conn.ev.on('group-participants.update', async (update) => {
+        await handleGroupParticipantUpdate(conn, update);
+    });
+
+    conn.ev.on('messages.upsert', async (m) => {
+        if (m.messages[0].key && m.messages[0].key.remoteJid === 'status@broadcast') {
+            await handleStatus(conn, m);
+        }
+    });
+
+    conn.ev.on('status.update', async (status) => {
+        await handleStatus(conn, status);
+    });
+
+    conn.ev.on('messages.reaction', async (status) => {
+        await handleStatus(conn, status);
+    });
+    
+    conn.sendText = (jid, text, quoted = '', options) => conn.sendMessage(jid, {
+        text: text,
+        ...options
+    }, {
+        quoted,
+        ...options
+    });
+    
+    conn.ev.on('messages.upsert', async (chatUpdate) => {
+        try {
+            let mek = chatUpdate.messages[0];
+            if (!mek.message) return;
+            mek.message = (Object.keys(mek.message)[0] === 'ephemeralMessage') ? mek.message.ephemeralMessage.message : mek.message;
+            if (mek.key && mek.key.remoteJid === 'status@broadcast') return;
+            let m = smsg(conn, mek, store);
+            require("./case.js")(conn, m, chatUpdate, store);
+        } catch (err) {
+            console.log(err);
+        }
+    });
+    
+    return conn;
+}
+
+startconn().catch(error => {
+    console.error('Fatal error:', error)
+    process.exit(1)
+})
+process.on('uncaughtException', (err) => {
+    console.error('Uncaught Exception:', err)
+})
+
+process.on('unhandledRejection', (err) => {
+    console.error('Unhandled Rejection:', err)
+})
+
+let file = require.resolve(__filename)
+fs.watchFile(file, () => {
+    fs.unwatchFile(file)
+    console.log(chalk.redBright(`Update ${__filename}`))
+    delete require.cache[file]
+    require(file)
+})
